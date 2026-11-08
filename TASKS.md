@@ -12,7 +12,7 @@ Owners: **T** = Tejas, **A** = Arjun, **T+A** = together.
 
 ---
 
-## Phase 1: Foundations (Sun 8 – Mon 9 Nov)
+## Phase 1: Foundations (Sun 8 - Mon 9 Nov)
 
 ### T01: Confirm course requirements (T+A, Sun 8 Nov)
 - **Why:** everything else is sized to this.
@@ -64,7 +64,7 @@ Owners: **T** = Tejas, **A** = Arjun, **T+A** = together.
 - **Done when:** all four features and the meta-features are filled.
 - **Push:** both files.
 
-## Phase 2: Threat intelligence and lab build (Tue 10 – Wed 11 Nov)
+## Phase 2: Threat intelligence and lab build (Tue 10 - Wed 11 Nov)
 
 ### T07: ATT&CK mapping and IOC list (T, Tue 10 Nov)
 - **Why:** turns the intelligence into something defenders can use, which is the core of CTI.
@@ -96,7 +96,7 @@ Owners: **T** = Tejas, **A** = Arjun, **T+A** = together.
 - **Done when:** the bundle is generated.
 - **Push:** the script output.
 
-## Phase 3: Simulation (Thu 12 – Sat 14 Nov)
+## Phase 3: Simulation (Thu 12 - Sat 14 Nov)
 
 ### T11: Attack emulation (T, Thu 12 Nov)
 - **Why:** produces the real telemetry the detection and timeline chapters are built on.
@@ -148,7 +148,7 @@ Owners: **T** = Tejas, **A** = Arjun, **T+A** = together.
 - **Done when:** all deadlines are calculated from the T0 of your tabletop, and the three notices are filled.
 - **Push:** the `compliance/` files.
 
-## Phase 4: Report and presentation (Sun 15 – Fri 20 Nov)
+## Phase 4: Report and presentation (Sun 15 - Fri 20 Nov)
 
 ### T17: Draft own chapters (T+A, Sun 15 Nov)
 - **How:** follow `report/outline.md`. Tejas writes Ch. 1, 2, 4, 7 and the emulation part of Ch. 5. Arjun writes Ch. 3, 5 and 6. Use the repo files as your notes, but **write the prose yourselves**.
