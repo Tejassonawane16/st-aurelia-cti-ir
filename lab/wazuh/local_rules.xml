@@ -1,0 +1,143 @@
+<!--
+  St. Aurelia Klinikum - custom Wazuh detection rules
+  Copy to the manager: /var/ossec/etc/rules/local_rules.xml, then: systemctl restart wazuh-manager
+  Test every rule with /var/ossec/bin/wazuh-logtest before the exercise (lab/README.md, step 6).
+
+  Parent rule IDs come from the default Wazuh ruleset (4.x):
+    550 = syscheck file modified, 554 = syscheck file added,
+    61603 = Sysmon event 1 (process creation), 61612 = Sysmon event 10 (process access),
+    60000 = Windows eventchannel base rule.
+  If wazuh-logtest shows a different parent ID on your version, update the if_sid values.
+-->
+<group name="aurelia,">
+
+  <!-- ===== EHR application log (JSON lines from lab/ehr-server/ehr_app.py) ===== -->
+  <rule id="100100" level="3">
+    <decoded_as>json</decoded_as>
+    <field name="app">aurelia-ehr</field>
+    <description>Aurelia EHR: $(action) by $(user) from $(src_ip)</description>
+    <group>ehr,</group>
+  </rule>
+
+  <rule id="100101" level="5">
+    <if_sid>100100</if_sid>
+    <field name="action">login_failed</field>
+    <description>Aurelia EHR: failed login for $(user) from $(src_ip)</description>
+    <mitre><id>T1110</id></mitre>
+    <group>ehr,authentication_failed,</group>
+  </rule>
+
+  <rule id="100102" level="10" frequency="8" timeframe="60">
+    <if_matched_sid>100101</if_matched_sid>
+    <same_field>src_ip</same_field>
+    <description>Aurelia EHR: 8+ failed logins in 60 s from $(src_ip) - possible password guessing</description>
+    <mitre><id>T1110</id></mitre>
+    <group>ehr,authentication_failures,</group>
+  </rule>
+
+  <rule id="100103" level="12">
+    <if_sid>100100</if_sid>
+    <field name="action">bulk_export</field>
+    <description>Aurelia EHR: FULL patient export ($(records) records) by $(user) from $(src_ip)</description>
+    <mitre><id>T1213</id><id>T1530</id></mitre>
+    <group>ehr,data_exfiltration,gdpr_IV_33,</group>
+  </rule>
+
+  <rule id="100104" level="8">
+    <if_sid>100100</if_sid>
+    <field name="action">export_denied</field>
+    <description>Aurelia EHR: export attempt by non-admin $(user) from $(src_ip)</description>
+    <group>ehr,policy_violation,</group>
+  </rule>
+
+  <rule id="100105" level="10" frequency="30" timeframe="60">
+    <if_matched_sid>100100</if_matched_sid>
+    <same_field>user</same_field>
+    <description>Aurelia EHR: 30+ record requests in 60 s by $(user) - possible scraping of patient data</description>
+    <mitre><id>T1213</id></mitre>
+    <group>ehr,data_exfiltration,</group>
+  </rule>
+
+  <!-- ===== File integrity monitoring on the EHR record store ===== -->
+  <rule id="100200" level="7">
+    <if_sid>550</if_sid>
+    <field name="file">^/srv/ehr/records</field>
+    <description>EHR record store: file modified $(file)</description>
+    <group>ehr,syscheck,</group>
+  </rule>
+
+  <rule id="100201" level="7">
+    <if_sid>554</if_sid>
+    <field name="file">^/srv/ehr/records</field>
+    <description>EHR record store: new file $(file)</description>
+    <group>ehr,syscheck,</group>
+  </rule>
+
+  <rule id="100202" level="13" frequency="3" timeframe="120">
+    <if_matched_sid>100200</if_matched_sid>
+    <description>EHR record store: several files changed within 2 minutes - possible ransomware impact</description>
+    <mitre><id>T1486</id></mitre>
+    <group>ehr,syscheck,ransomware,</group>
+  </rule>
+
+  <rule id="100203" level="12">
+    <if_sid>554</if_sid>
+    <field name="file" type="pcre2">(?i)^/srv/ehr/records/.*(readme|recover|decrypt|restore).*\.(txt|html)$</field>
+    <description>EHR record store: ransom-note style file created $(file)</description>
+    <mitre><id>T1486</id></mitre>
+    <group>ehr,syscheck,ransomware,</group>
+  </rule>
+
+  <!-- ===== Windows endpoint (Sysmon + Security log) ===== -->
+  <rule id="100300" level="12">
+    <if_sid>61612</if_sid>
+    <field name="win.eventdata.targetImage" type="pcre2">(?i)\\lsass\.exe$</field>
+    <field name="win.eventdata.grantedAccess" type="pcre2">(?i)0x1010|0x1410|0x1438|0x143a|0x1fffff</field>
+    <description>Sysmon: $(win.eventdata.sourceImage) opened LSASS memory - possible credential dumping</description>
+    <mitre><id>T1003.001</id></mitre>
+    <group>windows,credential_access,</group>
+  </rule>
+
+  <rule id="100301" level="12">
+    <if_sid>61603</if_sid>
+    <field name="win.eventdata.commandLine" type="pcre2">(?i)(vssadmin.*delete.*shadows|wmic.*shadowcopy.*delete|wbadmin.*delete.*catalog|bcdedit.*recoveryenabled.*no)</field>
+    <description>Sysmon: backup or shadow-copy deletion command - $(win.eventdata.commandLine)</description>
+    <mitre><id>T1490</id></mitre>
+    <group>windows,ransomware,</group>
+  </rule>
+
+  <rule id="100302" level="8">
+    <if_sid>61603</if_sid>
+    <field name="win.eventdata.image" type="pcre2">(?i)\\schtasks\.exe$</field>
+    <field name="win.eventdata.commandLine" type="pcre2">(?i)/create</field>
+    <description>Sysmon: scheduled task created - $(win.eventdata.commandLine)</description>
+    <mitre><id>T1053.005</id></mitre>
+    <group>windows,persistence,</group>
+  </rule>
+
+  <rule id="100303" level="10">
+    <if_sid>61603</if_sid>
+    <field name="win.eventdata.image" type="pcre2">(?i)\\powershell\.exe$</field>
+    <field name="win.eventdata.commandLine" type="pcre2">(?i)(-enc|-encodedcommand|downloadstring|iex\s*\()</field>
+    <description>Sysmon: suspicious PowerShell (encoded or download cradle)</description>
+    <mitre><id>T1059.001</id></mitre>
+    <group>windows,execution,</group>
+  </rule>
+
+  <rule id="100304" level="12">
+    <if_sid>61603</if_sid>
+    <field name="win.eventdata.commandLine" type="pcre2">(?i)(\\Google\\Chrome\\User Data\\.*Login Data|\\Microsoft\\Edge\\User Data\\.*Login Data)</field>
+    <description>Sysmon: process touching browser saved-password store - possible credential theft</description>
+    <mitre><id>T1555.003</id></mitre>
+    <group>windows,credential_access,</group>
+  </rule>
+
+  <rule id="100305" level="12">
+    <if_sid>60000</if_sid>
+    <field name="win.system.eventID">^1102$</field>
+    <description>Windows: Security event log was cleared</description>
+    <mitre><id>T1070.001</id></mitre>
+    <group>windows,defense_evasion,</group>
+  </rule>
+
+</group>

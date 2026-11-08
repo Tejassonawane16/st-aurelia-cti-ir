@@ -1,0 +1,151 @@
+{
+  "type": "bundle",
+  "id": "bundle--51d16fb9-981f-44d8-a11a-90137d36b311",
+  "objects": [
+    {
+      "type": "identity",
+      "spec_version": "2.1",
+      "id": "identity--7e1d68be-340a-4eb8-983a-d4983b0e154f",
+      "created": "2026-11-03T21:48:16.000Z",
+      "modified": "2026-11-03T21:48:16.000Z",
+      "name": "St. Aurelia Klinikum CSIRT (simulated)",
+      "identity_class": "organization",
+      "sectors": [
+        "healthcare"
+      ]
+    },
+    {
+      "type": "intrusion-set",
+      "spec_version": "2.1",
+      "id": "intrusion-set--8a171e90-bfe9-4903-8a21-bfd2e7778583",
+      "created": "2026-11-03T21:48:16.000Z",
+      "modified": "2026-11-03T21:48:16.000Z",
+      "name": "Qilin",
+      "aliases": [
+        "Agenda"
+      ],
+      "created_by_ref": "identity--7e1d68be-340a-4eb8-983a-d4983b0e154f",
+      "description": "Ransomware-as-a-service group modelled in the St. Aurelia scenario.",
+      "primary_motivation": "personal-gain",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--293c01d0-28f5-4293-a1bd-86198582e18e",
+      "created": "2026-11-03T21:48:16.000Z",
+      "modified": "2026-11-03T21:48:16.000Z",
+      "name": "10.10.50.21",
+      "description": "LAB ONLY - workstation used as attacker foothold during emulation",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '10.10.50.21']",
+      "pattern_type": "stix",
+      "valid_from": "2026-11-03T21:48:16.000Z",
+      "created_by_ref": "identity--7e1d68be-340a-4eb8-983a-d4983b0e154f",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ]
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--fc9823b0-9519-4829-b91b-f8b2b15e9d1d",
+      "created": "2026-11-03T21:48:16.000Z",
+      "modified": "2026-11-03T21:48:16.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--293c01d0-28f5-4293-a1bd-86198582e18e",
+      "target_ref": "intrusion-set--8a171e90-bfe9-4903-8a21-bfd2e7778583"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--e14ba375-cc78-42dc-8e9d-84d6eac7218a",
+      "created": "2026-11-03T21:48:16.000Z",
+      "modified": "2026-11-03T21:48:16.000Z",
+      "name": "http://10.10.50.30:8080/export",
+      "description": "LAB ONLY - EHR endpoint abused for bulk export",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'http://10.10.50.30:8080/export']",
+      "pattern_type": "stix",
+      "valid_from": "2026-11-03T21:48:16.000Z",
+      "created_by_ref": "identity--7e1d68be-340a-4eb8-983a-d4983b0e154f",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ]
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--d5cc8ea5-eb3e-4fc1-9276-5a594252dd62",
+      "created": "2026-11-03T21:48:16.000Z",
+      "modified": "2026-11-03T21:48:16.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--e14ba375-cc78-42dc-8e9d-84d6eac7218a",
+      "target_ref": "intrusion-set--8a171e90-bfe9-4903-8a21-bfd2e7778583"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--fc1e40fb-daed-4373-ba0c-40778b35f679",
+      "created": "2026-11-03T21:48:16.000Z",
+      "modified": "2026-11-03T21:48:16.000Z",
+      "name": "IPScanner.ps1",
+      "description": "Credential harvesting script name reported by Sophos (2024)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[file:name = 'IPScanner.ps1']",
+      "pattern_type": "stix",
+      "valid_from": "2026-11-03T21:48:16.000Z",
+      "created_by_ref": "identity--7e1d68be-340a-4eb8-983a-d4983b0e154f",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ]
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--28bb09a9-e2f7-4d17-aac1-a847ddcd73a3",
+      "created": "2026-11-03T21:48:16.000Z",
+      "modified": "2026-11-03T21:48:16.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--fc1e40fb-daed-4373-ba0c-40778b35f679",
+      "target_ref": "intrusion-set--8a171e90-bfe9-4903-8a21-bfd2e7778583"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--000d1189-aef7-429c-8dd7-9e2b7ba4cf8e",
+      "created": "2026-11-03T21:48:16.000Z",
+      "modified": "2026-11-03T21:48:16.000Z",
+      "name": "logon.bat",
+      "description": "GPO logon script that launched IPScanner.ps1 (Sophos 2024)",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[file:name = 'logon.bat']",
+      "pattern_type": "stix",
+      "valid_from": "2026-11-03T21:48:16.000Z",
+      "created_by_ref": "identity--7e1d68be-340a-4eb8-983a-d4983b0e154f",
+      "object_marking_refs": [
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+      ]
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--60290bc8-ec88-4f84-9a67-daf9f14d4639",
+      "created": "2026-11-03T21:48:16.000Z",
+      "modified": "2026-11-03T21:48:16.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--000d1189-aef7-429c-8dd7-9e2b7ba4cf8e",
+      "target_ref": "intrusion-set--8a171e90-bfe9-4903-8a21-bfd2e7778583"
+    }
+  ]
+}

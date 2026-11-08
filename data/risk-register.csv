@@ -1,0 +1,9 @@
+risk_id,threat,vulnerability,asset_ids,likelihood_1to5,impact_1to5,risk_score,risk_level,existing_controls,planned_treatment,owner
+R01,Ransomware via stolen VPN credentials,No MFA for staff and vendor VPN accounts,A07;A06;A01,4,5,20,Critical,VPN logging,MFA for all remote access by Q1 2027,CISO
+R02,Bulk theft of patient data (double extortion),Admin role can export all EHR records; no DLP,A01;A02,4,5,20,Critical,EHR audit log in SIEM,Export approval workflow + alert rule 100103,Head of Clinical IT
+R03,Credential theft from endpoints,Browser-saved passwords; LSASS not protected,A06;A03,4,4,16,High,Sysmon + Wazuh,Disable browser password saving via GPO; enable LSA protection,IT Operations
+R04,Lateral movement to EHR,Flat routing admin VLAN to clinical VLAN,A06;A01,3,5,15,High,None,Firewall rules: only EHR client ports from admin VLAN,Network team
+R05,Backups encrypted with production,Backup NAS domain-joined and online,A08,3,5,15,High,Weekly offline tape,Immutable / offline backups; separate admin accounts,IT Operations
+R06,Late detection out of hours,SIEM monitored 8-17 only,A11,4,4,16,High,Email alerts,On-call rota or managed SOC for level 12+ alerts,CISO
+R07,Supplier outage (lab provider),Single external lab provider,A05,2,5,10,Medium,Contract SLA,Manual downtime procedure for lab orders,Clinical Director
+R08,IoMT compromise,Unpatchable devices,A10,2,4,8,Medium,Separate VLAN,Network access control and monitoring,Medical Engineering

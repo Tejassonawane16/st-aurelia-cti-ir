@@ -1,0 +1,2 @@
+utc_time,stage,technique_id,test_name,host,operator,result,alert_rule_id,alert_time_utc,notes
+2026-11-07T10:00:00Z,example,T1053.005,(write the Atomic test name here),ws-admin01,Tejas,Detected,100302,2026-11-07T10:00:04Z,EXAMPLE ROW - delete before submitting

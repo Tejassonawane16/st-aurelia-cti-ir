@@ -1,0 +1,14 @@
+activity,incident_lead,ciso,dpo,clinical_lead,it_operations,communications,executive_board,legal
+Alert triage and incident declaration,A/R,I,,,C,,,
+Severity classification,R,A,C,C,,,I,
+Host isolation and account disable,A,I,,C,R,,,
+Take EHR offline / cut network segments,R,C,I,A,R,I,I,
+Evidence preservation,A/R,I,,,C,,,C
+NIS2 early warning to BSI (24 h),C,A/R,C,,,,I,C
+GDPR Art. 33 notification (72 h),C,C,A/R,,,,I,C
+GDPR Art. 34 patient communication,,C,A/R,C,,R,I,C
+Clinical downtime procedures and ambulance diversion,I,I,,A/R,,C,I,
+Press and staff communication,C,C,C,C,,R,A,C
+Ransom decision,C,C,C,C,,,A/R,R
+Restore and recovery,A,C,,C,R,I,I,
+Lessons learned and final report,R,A,C,C,C,,I,

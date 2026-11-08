@@ -1,0 +1,48 @@
+# --- secrets ---
+.env
+*.env
+secrets*
+*password*
+*.kdbx
+*.pem
+*.key
+
+# --- VM images and installers ---
+*.ova
+*.ovf
+*.vdi
+*.vmdk
+*.vhd
+*.vhdx
+*.iso
+*.qcow2
+
+# --- memory / credential dumps ---
+*.dmp
+*.mem
+*.raw
+*.lsass*
+
+# --- offensive tooling downloads (install on the lab VM, not in the repo) ---
+AtomicRedTeam/
+atomic-red-team/
+invoke-atomicredteam/
+
+# --- big media ---
+*.mp4
+*.mov
+*.mkv
+
+# --- large raw logs (push filtered exports in evidence/logs instead) ---
+*.log
+evidence/logs/raw/
+
+# --- Python / OS / editors ---
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+~$*

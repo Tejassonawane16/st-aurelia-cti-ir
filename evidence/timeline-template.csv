@@ -1,0 +1,2 @@
+utc_time,source,host,event,attack_stage,technique_id,wazuh_rule_id,evidence_file,analyst
+2026-11-07T10:00:04Z,Wazuh alert,ws-admin01,Scheduled task created,Persistence,T1053.005,100302,screenshots/2026-11-07_rule-100302.png,Arjun

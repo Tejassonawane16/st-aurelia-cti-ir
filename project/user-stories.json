@@ -1,0 +1,335 @@
+{
+  "milestones": {
+    "P1": "Phase 1 - Foundations (8-9 Nov)",
+    "P2": "Phase 2 - CTI and lab (9-11 Nov)",
+    "P3": "Phase 3 - Simulation (12-14 Nov)",
+    "P4": "Phase 4 - Report and presentation (15-20 Nov)"
+  },
+  "stories": [
+    {
+      "id": "T01",
+      "owner": "both",
+      "milestone": "Phase 1 - Foundations (8-9 Nov)",
+      "due": "2026-11-08",
+      "area": "docs",
+      "title": "T01 As a team member, I want to know the exact course requirements",
+      "body_story": "As a **team member**, I want **to know the exact course requirements**, so that **we size the report, slides and demo correctly**.",
+      "acceptance": [
+        "Word limit, slide count, presentation time and demo expectation noted",
+        "Citation style and submission format noted",
+        "Requirements section added to report/outline.md"
+      ]
+    },
+    {
+      "id": "T02",
+      "owner": "both",
+      "milestone": "Phase 1 - Foundations (8-9 Nov)",
+      "due": "2026-11-08",
+      "area": "docs",
+      "title": "T02 As a team member, I want one private repo we both can push to",
+      "body_story": "As a **team member**, I want **one private repo we both can push to**, so that **our work and individual contributions are in one place**.",
+      "acceptance": [
+        "Private GitHub repo created and code pushed",
+        "Arjun accepted the collaborator invite",
+        "Both cloned the repo and pushed a test commit"
+      ]
+    },
+    {
+      "id": "T03",
+      "owner": "arjun",
+      "milestone": "Phase 1 - Foundations (8-9 Nov)",
+      "due": "2026-11-08",
+      "area": "docs",
+      "title": "T03 As a hospital CISO, I want a clear profile of St. Aurelia Klinikum",
+      "body_story": "As a **hospital CISO**, I want **a clear profile of St. Aurelia Klinikum**, so that **every later analysis has a concrete organisation to protect**.",
+      "acceptance": [
+        "Size, departments, systems and vendors described",
+        "Patient data flow written",
+        "Regulatory status (NIS2 important entity, GDPR Art. 9) stated",
+        "Numbers consistent with report and slides"
+      ]
+    },
+    {
+      "id": "T04",
+      "owner": "tejas",
+      "milestone": "Phase 1 - Foundations (8-9 Nov)",
+      "due": "2026-11-08",
+      "area": "cti",
+      "title": "T04 As a hospital board member, I want to understand why hospitals are attacked",
+      "body_story": "As a **hospital board member**, I want **to understand why hospitals are attacked**, so that **I support the security budget**.",
+      "acceptance": [
+        "Three case studies cited from sources you opened (Duesseldorf, Change Healthcare, Synnovis)",
+        "ENISA health threat report added",
+        "Qilin confirmed as modelled actor; technique list sent to Arjun"
+      ]
+    },
+    {
+      "id": "T05",
+      "owner": "arjun",
+      "milestone": "Phase 1 - Foundations (8-9 Nov)",
+      "due": "2026-11-09",
+      "area": "docs",
+      "title": "T05 As a risk manager, I want a network diagram, asset list and risk register",
+      "body_story": "As a **risk manager**, I want **a network diagram, asset list and risk register**, so that **I can see the crown jewels and the biggest risks**.",
+      "acceptance": [
+        "Network diagram exported as PNG",
+        "data/assets.csv and data/risk-register.csv reviewed",
+        "5x5 risk heat map figure created"
+      ]
+    },
+    {
+      "id": "T06",
+      "owner": "tejas",
+      "milestone": "Phase 1 - Foundations (8-9 Nov)",
+      "due": "2026-11-09",
+      "area": "cti",
+      "title": "T06 As a CTI analyst, I want a Qilin actor profile and Diamond Model",
+      "body_story": "As a **CTI analyst**, I want **a Qilin actor profile and Diamond Model**, so that **defenders know who attacks us and how**.",
+      "acceptance": [
+        "Actor profile with at least 4 sources",
+        "All four Diamond features and meta-features filled",
+        "Lab values added after the emulation"
+      ]
+    },
+    {
+      "id": "T07",
+      "owner": "tejas",
+      "milestone": "Phase 2 - CTI and lab (9-11 Nov)",
+      "due": "2026-11-10",
+      "area": "cti",
+      "title": "T07 As a SOC analyst, I want the attack chain mapped to MITRE ATT&CK with IOCs",
+      "body_story": "As a **SOC analyst**, I want **the attack chain mapped to MITRE ATT&CK with IOCs**, so that **I know which techniques to detect**.",
+      "acceptance": [
+        "cti/attack-mapping.csv checked",
+        "Navigator layer loaded and screenshot saved",
+        "cti/iocs.csv up to date"
+      ]
+    },
+    {
+      "id": "T08",
+      "owner": "arjun",
+      "milestone": "Phase 2 - CTI and lab (9-11 Nov)",
+      "due": "2026-11-11",
+      "area": "lab",
+      "title": "T08 As a SOC analyst, I want a working lab with Wazuh, a Windows PC with Sysmon and the EHR server",
+      "body_story": "As a **SOC analyst**, I want **a working lab with Wazuh, a Windows PC with Sysmon and the EHR server**, so that **we can test detections on real telemetry**.",
+      "acceptance": [
+        "All three VMs on the isolated network",
+        "Both agents Active in the dashboard",
+        "EHR /health returns ok",
+        "clean-baseline snapshots taken",
+        "Screenshot evidence/screenshots/agents-active.png"
+      ]
+    },
+    {
+      "id": "T09",
+      "owner": "arjun",
+      "milestone": "Phase 2 - CTI and lab (9-11 Nov)",
+      "due": "2026-11-11",
+      "area": "lab",
+      "title": "T09 As a SOC analyst, I want custom detection rules that fire on attacks against patient data",
+      "body_story": "As a **SOC analyst**, I want **custom detection rules that fire on attacks against patient data**, so that **we catch data theft and ransomware early**.",
+      "acceptance": [
+        "local_rules.xml installed",
+        "Defender tests in lab/README.md step 6 pass",
+        "Screenshot of every rule that fired",
+        "Dashboard filtered on rule.groups: aurelia"
+      ]
+    },
+    {
+      "id": "T10",
+      "owner": "tejas",
+      "milestone": "Phase 2 - CTI and lab (9-11 Nov)",
+      "due": "2026-11-10",
+      "area": "cti",
+      "title": "T10 As a hospital CSIRT, I want our IOCs as a STIX 2.1 bundle",
+      "body_story": "As a **hospital CSIRT**, I want **our IOCs as a STIX 2.1 bundle**, so that **we can share intelligence with CERTs and other hospitals**.",
+      "acceptance": [
+        "scripts/iocs_to_stix.py run",
+        "cti/stix-bundle.json validated or imported into MISP"
+      ]
+    },
+    {
+      "id": "T11",
+      "owner": "tejas",
+      "milestone": "Phase 3 - Simulation (12-14 Nov)",
+      "due": "2026-11-12",
+      "area": "emulation",
+      "title": "T11 As a SOC analyst, I want the Qilin-style techniques emulated in the isolated lab",
+      "body_story": "As a **SOC analyst**, I want **the Qilin-style techniques emulated in the isolated lab**, so that **we measure which attacks we detect**.",
+      "acceptance": [
+        "Rules of engagement followed (isolated network, snapshot before and after)",
+        "Every lab technique has a line in emulation/run-log.csv",
+        "Result Detected / Partly / Missed recorded",
+        "Run log handed to Arjun the same day"
+      ]
+    },
+    {
+      "id": "T12",
+      "owner": "tejas",
+      "milestone": "Phase 3 - Simulation (12-14 Nov)",
+      "due": "2026-11-13",
+      "area": "ir",
+      "title": "T12 As a incident response team, I want realistic tabletop injects and role cards",
+      "body_story": "As a **incident response team**, I want **realistic tabletop injects and role cards**, so that **we practise decisions under pressure**.",
+      "acceptance": [
+        "10 injects final and aligned with the playbook",
+        "Role cards shared"
+      ]
+    },
+    {
+      "id": "T13",
+      "owner": "arjun",
+      "milestone": "Phase 3 - Simulation (12-14 Nov)",
+      "due": "2026-11-13",
+      "area": "ir",
+      "title": "T13 As a forensic analyst, I want an incident timeline rebuilt from logs",
+      "body_story": "As a **forensic analyst**, I want **an incident timeline rebuilt from logs**, so that **we know exactly what happened and when**.",
+      "acceptance": [
+        "evidence/timeline.csv has a row per emulated step",
+        "Time to detect calculated per technique",
+        "Each row links to an evidence file"
+      ]
+    },
+    {
+      "id": "T14",
+      "owner": "arjun",
+      "milestone": "Phase 3 - Simulation (12-14 Nov)",
+      "due": "2026-11-13",
+      "area": "ir",
+      "title": "T14 As a incident lead, I want a ransomware playbook based on NIST SP 800-61r3",
+      "body_story": "As a **incident lead**, I want **a ransomware playbook based on NIST SP 800-61r3**, so that **the team knows who does what during an attack**.",
+      "acceptance": [
+        "Phases, steps and owners final",
+        "RACI table final",
+        "Communication tree included",
+        "Draft sent to Tejas"
+      ]
+    },
+    {
+      "id": "T15",
+      "owner": "both",
+      "milestone": "Phase 3 - Simulation (12-14 Nov)",
+      "due": "2026-11-14",
+      "area": "ir",
+      "title": "T15 As a hospital management, I want to rehearse the incident in a tabletop exercise",
+      "body_story": "As a **hospital management**, I want **to rehearse the incident in a tabletop exercise**, so that **we find gaps before a real attack**.",
+      "acceptance": [
+        "Exercise run (about 90 min)",
+        "Every inject has a decision in ir/decision-log.csv",
+        "Debrief answers written"
+      ]
+    },
+    {
+      "id": "T16",
+      "owner": "tejas",
+      "milestone": "Phase 3 - Simulation (12-14 Nov)",
+      "due": "2026-11-13",
+      "area": "compliance",
+      "title": "T16 As a Data Protection Officer, I want a NIS2 and GDPR notification timeline with drafts",
+      "body_story": "As a **Data Protection Officer**, I want **a NIS2 and GDPR notification timeline with drafts**, so that **we meet the 24 h, 72 h and one-month deadlines**.",
+      "acceptance": [
+        "BSIG section numbers checked in the official text",
+        "Deadlines calculated from the tabletop T0",
+        "BSI, authority and patient notices filled"
+      ]
+    },
+    {
+      "id": "T17",
+      "owner": "both",
+      "milestone": "Phase 4 - Report and presentation (15-20 Nov)",
+      "due": "2026-11-15",
+      "area": "report",
+      "title": "T17 As a examiner, I want each chapter written by its owner",
+      "body_story": "As a **examiner**, I want **each chapter written by its owner**, so that **individual contributions are clear**.",
+      "acceptance": [
+        "Tejas: Ch. 1, 2, 4, 7",
+        "Arjun: Ch. 3, 5, 6",
+        "Written in our own words with citations"
+      ]
+    },
+    {
+      "id": "T18",
+      "owner": "both",
+      "milestone": "Phase 4 - Report and presentation (15-20 Nov)",
+      "due": "2026-11-16",
+      "area": "report",
+      "title": "T18 As a hospital CISO, I want lessons learned with prioritised recommendations",
+      "body_story": "As a **hospital CISO**, I want **lessons learned with prioritised recommendations**, so that **we know what to fix first**.",
+      "acceptance": [
+        "Findings table: finding, evidence, recommendation, NIS2 Art. 21 measure, priority",
+        "Risk register updated"
+      ]
+    },
+    {
+      "id": "T19",
+      "owner": "tejas",
+      "milestone": "Phase 4 - Report and presentation (15-20 Nov)",
+      "due": "2026-11-16",
+      "area": "report",
+      "title": "T19 As a examiner, I want one consistent, edited report",
+      "body_story": "As a **examiner**, I want **one consistent, edited report**, so that **it reads as one piece of work**.",
+      "acceptance": [
+        "Chapters merged, numbers consistent",
+        "References complete",
+        "Executive summary written last",
+        "PDF exported"
+      ]
+    },
+    {
+      "id": "T20",
+      "owner": "arjun",
+      "milestone": "Phase 4 - Report and presentation (15-20 Nov)",
+      "due": "2026-11-16",
+      "area": "slides",
+      "title": "T20 As a audience, I want a clear 15-minute slide deck",
+      "body_story": "As a **audience**, I want **a clear 15-minute slide deck**, so that **we understand the project quickly**.",
+      "acceptance": [
+        "Follows slides/outline.md",
+        "Figures match the report",
+        "Speaker split agreed"
+      ]
+    },
+    {
+      "id": "T21",
+      "owner": "arjun",
+      "milestone": "Phase 4 - Report and presentation (15-20 Nov)",
+      "due": "2026-11-17",
+      "area": "slides",
+      "title": "T21 As a presenter, I want a backup demo video",
+      "body_story": "As a **presenter**, I want **a backup demo video**, so that **the presentation works even if the live demo fails**.",
+      "acceptance": [
+        "2-3 min recording: export, alert 100103, FIM test, alert 100202",
+        "Stored on cloud drive, link in README"
+      ]
+    },
+    {
+      "id": "T22",
+      "owner": "both",
+      "milestone": "Phase 4 - Report and presentation (15-20 Nov)",
+      "due": "2026-11-19",
+      "area": "slides",
+      "title": "T22 As a presenter, I want two mock Q&A rounds and a timed rehearsal",
+      "body_story": "As a **presenter**, I want **two mock Q&A rounds and a timed rehearsal**, so that **we can answer any question on the code and project**.",
+      "acceptance": [
+        "Each explained the other's code without notes",
+        "Timed rehearsal within the limit",
+        "Slides checked against report"
+      ]
+    },
+    {
+      "id": "T23",
+      "owner": "both",
+      "milestone": "Phase 4 - Report and presentation (15-20 Nov)",
+      "due": "2026-11-20",
+      "area": "report",
+      "title": "T23 As a team member, I want to submit everything on time",
+      "body_story": "As a **team member**, I want **to submit everything on time**, so that **we get graded**.",
+      "acceptance": [
+        "Report, slides and appendices submitted",
+        "Confirmation saved",
+        "git tag v1.0-submitted pushed"
+      ]
+    }
+  ]
+}

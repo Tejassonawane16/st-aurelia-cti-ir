@@ -1,0 +1,120 @@
+{
+  "name": "St. Aurelia - Qilin-style scenario",
+  "versions": {
+    "attack": "16",
+    "navigator": "5.1.0",
+    "layer": "4.5"
+  },
+  "domain": "enterprise-attack",
+  "description": "Scenario techniques. Score 1 = tabletop only, 2 = emulated in lab. Update colours after the run: green detected, amber partial, red missed.",
+  "gradient": {
+    "colors": [
+      "#f2c46b",
+      "#5aa9e6"
+    ],
+    "minValue": 1,
+    "maxValue": 2
+  },
+  "legendItems": [
+    {
+      "label": "Tabletop only",
+      "color": "#f2c46b"
+    },
+    {
+      "label": "Emulated in lab",
+      "color": "#5aa9e6"
+    }
+  ],
+  "techniques": [
+    {
+      "techniqueID": "T1566.002",
+      "score": 1,
+      "comment": "Admin employee enters VPN credentials on a fake login page",
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1133",
+      "score": 1,
+      "comment": "Attacker logs into VPN with stolen credentials",
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1078",
+      "score": 1,
+      "comment": "Same stolen account used for internal access",
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1110",
+      "score": 2,
+      "comment": "Password guessing against EHR web login | rule 100101; 100102",
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1059.001",
+      "score": 2,
+      "comment": "PowerShell used for discovery and scripts | rule 100303",
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1087.002",
+      "score": 2,
+      "comment": "Enumerate domain users and admins",
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1053.005",
+      "score": 2,
+      "comment": "Scheduled task created on workstation | rule 100302",
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1555.003",
+      "score": 2,
+      "comment": "Browser password store accessed | rule 100304",
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1003.001",
+      "score": 2,
+      "comment": "LSASS memory read on workstation | rule 100300",
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1484.001",
+      "score": 1,
+      "comment": "GPO pushes harvesting script to all machines",
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1213",
+      "score": 2,
+      "comment": "Bulk export of all patient records from EHR | rule 100103; 100105",
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1048",
+      "score": 2,
+      "comment": "Export copied to attacker-controlled lab host",
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1070.001",
+      "score": 2,
+      "comment": "Security log cleared on workstation | rule 100305",
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1490",
+      "score": 2,
+      "comment": "Shadow copies deleted before encryption | rule 100301",
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1486",
+      "score": 2,
+      "comment": "EHR record files changed + note created (FIM simulation only) | rule 100200; 100202; 100203",
+      "enabled": true
+    }
+  ]
+}

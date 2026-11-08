@@ -1,0 +1,1313 @@
+encounter_id,patient_id,department,admission_date,discharge_date,icd10_code,diagnosis,attending
+SYN-E0000001,SYN-P000001,Surgery,2026-10-02,2026-10-05,E11.9,Type 2 diabetes mellitus,Dr. Yilmaz
+SYN-E0000002,SYN-P000002,Radiology,2024-11-17,2024-11-21,O80,Single spontaneous delivery,Dr. Weber
+SYN-E0000003,SYN-P000002,Radiology,2025-10-08,2025-10-21,E11.9,Type 2 diabetes mellitus,Dr. Richter
+SYN-E0000004,SYN-P000003,Cardiology,2026-08-12,2026-08-18,S72.0,Fracture of neck of femur,Dr. Schulz
+SYN-E0000005,SYN-P000003,Oncology,2024-11-13,2024-11-21,E11.9,Type 2 diabetes mellitus,Dr. Novak
+SYN-E0000006,SYN-P000003,Surgery,2026-01-29,2026-02-08,G40.9,"Epilepsy, unspecified",Dr. Koch
+SYN-E0000007,SYN-P000004,Oncology,2025-01-12,2025-01-16,K35.8,Acute appendicitis,Dr. Weber
+SYN-E0000008,SYN-P000004,Internal Medicine,2026-02-05,2026-02-19,N39.0,Urinary tract infection,Dr. Nowak
+SYN-E0000009,SYN-P000004,Oncology,2026-07-12,2026-07-24,J18.9,"Pneumonia, unspecified",Dr. Haddad
+SYN-E0000010,SYN-P000004,Cardiology,2025-04-14,2025-04-24,I10,Essential hypertension,Dr. Kowalski
+SYN-E0000011,SYN-P000005,Oncology,2026-05-29,2026-06-06,C50.9,Malignant neoplasm of breast,Dr. Yilmaz
+SYN-E0000012,SYN-P000005,Maternity,2025-02-26,2025-02-26,C50.9,Malignant neoplasm of breast,Dr. Fischer
+SYN-E0000013,SYN-P000006,Internal Medicine,2025-05-10,2025-05-13,N39.0,Urinary tract infection,Dr. Kowalski
+SYN-E0000014,SYN-P000006,Maternity,2024-12-14,2024-12-28,C50.9,Malignant neoplasm of breast,Dr. Yilmaz
+SYN-E0000015,SYN-P000006,Emergency,2025-03-09,2025-03-10,S72.0,Fracture of neck of femur,Dr. Wang
+SYN-E0000016,SYN-P000007,Internal Medicine,2026-02-26,2026-03-01,K35.8,Acute appendicitis,Dr. Fischer
+SYN-E0000017,SYN-P000007,Radiology,2024-12-27,2025-01-02,O80,Single spontaneous delivery,Dr. Wolf
+SYN-E0000018,SYN-P000007,Surgery,2025-11-19,2025-11-22,E11.9,Type 2 diabetes mellitus,Dr. Wagner
+SYN-E0000019,SYN-P000007,Emergency,2025-04-17,2025-04-27,E11.9,Type 2 diabetes mellitus,Dr. Kowalski
+SYN-E0000020,SYN-P000008,Maternity,2025-09-28,2025-10-02,I21.9,Acute myocardial infarction,Dr. Wolf
+SYN-E0000021,SYN-P000009,Cardiology,2026-08-23,2026-09-02,N39.0,Urinary tract infection,Dr. Becker
+SYN-E0000022,SYN-P000009,Neurology,2026-08-10,2026-08-15,O80,Single spontaneous delivery,Dr. Schulz
+SYN-E0000023,SYN-P000010,Neurology,2025-04-30,2025-05-04,S72.0,Fracture of neck of femur,Dr. Weber
+SYN-E0000024,SYN-P000011,Oncology,2026-07-15,2026-07-19,G40.9,"Epilepsy, unspecified",Dr. Hoffmann
+SYN-E0000025,SYN-P000012,Oncology,2025-01-18,2025-01-29,I21.9,Acute myocardial infarction,Dr. Neumann
+SYN-E0000026,SYN-P000012,Radiology,2025-04-22,2025-05-01,I10,Essential hypertension,Dr. Kowalski
+SYN-E0000027,SYN-P000013,Internal Medicine,2026-05-19,2026-05-19,J18.9,"Pneumonia, unspecified",Dr. Meyer
+SYN-E0000028,SYN-P000013,Cardiology,2026-02-01,2026-02-07,J18.9,"Pneumonia, unspecified",Dr. Schmidt
+SYN-E0000029,SYN-P000014,Paediatrics,2026-02-07,2026-02-07,J18.9,"Pneumonia, unspecified",Dr. Fischer
+SYN-E0000030,SYN-P000015,Radiology,2024-12-21,2024-12-31,C50.9,Malignant neoplasm of breast,Dr. Fischer
+SYN-E0000031,SYN-P000016,Surgery,2025-12-25,2025-12-31,I21.9,Acute myocardial infarction,Dr. Nowak
+SYN-E0000032,SYN-P000017,Oncology,2026-03-16,2026-03-16,S72.0,Fracture of neck of femur,Dr. Schmidt
+SYN-E0000033,SYN-P000017,Internal Medicine,2026-08-19,2026-09-02,K35.8,Acute appendicitis,Dr. Ivanova
+SYN-E0000034,SYN-P000017,Surgery,2025-06-13,2025-06-15,O80,Single spontaneous delivery,Dr. Ivanova
+SYN-E0000035,SYN-P000018,Neurology,2025-07-14,2025-07-23,G40.9,"Epilepsy, unspecified",Dr. Koch
+SYN-E0000036,SYN-P000018,Maternity,2026-05-23,2026-05-27,K35.8,Acute appendicitis,Dr. Becker
+SYN-E0000037,SYN-P000019,Surgery,2024-11-21,2024-11-22,J18.9,"Pneumonia, unspecified",Dr. Wolf
+SYN-E0000038,SYN-P000019,Internal Medicine,2025-03-13,2025-03-20,I10,Essential hypertension,Dr. Mueller
+SYN-E0000039,SYN-P000019,Surgery,2025-04-21,2025-04-28,N39.0,Urinary tract infection,Dr. Becker
+SYN-E0000040,SYN-P000019,Oncology,2024-12-06,2024-12-19,O80,Single spontaneous delivery,Dr. Neumann
+SYN-E0000041,SYN-P000020,Surgery,2025-10-09,2025-10-16,C50.9,Malignant neoplasm of breast,Dr. Koch
+SYN-E0000042,SYN-P000020,Emergency,2026-08-10,2026-08-21,K35.8,Acute appendicitis,Dr. Kowalski
+SYN-E0000043,SYN-P000020,Cardiology,2025-11-08,2025-11-20,S72.0,Fracture of neck of femur,Dr. Ivanova
+SYN-E0000044,SYN-P000021,Radiology,2024-11-15,2024-11-17,I21.9,Acute myocardial infarction,Dr. Sharma
+SYN-E0000045,SYN-P000021,Cardiology,2026-05-18,2026-05-27,I21.9,Acute myocardial infarction,Dr. Mueller
+SYN-E0000046,SYN-P000021,Surgery,2026-04-12,2026-04-13,E11.9,Type 2 diabetes mellitus,Dr. Wang
+SYN-E0000047,SYN-P000021,Radiology,2025-04-01,2025-04-09,I10,Essential hypertension,Dr. Wolf
+SYN-E0000048,SYN-P000022,Maternity,2025-02-09,2025-02-16,G40.9,"Epilepsy, unspecified",Dr. Wolf
+SYN-E0000049,SYN-P000022,Maternity,2025-07-28,2025-08-06,S72.0,Fracture of neck of femur,Dr. Sharma
+SYN-E0000050,SYN-P000022,Paediatrics,2026-02-10,2026-02-24,C50.9,Malignant neoplasm of breast,Dr. Sharma
+SYN-E0000051,SYN-P000023,Paediatrics,2025-09-13,2025-09-23,S72.0,Fracture of neck of femur,Dr. Nowak
+SYN-E0000052,SYN-P000023,Radiology,2025-04-17,2025-04-28,C50.9,Malignant neoplasm of breast,Dr. Neumann
+SYN-E0000053,SYN-P000024,Surgery,2026-04-17,2026-04-22,I21.9,Acute myocardial infarction,Dr. Meyer
+SYN-E0000054,SYN-P000025,Emergency,2025-11-18,2025-11-22,J18.9,"Pneumonia, unspecified",Dr. Schwarz
+SYN-E0000055,SYN-P000025,Maternity,2026-08-27,2026-08-28,O80,Single spontaneous delivery,Dr. Nowak
+SYN-E0000056,SYN-P000025,Paediatrics,2026-05-30,2026-05-31,J18.9,"Pneumonia, unspecified",Dr. Becker
+SYN-E0000057,SYN-P000025,Surgery,2025-04-09,2025-04-21,O80,Single spontaneous delivery,Dr. Yilmaz
+SYN-E0000058,SYN-P000026,Maternity,2026-10-30,2026-11-10,O80,Single spontaneous delivery,Dr. Sharma
+SYN-E0000059,SYN-P000026,Paediatrics,2026-08-21,2026-09-02,S72.0,Fracture of neck of femur,Dr. Ivanova
+SYN-E0000060,SYN-P000027,Internal Medicine,2025-07-10,2025-07-14,I21.9,Acute myocardial infarction,Dr. Yilmaz
+SYN-E0000061,SYN-P000028,Paediatrics,2025-05-19,2025-05-21,K35.8,Acute appendicitis,Dr. Nowak
+SYN-E0000062,SYN-P000028,Oncology,2024-12-15,2024-12-20,E11.9,Type 2 diabetes mellitus,Dr. Wolf
+SYN-E0000063,SYN-P000028,Paediatrics,2026-08-03,2026-08-08,C50.9,Malignant neoplasm of breast,Dr. Fischer
+SYN-E0000064,SYN-P000028,Neurology,2026-09-07,2026-09-12,S72.0,Fracture of neck of femur,Dr. Sharma
+SYN-E0000065,SYN-P000029,Cardiology,2026-07-29,2026-08-05,S72.0,Fracture of neck of femur,Dr. Fischer
+SYN-E0000066,SYN-P000029,Paediatrics,2026-01-07,2026-01-13,G40.9,"Epilepsy, unspecified",Dr. Schwarz
+SYN-E0000067,SYN-P000029,Paediatrics,2026-06-15,2026-06-27,E11.9,Type 2 diabetes mellitus,Dr. Wolf
+SYN-E0000068,SYN-P000029,Maternity,2025-12-31,2026-01-13,N39.0,Urinary tract infection,Dr. Weber
+SYN-E0000069,SYN-P000030,Maternity,2025-10-02,2025-10-02,J18.9,"Pneumonia, unspecified",Dr. Weber
+SYN-E0000070,SYN-P000030,Oncology,2025-07-22,2025-07-28,I10,Essential hypertension,Dr. Ivanova
+SYN-E0000071,SYN-P000030,Internal Medicine,2026-02-03,2026-02-13,C50.9,Malignant neoplasm of breast,Dr. Schneider
+SYN-E0000072,SYN-P000030,Neurology,2025-01-29,2025-01-29,K35.8,Acute appendicitis,Dr. Sharma
+SYN-E0000073,SYN-P000031,Radiology,2026-10-03,2026-10-15,I10,Essential hypertension,Dr. Schmidt
+SYN-E0000074,SYN-P000031,Oncology,2025-09-06,2025-09-08,N39.0,Urinary tract infection,Dr. Meyer
+SYN-E0000075,SYN-P000031,Surgery,2025-02-15,2025-02-22,O80,Single spontaneous delivery,Dr. Nowak
+SYN-E0000076,SYN-P000032,Paediatrics,2025-11-13,2025-11-23,N39.0,Urinary tract infection,Dr. Wolf
+SYN-E0000077,SYN-P000032,Surgery,2025-06-25,2025-07-01,E11.9,Type 2 diabetes mellitus,Dr. Nowak
+SYN-E0000078,SYN-P000032,Paediatrics,2024-12-27,2024-12-27,O80,Single spontaneous delivery,Dr. Nowak
+SYN-E0000079,SYN-P000032,Paediatrics,2025-02-19,2025-03-03,K35.8,Acute appendicitis,Dr. Becker
+SYN-E0000080,SYN-P000033,Internal Medicine,2026-01-03,2026-01-05,C50.9,Malignant neoplasm of breast,Dr. Wagner
+SYN-E0000081,SYN-P000034,Surgery,2026-08-16,2026-08-29,J18.9,"Pneumonia, unspecified",Dr. Haddad
+SYN-E0000082,SYN-P000034,Internal Medicine,2025-10-20,2025-11-02,I21.9,Acute myocardial infarction,Dr. Ivanova
+SYN-E0000083,SYN-P000034,Surgery,2025-04-06,2025-04-16,C50.9,Malignant neoplasm of breast,Dr. Schneider
+SYN-E0000084,SYN-P000034,Cardiology,2025-12-25,2025-12-26,K35.8,Acute appendicitis,Dr. Becker
+SYN-E0000085,SYN-P000035,Maternity,2026-03-24,2026-03-27,K35.8,Acute appendicitis,Dr. Richter
+SYN-E0000086,SYN-P000035,Neurology,2024-11-29,2024-12-13,C50.9,Malignant neoplasm of breast,Dr. Ivanova
+SYN-E0000087,SYN-P000035,Surgery,2025-07-24,2025-08-03,E11.9,Type 2 diabetes mellitus,Dr. Ivanova
+SYN-E0000088,SYN-P000036,Emergency,2026-06-03,2026-06-07,N39.0,Urinary tract infection,Dr. Weber
+SYN-E0000089,SYN-P000036,Emergency,2026-05-07,2026-05-09,E11.9,Type 2 diabetes mellitus,Dr. Mueller
+SYN-E0000090,SYN-P000036,Internal Medicine,2026-09-09,2026-09-17,J18.9,"Pneumonia, unspecified",Dr. Fischer
+SYN-E0000091,SYN-P000037,Emergency,2025-01-12,2025-01-19,I10,Essential hypertension,Dr. Klein
+SYN-E0000092,SYN-P000037,Oncology,2025-12-07,2025-12-08,N39.0,Urinary tract infection,Dr. Weber
+SYN-E0000093,SYN-P000037,Neurology,2025-10-07,2025-10-11,N39.0,Urinary tract infection,Dr. Neumann
+SYN-E0000094,SYN-P000037,Internal Medicine,2025-04-16,2025-04-23,S72.0,Fracture of neck of femur,Dr. Becker
+SYN-E0000095,SYN-P000038,Emergency,2026-06-21,2026-06-30,G40.9,"Epilepsy, unspecified",Dr. Kowalski
+SYN-E0000096,SYN-P000038,Paediatrics,2025-08-25,2025-09-03,I10,Essential hypertension,Dr. Hoffmann
+SYN-E0000097,SYN-P000038,Cardiology,2025-06-26,2025-07-01,S72.0,Fracture of neck of femur,Dr. Kowalski
+SYN-E0000098,SYN-P000039,Oncology,2025-11-07,2025-11-20,I10,Essential hypertension,Dr. Weber
+SYN-E0000099,SYN-P000039,Internal Medicine,2026-03-26,2026-04-02,O80,Single spontaneous delivery,Dr. Koch
+SYN-E0000100,SYN-P000039,Cardiology,2025-12-04,2025-12-18,N39.0,Urinary tract infection,Dr. Schmidt
+SYN-E0000101,SYN-P000040,Paediatrics,2025-08-18,2025-08-28,E11.9,Type 2 diabetes mellitus,Dr. Haddad
+SYN-E0000102,SYN-P000040,Surgery,2026-04-06,2026-04-18,I21.9,Acute myocardial infarction,Dr. Weber
+SYN-E0000103,SYN-P000040,Oncology,2025-08-18,2025-08-24,J18.9,"Pneumonia, unspecified",Dr. Kowalski
+SYN-E0000104,SYN-P000041,Paediatrics,2024-11-05,2024-11-06,O80,Single spontaneous delivery,Dr. Klein
+SYN-E0000105,SYN-P000041,Maternity,2025-12-04,2025-12-17,J18.9,"Pneumonia, unspecified",Dr. Wang
+SYN-E0000106,SYN-P000041,Neurology,2025-03-08,2025-03-09,O80,Single spontaneous delivery,Dr. Klein
+SYN-E0000107,SYN-P000041,Cardiology,2026-08-15,2026-08-23,G40.9,"Epilepsy, unspecified",Dr. Yilmaz
+SYN-E0000108,SYN-P000042,Maternity,2025-04-03,2025-04-13,N39.0,Urinary tract infection,Dr. Nowak
+SYN-E0000109,SYN-P000042,Paediatrics,2025-08-06,2025-08-15,I21.9,Acute myocardial infarction,Dr. Schmidt
+SYN-E0000110,SYN-P000042,Paediatrics,2026-09-04,2026-09-05,C50.9,Malignant neoplasm of breast,Dr. Ivanova
+SYN-E0000111,SYN-P000042,Neurology,2025-02-10,2025-02-16,N39.0,Urinary tract infection,Dr. Neumann
+SYN-E0000112,SYN-P000043,Neurology,2025-11-15,2025-11-25,E11.9,Type 2 diabetes mellitus,Dr. Meyer
+SYN-E0000113,SYN-P000044,Emergency,2025-11-20,2025-12-02,N39.0,Urinary tract infection,Dr. Ivanova
+SYN-E0000114,SYN-P000044,Oncology,2026-01-15,2026-01-20,I21.9,Acute myocardial infarction,Dr. Schneider
+SYN-E0000115,SYN-P000044,Oncology,2024-12-30,2025-01-08,O80,Single spontaneous delivery,Dr. Wang
+SYN-E0000116,SYN-P000044,Internal Medicine,2025-12-19,2025-12-29,G40.9,"Epilepsy, unspecified",Dr. Koch
+SYN-E0000117,SYN-P000045,Surgery,2025-06-22,2025-06-24,S72.0,Fracture of neck of femur,Dr. Weber
+SYN-E0000118,SYN-P000045,Neurology,2026-01-03,2026-01-15,E11.9,Type 2 diabetes mellitus,Dr. Kowalski
+SYN-E0000119,SYN-P000045,Oncology,2024-12-24,2025-01-02,C50.9,Malignant neoplasm of breast,Dr. Klein
+SYN-E0000120,SYN-P000046,Paediatrics,2025-05-04,2025-05-16,S72.0,Fracture of neck of femur,Dr. Schwarz
+SYN-E0000121,SYN-P000046,Maternity,2025-03-27,2025-04-08,K35.8,Acute appendicitis,Dr. Hoffmann
+SYN-E0000122,SYN-P000047,Oncology,2025-07-29,2025-08-11,G40.9,"Epilepsy, unspecified",Dr. Wolf
+SYN-E0000123,SYN-P000047,Radiology,2026-03-19,2026-04-02,K35.8,Acute appendicitis,Dr. Mueller
+SYN-E0000124,SYN-P000047,Cardiology,2026-10-04,2026-10-17,C50.9,Malignant neoplasm of breast,Dr. Wang
+SYN-E0000125,SYN-P000048,Neurology,2025-04-19,2025-04-25,N39.0,Urinary tract infection,Dr. Fischer
+SYN-E0000126,SYN-P000048,Maternity,2025-01-16,2025-01-17,N39.0,Urinary tract infection,Dr. Fischer
+SYN-E0000127,SYN-P000049,Neurology,2025-05-12,2025-05-24,G40.9,"Epilepsy, unspecified",Dr. Yilmaz
+SYN-E0000128,SYN-P000050,Radiology,2026-02-28,2026-03-02,E11.9,Type 2 diabetes mellitus,Dr. Schmidt
+SYN-E0000129,SYN-P000050,Maternity,2024-11-30,2024-12-10,K35.8,Acute appendicitis,Dr. Meyer
+SYN-E0000130,SYN-P000050,Paediatrics,2025-07-21,2025-07-24,I10,Essential hypertension,Dr. Schmidt
+SYN-E0000131,SYN-P000051,Radiology,2026-01-26,2026-02-01,E11.9,Type 2 diabetes mellitus,Dr. Klein
+SYN-E0000132,SYN-P000051,Cardiology,2025-05-19,2025-05-30,I21.9,Acute myocardial infarction,Dr. Wolf
+SYN-E0000133,SYN-P000051,Oncology,2025-08-18,2025-08-26,N39.0,Urinary tract infection,Dr. Hoffmann
+SYN-E0000134,SYN-P000052,Cardiology,2025-01-16,2025-01-26,I10,Essential hypertension,Dr. Ivanova
+SYN-E0000135,SYN-P000052,Emergency,2025-02-17,2025-02-19,K35.8,Acute appendicitis,Dr. Schneider
+SYN-E0000136,SYN-P000052,Emergency,2025-10-05,2025-10-14,N39.0,Urinary tract infection,Dr. Weber
+SYN-E0000137,SYN-P000053,Surgery,2026-02-08,2026-02-17,K35.8,Acute appendicitis,Dr. Hoffmann
+SYN-E0000138,SYN-P000053,Radiology,2026-08-04,2026-08-15,C50.9,Malignant neoplasm of breast,Dr. Schneider
+SYN-E0000139,SYN-P000053,Radiology,2024-11-14,2024-11-22,J18.9,"Pneumonia, unspecified",Dr. Becker
+SYN-E0000140,SYN-P000054,Maternity,2025-12-20,2025-12-28,O80,Single spontaneous delivery,Dr. Wolf
+SYN-E0000141,SYN-P000055,Oncology,2025-12-25,2025-12-30,J18.9,"Pneumonia, unspecified",Dr. Wang
+SYN-E0000142,SYN-P000055,Cardiology,2025-05-19,2025-05-23,I21.9,Acute myocardial infarction,Dr. Wagner
+SYN-E0000143,SYN-P000056,Paediatrics,2026-09-16,2026-09-26,N39.0,Urinary tract infection,Dr. Wagner
+SYN-E0000144,SYN-P000057,Surgery,2025-06-24,2025-06-29,K35.8,Acute appendicitis,Dr. Sharma
+SYN-E0000145,SYN-P000057,Internal Medicine,2025-12-10,2025-12-12,C50.9,Malignant neoplasm of breast,Dr. Richter
+SYN-E0000146,SYN-P000057,Maternity,2025-12-10,2025-12-11,S72.0,Fracture of neck of femur,Dr. Schulz
+SYN-E0000147,SYN-P000057,Oncology,2025-08-30,2025-09-12,S72.0,Fracture of neck of femur,Dr. Koch
+SYN-E0000148,SYN-P000058,Paediatrics,2026-09-13,2026-09-20,I10,Essential hypertension,Dr. Sharma
+SYN-E0000149,SYN-P000058,Emergency,2025-09-15,2025-09-21,C50.9,Malignant neoplasm of breast,Dr. Schmidt
+SYN-E0000150,SYN-P000058,Neurology,2026-08-18,2026-08-25,O80,Single spontaneous delivery,Dr. Kowalski
+SYN-E0000151,SYN-P000059,Radiology,2026-09-23,2026-10-05,J18.9,"Pneumonia, unspecified",Dr. Schwarz
+SYN-E0000152,SYN-P000060,Radiology,2026-10-15,2026-10-25,C50.9,Malignant neoplasm of breast,Dr. Fischer
+SYN-E0000153,SYN-P000060,Surgery,2025-07-04,2025-07-15,I21.9,Acute myocardial infarction,Dr. Schmidt
+SYN-E0000154,SYN-P000060,Emergency,2024-12-04,2024-12-13,S72.0,Fracture of neck of femur,Dr. Wang
+SYN-E0000155,SYN-P000060,Maternity,2026-04-20,2026-04-25,I10,Essential hypertension,Dr. Wolf
+SYN-E0000156,SYN-P000061,Radiology,2025-05-12,2025-05-14,O80,Single spontaneous delivery,Dr. Neumann
+SYN-E0000157,SYN-P000061,Maternity,2024-11-22,2024-11-25,I21.9,Acute myocardial infarction,Dr. Becker
+SYN-E0000158,SYN-P000061,Maternity,2024-11-10,2024-11-15,S72.0,Fracture of neck of femur,Dr. Schwarz
+SYN-E0000159,SYN-P000061,Neurology,2026-06-30,2026-07-06,N39.0,Urinary tract infection,Dr. Klein
+SYN-E0000160,SYN-P000062,Surgery,2026-07-13,2026-07-16,N39.0,Urinary tract infection,Dr. Schmidt
+SYN-E0000161,SYN-P000062,Radiology,2026-07-22,2026-08-02,O80,Single spontaneous delivery,Dr. Schwarz
+SYN-E0000162,SYN-P000063,Surgery,2025-01-03,2025-01-11,N39.0,Urinary tract infection,Dr. Novak
+SYN-E0000163,SYN-P000064,Neurology,2026-01-14,2026-01-22,K35.8,Acute appendicitis,Dr. Schwarz
+SYN-E0000164,SYN-P000064,Radiology,2026-04-18,2026-04-20,E11.9,Type 2 diabetes mellitus,Dr. Novak
+SYN-E0000165,SYN-P000064,Oncology,2025-03-30,2025-04-08,S72.0,Fracture of neck of femur,Dr. Ivanova
+SYN-E0000166,SYN-P000065,Surgery,2026-02-07,2026-02-07,C50.9,Malignant neoplasm of breast,Dr. Haddad
+SYN-E0000167,SYN-P000066,Surgery,2025-02-10,2025-02-12,S72.0,Fracture of neck of femur,Dr. Schwarz
+SYN-E0000168,SYN-P000066,Internal Medicine,2025-02-19,2025-03-02,C50.9,Malignant neoplasm of breast,Dr. Kowalski
+SYN-E0000169,SYN-P000066,Maternity,2026-08-10,2026-08-18,G40.9,"Epilepsy, unspecified",Dr. Wang
+SYN-E0000170,SYN-P000067,Maternity,2026-07-31,2026-08-12,G40.9,"Epilepsy, unspecified",Dr. Schmidt
+SYN-E0000171,SYN-P000067,Internal Medicine,2025-12-21,2025-12-25,I10,Essential hypertension,Dr. Mueller
+SYN-E0000172,SYN-P000067,Cardiology,2025-08-25,2025-09-02,C50.9,Malignant neoplasm of breast,Dr. Schmidt
+SYN-E0000173,SYN-P000067,Paediatrics,2025-07-06,2025-07-12,I10,Essential hypertension,Dr. Meyer
+SYN-E0000174,SYN-P000068,Surgery,2025-05-09,2025-05-22,J18.9,"Pneumonia, unspecified",Dr. Mueller
+SYN-E0000175,SYN-P000068,Neurology,2025-12-31,2026-01-06,K35.8,Acute appendicitis,Dr. Kowalski
+SYN-E0000176,SYN-P000068,Internal Medicine,2026-07-09,2026-07-18,I10,Essential hypertension,Dr. Mueller
+SYN-E0000177,SYN-P000068,Maternity,2025-03-03,2025-03-12,I10,Essential hypertension,Dr. Haddad
+SYN-E0000178,SYN-P000069,Radiology,2025-03-22,2025-03-25,C50.9,Malignant neoplasm of breast,Dr. Hoffmann
+SYN-E0000179,SYN-P000069,Paediatrics,2025-09-04,2025-09-04,I21.9,Acute myocardial infarction,Dr. Kowalski
+SYN-E0000180,SYN-P000070,Neurology,2025-10-12,2025-10-19,J18.9,"Pneumonia, unspecified",Dr. Becker
+SYN-E0000181,SYN-P000070,Emergency,2026-06-07,2026-06-15,K35.8,Acute appendicitis,Dr. Wolf
+SYN-E0000182,SYN-P000070,Radiology,2026-08-13,2026-08-14,K35.8,Acute appendicitis,Dr. Kowalski
+SYN-E0000183,SYN-P000071,Surgery,2026-07-04,2026-07-15,K35.8,Acute appendicitis,Dr. Sharma
+SYN-E0000184,SYN-P000071,Paediatrics,2025-04-15,2025-04-21,C50.9,Malignant neoplasm of breast,Dr. Neumann
+SYN-E0000185,SYN-P000072,Neurology,2026-10-16,2026-10-30,I21.9,Acute myocardial infarction,Dr. Nowak
+SYN-E0000186,SYN-P000072,Radiology,2025-06-08,2025-06-12,G40.9,"Epilepsy, unspecified",Dr. Schwarz
+SYN-E0000187,SYN-P000073,Cardiology,2026-06-14,2026-06-25,S72.0,Fracture of neck of femur,Dr. Weber
+SYN-E0000188,SYN-P000073,Maternity,2026-03-23,2026-03-28,G40.9,"Epilepsy, unspecified",Dr. Schmidt
+SYN-E0000189,SYN-P000073,Neurology,2025-05-08,2025-05-12,I21.9,Acute myocardial infarction,Dr. Mueller
+SYN-E0000190,SYN-P000073,Radiology,2025-05-11,2025-05-15,I21.9,Acute myocardial infarction,Dr. Klein
+SYN-E0000191,SYN-P000074,Maternity,2025-10-11,2025-10-11,G40.9,"Epilepsy, unspecified",Dr. Ivanova
+SYN-E0000192,SYN-P000074,Cardiology,2024-11-12,2024-11-19,J18.9,"Pneumonia, unspecified",Dr. Wolf
+SYN-E0000193,SYN-P000074,Surgery,2026-09-19,2026-10-03,S72.0,Fracture of neck of femur,Dr. Wang
+SYN-E0000194,SYN-P000074,Oncology,2025-04-03,2025-04-17,I10,Essential hypertension,Dr. Koch
+SYN-E0000195,SYN-P000075,Cardiology,2025-10-04,2025-10-12,J18.9,"Pneumonia, unspecified",Dr. Novak
+SYN-E0000196,SYN-P000075,Internal Medicine,2025-11-18,2025-11-30,N39.0,Urinary tract infection,Dr. Koch
+SYN-E0000197,SYN-P000075,Maternity,2025-01-21,2025-01-28,I21.9,Acute myocardial infarction,Dr. Becker
+SYN-E0000198,SYN-P000076,Cardiology,2025-12-12,2025-12-13,C50.9,Malignant neoplasm of breast,Dr. Mueller
+SYN-E0000199,SYN-P000076,Internal Medicine,2026-08-04,2026-08-11,J18.9,"Pneumonia, unspecified",Dr. Kowalski
+SYN-E0000200,SYN-P000076,Emergency,2025-12-04,2025-12-08,O80,Single spontaneous delivery,Dr. Wolf
+SYN-E0000201,SYN-P000076,Oncology,2026-05-12,2026-05-14,O80,Single spontaneous delivery,Dr. Schulz
+SYN-E0000202,SYN-P000077,Paediatrics,2026-07-15,2026-07-15,J18.9,"Pneumonia, unspecified",Dr. Klein
+SYN-E0000203,SYN-P000077,Oncology,2025-08-18,2025-08-22,N39.0,Urinary tract infection,Dr. Koch
+SYN-E0000204,SYN-P000077,Paediatrics,2025-09-20,2025-10-01,C50.9,Malignant neoplasm of breast,Dr. Wang
+SYN-E0000205,SYN-P000077,Neurology,2025-04-03,2025-04-05,S72.0,Fracture of neck of femur,Dr. Haddad
+SYN-E0000206,SYN-P000078,Internal Medicine,2026-02-16,2026-02-28,J18.9,"Pneumonia, unspecified",Dr. Klein
+SYN-E0000207,SYN-P000078,Maternity,2025-07-30,2025-08-08,N39.0,Urinary tract infection,Dr. Klein
+SYN-E0000208,SYN-P000079,Cardiology,2026-07-16,2026-07-20,I10,Essential hypertension,Dr. Becker
+SYN-E0000209,SYN-P000079,Neurology,2025-07-15,2025-07-17,N39.0,Urinary tract infection,Dr. Richter
+SYN-E0000210,SYN-P000079,Paediatrics,2025-06-25,2025-07-01,E11.9,Type 2 diabetes mellitus,Dr. Schneider
+SYN-E0000211,SYN-P000079,Paediatrics,2026-06-09,2026-06-14,C50.9,Malignant neoplasm of breast,Dr. Neumann
+SYN-E0000212,SYN-P000080,Oncology,2025-11-15,2025-11-29,E11.9,Type 2 diabetes mellitus,Dr. Novak
+SYN-E0000213,SYN-P000081,Surgery,2026-10-03,2026-10-10,N39.0,Urinary tract infection,Dr. Nowak
+SYN-E0000214,SYN-P000081,Cardiology,2026-08-29,2026-09-10,N39.0,Urinary tract infection,Dr. Kowalski
+SYN-E0000215,SYN-P000081,Paediatrics,2025-07-21,2025-07-31,E11.9,Type 2 diabetes mellitus,Dr. Schwarz
+SYN-E0000216,SYN-P000081,Maternity,2025-11-10,2025-11-19,C50.9,Malignant neoplasm of breast,Dr. Meyer
+SYN-E0000217,SYN-P000082,Maternity,2025-08-25,2025-09-04,J18.9,"Pneumonia, unspecified",Dr. Kowalski
+SYN-E0000218,SYN-P000082,Oncology,2026-01-10,2026-01-15,J18.9,"Pneumonia, unspecified",Dr. Neumann
+SYN-E0000219,SYN-P000082,Maternity,2025-10-30,2025-11-01,I10,Essential hypertension,Dr. Wagner
+SYN-E0000220,SYN-P000082,Oncology,2025-08-04,2025-08-05,K35.8,Acute appendicitis,Dr. Nowak
+SYN-E0000221,SYN-P000083,Paediatrics,2025-03-25,2025-04-06,E11.9,Type 2 diabetes mellitus,Dr. Kowalski
+SYN-E0000222,SYN-P000084,Surgery,2026-07-04,2026-07-16,S72.0,Fracture of neck of femur,Dr. Novak
+SYN-E0000223,SYN-P000084,Surgery,2026-06-12,2026-06-24,S72.0,Fracture of neck of femur,Dr. Schmidt
+SYN-E0000224,SYN-P000084,Paediatrics,2024-11-11,2024-11-20,I21.9,Acute myocardial infarction,Dr. Schulz
+SYN-E0000225,SYN-P000084,Emergency,2026-06-16,2026-06-20,O80,Single spontaneous delivery,Dr. Ivanova
+SYN-E0000226,SYN-P000085,Cardiology,2025-07-27,2025-08-02,E11.9,Type 2 diabetes mellitus,Dr. Yilmaz
+SYN-E0000227,SYN-P000085,Emergency,2025-06-20,2025-07-03,C50.9,Malignant neoplasm of breast,Dr. Novak
+SYN-E0000228,SYN-P000085,Cardiology,2025-07-20,2025-08-01,C50.9,Malignant neoplasm of breast,Dr. Kowalski
+SYN-E0000229,SYN-P000085,Oncology,2025-11-21,2025-11-30,G40.9,"Epilepsy, unspecified",Dr. Schwarz
+SYN-E0000230,SYN-P000086,Radiology,2026-01-25,2026-01-29,E11.9,Type 2 diabetes mellitus,Dr. Schneider
+SYN-E0000231,SYN-P000086,Surgery,2025-01-30,2025-02-05,I21.9,Acute myocardial infarction,Dr. Ivanova
+SYN-E0000232,SYN-P000087,Oncology,2026-07-01,2026-07-08,O80,Single spontaneous delivery,Dr. Schneider
+SYN-E0000233,SYN-P000087,Radiology,2026-07-20,2026-07-25,E11.9,Type 2 diabetes mellitus,Dr. Hoffmann
+SYN-E0000234,SYN-P000087,Cardiology,2026-06-18,2026-06-26,J18.9,"Pneumonia, unspecified",Dr. Nowak
+SYN-E0000235,SYN-P000088,Internal Medicine,2026-06-11,2026-06-16,E11.9,Type 2 diabetes mellitus,Dr. Wolf
+SYN-E0000236,SYN-P000089,Surgery,2025-01-09,2025-01-16,I10,Essential hypertension,Dr. Klein
+SYN-E0000237,SYN-P000089,Cardiology,2026-02-28,2026-03-08,K35.8,Acute appendicitis,Dr. Mueller
+SYN-E0000238,SYN-P000089,Maternity,2025-04-21,2025-05-03,J18.9,"Pneumonia, unspecified",Dr. Schneider
+SYN-E0000239,SYN-P000090,Cardiology,2024-11-13,2024-11-23,O80,Single spontaneous delivery,Dr. Kowalski
+SYN-E0000240,SYN-P000090,Surgery,2026-08-13,2026-08-25,G40.9,"Epilepsy, unspecified",Dr. Weber
+SYN-E0000241,SYN-P000090,Internal Medicine,2026-08-26,2026-09-06,I21.9,Acute myocardial infarction,Dr. Becker
+SYN-E0000242,SYN-P000090,Internal Medicine,2026-02-24,2026-02-25,E11.9,Type 2 diabetes mellitus,Dr. Neumann
+SYN-E0000243,SYN-P000091,Neurology,2025-06-11,2025-06-19,C50.9,Malignant neoplasm of breast,Dr. Novak
+SYN-E0000244,SYN-P000091,Emergency,2026-01-30,2026-02-04,E11.9,Type 2 diabetes mellitus,Dr. Wolf
+SYN-E0000245,SYN-P000092,Emergency,2026-03-13,2026-03-13,G40.9,"Epilepsy, unspecified",Dr. Mueller
+SYN-E0000246,SYN-P000093,Radiology,2026-08-14,2026-08-15,N39.0,Urinary tract infection,Dr. Yilmaz
+SYN-E0000247,SYN-P000093,Neurology,2026-05-02,2026-05-02,S72.0,Fracture of neck of femur,Dr. Klein
+SYN-E0000248,SYN-P000093,Paediatrics,2025-07-13,2025-07-18,I21.9,Acute myocardial infarction,Dr. Schneider
+SYN-E0000249,SYN-P000094,Radiology,2026-03-08,2026-03-18,G40.9,"Epilepsy, unspecified",Dr. Wang
+SYN-E0000250,SYN-P000095,Cardiology,2026-06-09,2026-06-09,I21.9,Acute myocardial infarction,Dr. Becker
+SYN-E0000251,SYN-P000096,Radiology,2024-11-14,2024-11-21,C50.9,Malignant neoplasm of breast,Dr. Schulz
+SYN-E0000252,SYN-P000096,Cardiology,2026-06-15,2026-06-17,N39.0,Urinary tract infection,Dr. Fischer
+SYN-E0000253,SYN-P000096,Neurology,2025-09-11,2025-09-16,E11.9,Type 2 diabetes mellitus,Dr. Wagner
+SYN-E0000254,SYN-P000096,Emergency,2024-11-10,2024-11-13,N39.0,Urinary tract infection,Dr. Koch
+SYN-E0000255,SYN-P000097,Oncology,2025-07-16,2025-07-17,E11.9,Type 2 diabetes mellitus,Dr. Mueller
+SYN-E0000256,SYN-P000098,Radiology,2026-06-23,2026-06-24,E11.9,Type 2 diabetes mellitus,Dr. Schmidt
+SYN-E0000257,SYN-P000098,Internal Medicine,2026-10-02,2026-10-04,O80,Single spontaneous delivery,Dr. Richter
+SYN-E0000258,SYN-P000098,Emergency,2025-08-02,2025-08-11,J18.9,"Pneumonia, unspecified",Dr. Sharma
+SYN-E0000259,SYN-P000098,Maternity,2025-09-06,2025-09-06,G40.9,"Epilepsy, unspecified",Dr. Schneider
+SYN-E0000260,SYN-P000099,Radiology,2025-04-01,2025-04-07,G40.9,"Epilepsy, unspecified",Dr. Schulz
+SYN-E0000261,SYN-P000099,Paediatrics,2026-03-22,2026-03-22,I10,Essential hypertension,Dr. Schwarz
+SYN-E0000262,SYN-P000099,Paediatrics,2024-12-29,2025-01-06,S72.0,Fracture of neck of femur,Dr. Novak
+SYN-E0000263,SYN-P000100,Oncology,2025-03-30,2025-04-08,N39.0,Urinary tract infection,Dr. Wagner
+SYN-E0000264,SYN-P000100,Neurology,2026-03-22,2026-03-29,I10,Essential hypertension,Dr. Mueller
+SYN-E0000265,SYN-P000100,Emergency,2026-05-04,2026-05-04,C50.9,Malignant neoplasm of breast,Dr. Weber
+SYN-E0000266,SYN-P000101,Radiology,2025-08-11,2025-08-13,K35.8,Acute appendicitis,Dr. Wang
+SYN-E0000267,SYN-P000101,Oncology,2024-11-26,2024-11-28,I21.9,Acute myocardial infarction,Dr. Novak
+SYN-E0000268,SYN-P000102,Surgery,2025-11-27,2025-12-02,E11.9,Type 2 diabetes mellitus,Dr. Koch
+SYN-E0000269,SYN-P000102,Maternity,2026-08-03,2026-08-03,C50.9,Malignant neoplasm of breast,Dr. Schulz
+SYN-E0000270,SYN-P000103,Neurology,2025-10-10,2025-10-16,C50.9,Malignant neoplasm of breast,Dr. Fischer
+SYN-E0000271,SYN-P000103,Emergency,2026-09-28,2026-10-03,I21.9,Acute myocardial infarction,Dr. Schulz
+SYN-E0000272,SYN-P000103,Oncology,2026-08-18,2026-09-01,C50.9,Malignant neoplasm of breast,Dr. Klein
+SYN-E0000273,SYN-P000103,Maternity,2026-07-29,2026-08-09,C50.9,Malignant neoplasm of breast,Dr. Mueller
+SYN-E0000274,SYN-P000104,Maternity,2025-03-26,2025-03-28,G40.9,"Epilepsy, unspecified",Dr. Schmidt
+SYN-E0000275,SYN-P000104,Maternity,2025-01-30,2025-02-02,N39.0,Urinary tract infection,Dr. Fischer
+SYN-E0000276,SYN-P000104,Paediatrics,2026-04-04,2026-04-05,J18.9,"Pneumonia, unspecified",Dr. Schwarz
+SYN-E0000277,SYN-P000104,Maternity,2025-12-21,2025-12-28,O80,Single spontaneous delivery,Dr. Haddad
+SYN-E0000278,SYN-P000105,Cardiology,2026-05-31,2026-06-10,E11.9,Type 2 diabetes mellitus,Dr. Richter
+SYN-E0000279,SYN-P000106,Oncology,2025-07-30,2025-08-02,J18.9,"Pneumonia, unspecified",Dr. Wagner
+SYN-E0000280,SYN-P000107,Maternity,2026-01-23,2026-02-06,G40.9,"Epilepsy, unspecified",Dr. Mueller
+SYN-E0000281,SYN-P000107,Cardiology,2026-07-22,2026-08-03,E11.9,Type 2 diabetes mellitus,Dr. Hoffmann
+SYN-E0000282,SYN-P000107,Emergency,2025-02-16,2025-02-18,K35.8,Acute appendicitis,Dr. Schulz
+SYN-E0000283,SYN-P000108,Cardiology,2026-01-18,2026-01-31,K35.8,Acute appendicitis,Dr. Becker
+SYN-E0000284,SYN-P000108,Paediatrics,2025-08-05,2025-08-16,C50.9,Malignant neoplasm of breast,Dr. Wolf
+SYN-E0000285,SYN-P000108,Surgery,2026-04-23,2026-05-07,K35.8,Acute appendicitis,Dr. Wolf
+SYN-E0000286,SYN-P000109,Surgery,2026-09-11,2026-09-15,C50.9,Malignant neoplasm of breast,Dr. Richter
+SYN-E0000287,SYN-P000109,Oncology,2025-03-03,2025-03-16,K35.8,Acute appendicitis,Dr. Schwarz
+SYN-E0000288,SYN-P000109,Paediatrics,2024-11-26,2024-11-26,E11.9,Type 2 diabetes mellitus,Dr. Klein
+SYN-E0000289,SYN-P000109,Surgery,2026-05-19,2026-06-01,N39.0,Urinary tract infection,Dr. Becker
+SYN-E0000290,SYN-P000110,Paediatrics,2026-02-16,2026-02-27,N39.0,Urinary tract infection,Dr. Wang
+SYN-E0000291,SYN-P000110,Paediatrics,2026-03-23,2026-04-02,K35.8,Acute appendicitis,Dr. Yilmaz
+SYN-E0000292,SYN-P000111,Neurology,2026-04-23,2026-05-05,J18.9,"Pneumonia, unspecified",Dr. Becker
+SYN-E0000293,SYN-P000111,Radiology,2025-02-25,2025-03-07,O80,Single spontaneous delivery,Dr. Weber
+SYN-E0000294,SYN-P000111,Paediatrics,2024-12-30,2025-01-03,K35.8,Acute appendicitis,Dr. Wolf
+SYN-E0000295,SYN-P000112,Oncology,2024-12-28,2025-01-01,G40.9,"Epilepsy, unspecified",Dr. Fischer
+SYN-E0000296,SYN-P000112,Surgery,2025-11-23,2025-11-28,E11.9,Type 2 diabetes mellitus,Dr. Becker
+SYN-E0000297,SYN-P000113,Oncology,2025-09-04,2025-09-06,I10,Essential hypertension,Dr. Wagner
+SYN-E0000298,SYN-P000113,Maternity,2026-05-01,2026-05-06,E11.9,Type 2 diabetes mellitus,Dr. Ivanova
+SYN-E0000299,SYN-P000113,Paediatrics,2026-10-28,2026-10-31,K35.8,Acute appendicitis,Dr. Meyer
+SYN-E0000300,SYN-P000114,Radiology,2025-10-15,2025-10-27,I10,Essential hypertension,Dr. Yilmaz
+SYN-E0000301,SYN-P000114,Surgery,2025-01-29,2025-02-09,S72.0,Fracture of neck of femur,Dr. Richter
+SYN-E0000302,SYN-P000115,Radiology,2025-11-16,2025-11-28,K35.8,Acute appendicitis,Dr. Wagner
+SYN-E0000303,SYN-P000115,Surgery,2026-03-17,2026-03-28,J18.9,"Pneumonia, unspecified",Dr. Mueller
+SYN-E0000304,SYN-P000116,Internal Medicine,2024-11-25,2024-12-02,E11.9,Type 2 diabetes mellitus,Dr. Klein
+SYN-E0000305,SYN-P000117,Neurology,2025-08-30,2025-09-10,E11.9,Type 2 diabetes mellitus,Dr. Sharma
+SYN-E0000306,SYN-P000117,Cardiology,2026-01-16,2026-01-23,E11.9,Type 2 diabetes mellitus,Dr. Wagner
+SYN-E0000307,SYN-P000118,Emergency,2026-03-06,2026-03-16,I10,Essential hypertension,Dr. Schneider
+SYN-E0000308,SYN-P000118,Oncology,2025-03-24,2025-03-25,K35.8,Acute appendicitis,Dr. Yilmaz
+SYN-E0000309,SYN-P000118,Surgery,2026-07-21,2026-07-28,I21.9,Acute myocardial infarction,Dr. Hoffmann
+SYN-E0000310,SYN-P000119,Paediatrics,2025-10-31,2025-11-14,K35.8,Acute appendicitis,Dr. Novak
+SYN-E0000311,SYN-P000119,Oncology,2025-10-16,2025-10-17,C50.9,Malignant neoplasm of breast,Dr. Klein
+SYN-E0000312,SYN-P000119,Cardiology,2025-01-06,2025-01-08,J18.9,"Pneumonia, unspecified",Dr. Wang
+SYN-E0000313,SYN-P000120,Internal Medicine,2025-06-20,2025-06-27,E11.9,Type 2 diabetes mellitus,Dr. Schmidt
+SYN-E0000314,SYN-P000120,Emergency,2026-02-07,2026-02-18,C50.9,Malignant neoplasm of breast,Dr. Haddad
+SYN-E0000315,SYN-P000120,Cardiology,2025-05-19,2025-05-25,G40.9,"Epilepsy, unspecified",Dr. Haddad
+SYN-E0000316,SYN-P000120,Oncology,2024-12-09,2024-12-22,O80,Single spontaneous delivery,Dr. Kowalski
+SYN-E0000317,SYN-P000121,Neurology,2026-01-21,2026-01-24,I10,Essential hypertension,Dr. Kowalski
+SYN-E0000318,SYN-P000121,Radiology,2025-06-09,2025-06-10,K35.8,Acute appendicitis,Dr. Schwarz
+SYN-E0000319,SYN-P000121,Internal Medicine,2026-07-19,2026-07-19,O80,Single spontaneous delivery,Dr. Kowalski
+SYN-E0000320,SYN-P000122,Surgery,2025-10-25,2025-11-07,I10,Essential hypertension,Dr. Neumann
+SYN-E0000321,SYN-P000122,Maternity,2024-12-29,2024-12-30,C50.9,Malignant neoplasm of breast,Dr. Fischer
+SYN-E0000322,SYN-P000122,Neurology,2025-01-22,2025-01-30,I21.9,Acute myocardial infarction,Dr. Richter
+SYN-E0000323,SYN-P000123,Surgery,2026-03-26,2026-04-06,K35.8,Acute appendicitis,Dr. Koch
+SYN-E0000324,SYN-P000123,Cardiology,2025-09-03,2025-09-15,I10,Essential hypertension,Dr. Neumann
+SYN-E0000325,SYN-P000123,Internal Medicine,2026-09-13,2026-09-26,G40.9,"Epilepsy, unspecified",Dr. Nowak
+SYN-E0000326,SYN-P000123,Internal Medicine,2026-06-23,2026-07-03,E11.9,Type 2 diabetes mellitus,Dr. Sharma
+SYN-E0000327,SYN-P000124,Surgery,2024-11-03,2024-11-06,G40.9,"Epilepsy, unspecified",Dr. Wagner
+SYN-E0000328,SYN-P000124,Neurology,2024-11-04,2024-11-12,J18.9,"Pneumonia, unspecified",Dr. Wang
+SYN-E0000329,SYN-P000124,Internal Medicine,2025-03-15,2025-03-25,N39.0,Urinary tract infection,Dr. Novak
+SYN-E0000330,SYN-P000125,Emergency,2026-04-07,2026-04-12,G40.9,"Epilepsy, unspecified",Dr. Neumann
+SYN-E0000331,SYN-P000125,Surgery,2025-02-09,2025-02-20,G40.9,"Epilepsy, unspecified",Dr. Ivanova
+SYN-E0000332,SYN-P000125,Internal Medicine,2025-10-07,2025-10-19,O80,Single spontaneous delivery,Dr. Haddad
+SYN-E0000333,SYN-P000126,Cardiology,2025-07-30,2025-08-01,J18.9,"Pneumonia, unspecified",Dr. Meyer
+SYN-E0000334,SYN-P000126,Internal Medicine,2025-10-11,2025-10-15,I10,Essential hypertension,Dr. Kowalski
+SYN-E0000335,SYN-P000126,Emergency,2025-07-12,2025-07-14,J18.9,"Pneumonia, unspecified",Dr. Koch
+SYN-E0000336,SYN-P000127,Neurology,2025-09-02,2025-09-08,G40.9,"Epilepsy, unspecified",Dr. Schneider
+SYN-E0000337,SYN-P000127,Surgery,2025-10-28,2025-11-09,I21.9,Acute myocardial infarction,Dr. Sharma
+SYN-E0000338,SYN-P000128,Paediatrics,2026-02-12,2026-02-12,G40.9,"Epilepsy, unspecified",Dr. Yilmaz
+SYN-E0000339,SYN-P000128,Radiology,2026-01-02,2026-01-10,S72.0,Fracture of neck of femur,Dr. Schneider
+SYN-E0000340,SYN-P000128,Neurology,2026-05-14,2026-05-14,G40.9,"Epilepsy, unspecified",Dr. Ivanova
+SYN-E0000341,SYN-P000128,Internal Medicine,2026-03-31,2026-04-13,S72.0,Fracture of neck of femur,Dr. Fischer
+SYN-E0000342,SYN-P000129,Paediatrics,2026-09-07,2026-09-15,J18.9,"Pneumonia, unspecified",Dr. Schneider
+SYN-E0000343,SYN-P000130,Radiology,2024-11-14,2024-11-28,E11.9,Type 2 diabetes mellitus,Dr. Yilmaz
+SYN-E0000344,SYN-P000131,Surgery,2026-05-25,2026-05-27,G40.9,"Epilepsy, unspecified",Dr. Novak
+SYN-E0000345,SYN-P000131,Emergency,2025-01-07,2025-01-15,C50.9,Malignant neoplasm of breast,Dr. Kowalski
+SYN-E0000346,SYN-P000131,Internal Medicine,2025-03-25,2025-04-02,N39.0,Urinary tract infection,Dr. Kowalski
+SYN-E0000347,SYN-P000131,Radiology,2025-12-24,2025-12-27,S72.0,Fracture of neck of femur,Dr. Wolf
+SYN-E0000348,SYN-P000132,Surgery,2026-02-18,2026-03-01,E11.9,Type 2 diabetes mellitus,Dr. Nowak
+SYN-E0000349,SYN-P000133,Emergency,2025-08-20,2025-08-25,J18.9,"Pneumonia, unspecified",Dr. Becker
+SYN-E0000350,SYN-P000133,Radiology,2025-08-12,2025-08-14,I21.9,Acute myocardial infarction,Dr. Haddad
+SYN-E0000351,SYN-P000133,Cardiology,2025-06-21,2025-06-23,G40.9,"Epilepsy, unspecified",Dr. Ivanova
+SYN-E0000352,SYN-P000134,Emergency,2025-03-07,2025-03-15,S72.0,Fracture of neck of femur,Dr. Schulz
+SYN-E0000353,SYN-P000134,Maternity,2026-01-08,2026-01-16,J18.9,"Pneumonia, unspecified",Dr. Yilmaz
+SYN-E0000354,SYN-P000134,Neurology,2025-09-21,2025-09-21,C50.9,Malignant neoplasm of breast,Dr. Haddad
+SYN-E0000355,SYN-P000134,Maternity,2025-05-24,2025-05-26,J18.9,"Pneumonia, unspecified",Dr. Meyer
+SYN-E0000356,SYN-P000135,Maternity,2025-09-30,2025-10-14,K35.8,Acute appendicitis,Dr. Schmidt
+SYN-E0000357,SYN-P000135,Cardiology,2025-01-06,2025-01-17,C50.9,Malignant neoplasm of breast,Dr. Yilmaz
+SYN-E0000358,SYN-P000135,Radiology,2025-10-12,2025-10-21,O80,Single spontaneous delivery,Dr. Ivanova
+SYN-E0000359,SYN-P000136,Surgery,2025-08-08,2025-08-09,J18.9,"Pneumonia, unspecified",Dr. Yilmaz
+SYN-E0000360,SYN-P000136,Internal Medicine,2026-07-03,2026-07-15,S72.0,Fracture of neck of femur,Dr. Koch
+SYN-E0000361,SYN-P000137,Emergency,2026-06-17,2026-07-01,G40.9,"Epilepsy, unspecified",Dr. Nowak
+SYN-E0000362,SYN-P000137,Internal Medicine,2026-05-01,2026-05-10,G40.9,"Epilepsy, unspecified",Dr. Nowak
+SYN-E0000363,SYN-P000138,Neurology,2025-03-15,2025-03-19,J18.9,"Pneumonia, unspecified",Dr. Meyer
+SYN-E0000364,SYN-P000138,Cardiology,2025-10-03,2025-10-03,J18.9,"Pneumonia, unspecified",Dr. Wagner
+SYN-E0000365,SYN-P000139,Internal Medicine,2026-09-18,2026-09-21,G40.9,"Epilepsy, unspecified",Dr. Schwarz
+SYN-E0000366,SYN-P000139,Paediatrics,2025-08-23,2025-08-30,J18.9,"Pneumonia, unspecified",Dr. Becker
+SYN-E0000367,SYN-P000139,Neurology,2026-01-15,2026-01-21,N39.0,Urinary tract infection,Dr. Schulz
+SYN-E0000368,SYN-P000140,Paediatrics,2026-05-27,2026-05-31,O80,Single spontaneous delivery,Dr. Kowalski
+SYN-E0000369,SYN-P000141,Surgery,2026-06-13,2026-06-20,E11.9,Type 2 diabetes mellitus,Dr. Wang
+SYN-E0000370,SYN-P000141,Neurology,2025-09-17,2025-09-26,C50.9,Malignant neoplasm of breast,Dr. Wang
+SYN-E0000371,SYN-P000141,Emergency,2026-05-21,2026-06-02,O80,Single spontaneous delivery,Dr. Schneider
+SYN-E0000372,SYN-P000141,Cardiology,2025-08-13,2025-08-17,E11.9,Type 2 diabetes mellitus,Dr. Becker
+SYN-E0000373,SYN-P000142,Paediatrics,2024-12-29,2025-01-01,G40.9,"Epilepsy, unspecified",Dr. Schmidt
+SYN-E0000374,SYN-P000142,Surgery,2026-09-26,2026-10-06,C50.9,Malignant neoplasm of breast,Dr. Mueller
+SYN-E0000375,SYN-P000143,Surgery,2025-11-11,2025-11-20,I21.9,Acute myocardial infarction,Dr. Wagner
+SYN-E0000376,SYN-P000143,Paediatrics,2026-08-19,2026-08-24,G40.9,"Epilepsy, unspecified",Dr. Fischer
+SYN-E0000377,SYN-P000143,Maternity,2025-08-05,2025-08-17,O80,Single spontaneous delivery,Dr. Becker
+SYN-E0000378,SYN-P000144,Cardiology,2026-02-20,2026-02-26,I21.9,Acute myocardial infarction,Dr. Haddad
+SYN-E0000379,SYN-P000144,Paediatrics,2025-11-04,2025-11-06,S72.0,Fracture of neck of femur,Dr. Novak
+SYN-E0000380,SYN-P000144,Paediatrics,2026-03-06,2026-03-09,S72.0,Fracture of neck of femur,Dr. Becker
+SYN-E0000381,SYN-P000145,Paediatrics,2025-06-15,2025-06-22,N39.0,Urinary tract infection,Dr. Meyer
+SYN-E0000382,SYN-P000145,Maternity,2025-05-12,2025-05-20,O80,Single spontaneous delivery,Dr. Schmidt
+SYN-E0000383,SYN-P000145,Maternity,2026-07-01,2026-07-06,G40.9,"Epilepsy, unspecified",Dr. Wang
+SYN-E0000384,SYN-P000146,Radiology,2026-01-30,2026-02-04,K35.8,Acute appendicitis,Dr. Meyer
+SYN-E0000385,SYN-P000146,Oncology,2026-01-19,2026-01-28,K35.8,Acute appendicitis,Dr. Weber
+SYN-E0000386,SYN-P000147,Neurology,2026-06-17,2026-06-28,G40.9,"Epilepsy, unspecified",Dr. Koch
+SYN-E0000387,SYN-P000147,Paediatrics,2026-09-01,2026-09-08,S72.0,Fracture of neck of femur,Dr. Ivanova
+SYN-E0000388,SYN-P000147,Paediatrics,2025-07-29,2025-08-03,C50.9,Malignant neoplasm of breast,Dr. Richter
+SYN-E0000389,SYN-P000147,Surgery,2024-12-06,2024-12-15,N39.0,Urinary tract infection,Dr. Nowak
+SYN-E0000390,SYN-P000148,Internal Medicine,2025-01-24,2025-02-06,N39.0,Urinary tract infection,Dr. Schneider
+SYN-E0000391,SYN-P000148,Surgery,2026-05-20,2026-05-25,C50.9,Malignant neoplasm of breast,Dr. Koch
+SYN-E0000392,SYN-P000148,Neurology,2025-08-03,2025-08-10,C50.9,Malignant neoplasm of breast,Dr. Wolf
+SYN-E0000393,SYN-P000148,Paediatrics,2026-06-26,2026-07-07,S72.0,Fracture of neck of femur,Dr. Wang
+SYN-E0000394,SYN-P000149,Oncology,2026-07-18,2026-07-19,I21.9,Acute myocardial infarction,Dr. Ivanova
+SYN-E0000395,SYN-P000150,Oncology,2026-06-16,2026-06-25,G40.9,"Epilepsy, unspecified",Dr. Sharma
+SYN-E0000396,SYN-P000150,Maternity,2025-12-19,2025-12-27,C50.9,Malignant neoplasm of breast,Dr. Becker
+SYN-E0000397,SYN-P000150,Radiology,2025-08-06,2025-08-12,I21.9,Acute myocardial infarction,Dr. Schulz
+SYN-E0000398,SYN-P000150,Radiology,2025-05-15,2025-05-19,J18.9,"Pneumonia, unspecified",Dr. Schwarz
+SYN-E0000399,SYN-P000151,Neurology,2026-04-22,2026-04-28,O80,Single spontaneous delivery,Dr. Klein
+SYN-E0000400,SYN-P000151,Internal Medicine,2025-01-09,2025-01-12,O80,Single spontaneous delivery,Dr. Schulz
+SYN-E0000401,SYN-P000151,Neurology,2025-08-26,2025-09-07,S72.0,Fracture of neck of femur,Dr. Sharma
+SYN-E0000402,SYN-P000152,Oncology,2025-12-08,2025-12-08,I10,Essential hypertension,Dr. Kowalski
+SYN-E0000403,SYN-P000152,Paediatrics,2026-04-25,2026-04-29,E11.9,Type 2 diabetes mellitus,Dr. Weber
+SYN-E0000404,SYN-P000153,Oncology,2025-04-24,2025-04-27,K35.8,Acute appendicitis,Dr. Schulz
+SYN-E0000405,SYN-P000154,Neurology,2026-05-23,2026-05-31,I10,Essential hypertension,Dr. Fischer
+SYN-E0000406,SYN-P000154,Cardiology,2026-09-09,2026-09-12,S72.0,Fracture of neck of femur,Dr. Ivanova
+SYN-E0000407,SYN-P000154,Maternity,2026-10-23,2026-11-03,I10,Essential hypertension,Dr. Sharma
+SYN-E0000408,SYN-P000155,Surgery,2026-06-26,2026-07-01,K35.8,Acute appendicitis,Dr. Kowalski
+SYN-E0000409,SYN-P000156,Neurology,2025-03-31,2025-04-05,J18.9,"Pneumonia, unspecified",Dr. Koch
+SYN-E0000410,SYN-P000156,Maternity,2025-05-07,2025-05-11,J18.9,"Pneumonia, unspecified",Dr. Schulz
+SYN-E0000411,SYN-P000157,Neurology,2025-05-14,2025-05-16,K35.8,Acute appendicitis,Dr. Sharma
+SYN-E0000412,SYN-P000157,Emergency,2025-05-15,2025-05-28,E11.9,Type 2 diabetes mellitus,Dr. Weber
+SYN-E0000413,SYN-P000158,Cardiology,2026-03-20,2026-03-20,N39.0,Urinary tract infection,Dr. Wagner
+SYN-E0000414,SYN-P000158,Emergency,2025-09-02,2025-09-15,C50.9,Malignant neoplasm of breast,Dr. Sharma
+SYN-E0000415,SYN-P000158,Neurology,2026-08-14,2026-08-15,S72.0,Fracture of neck of femur,Dr. Fischer
+SYN-E0000416,SYN-P000159,Cardiology,2024-11-12,2024-11-14,O80,Single spontaneous delivery,Dr. Meyer
+SYN-E0000417,SYN-P000159,Neurology,2025-11-06,2025-11-11,C50.9,Malignant neoplasm of breast,Dr. Richter
+SYN-E0000418,SYN-P000159,Neurology,2026-03-27,2026-04-10,O80,Single spontaneous delivery,Dr. Novak
+SYN-E0000419,SYN-P000159,Paediatrics,2026-11-01,2026-11-10,I10,Essential hypertension,Dr. Mueller
+SYN-E0000420,SYN-P000160,Radiology,2026-09-24,2026-09-26,K35.8,Acute appendicitis,Dr. Weber
+SYN-E0000421,SYN-P000161,Cardiology,2025-06-20,2025-06-29,N39.0,Urinary tract infection,Dr. Ivanova
+SYN-E0000422,SYN-P000161,Radiology,2026-09-05,2026-09-19,C50.9,Malignant neoplasm of breast,Dr. Wolf
+SYN-E0000423,SYN-P000162,Maternity,2026-09-11,2026-09-23,O80,Single spontaneous delivery,Dr. Sharma
+SYN-E0000424,SYN-P000162,Paediatrics,2026-03-19,2026-03-31,O80,Single spontaneous delivery,Dr. Klein
+SYN-E0000425,SYN-P000163,Surgery,2025-06-27,2025-07-04,G40.9,"Epilepsy, unspecified",Dr. Klein
+SYN-E0000426,SYN-P000163,Surgery,2025-05-14,2025-05-15,S72.0,Fracture of neck of femur,Dr. Schulz
+SYN-E0000427,SYN-P000164,Surgery,2025-08-07,2025-08-10,I10,Essential hypertension,Dr. Haddad
+SYN-E0000428,SYN-P000164,Oncology,2026-09-07,2026-09-20,S72.0,Fracture of neck of femur,Dr. Hoffmann
+SYN-E0000429,SYN-P000165,Oncology,2025-04-19,2025-04-30,K35.8,Acute appendicitis,Dr. Wang
+SYN-E0000430,SYN-P000165,Neurology,2025-10-12,2025-10-12,N39.0,Urinary tract infection,Dr. Schulz
+SYN-E0000431,SYN-P000165,Paediatrics,2024-11-18,2024-11-18,N39.0,Urinary tract infection,Dr. Neumann
+SYN-E0000432,SYN-P000166,Cardiology,2025-10-08,2025-10-22,G40.9,"Epilepsy, unspecified",Dr. Koch
+SYN-E0000433,SYN-P000166,Emergency,2024-11-02,2024-11-05,I10,Essential hypertension,Dr. Yilmaz
+SYN-E0000434,SYN-P000167,Paediatrics,2026-10-02,2026-10-05,G40.9,"Epilepsy, unspecified",Dr. Weber
+SYN-E0000435,SYN-P000167,Surgery,2025-05-17,2025-05-23,N39.0,Urinary tract infection,Dr. Becker
+SYN-E0000436,SYN-P000167,Maternity,2025-02-20,2025-02-28,C50.9,Malignant neoplasm of breast,Dr. Weber
+SYN-E0000437,SYN-P000167,Oncology,2025-04-26,2025-04-30,S72.0,Fracture of neck of femur,Dr. Wang
+SYN-E0000438,SYN-P000168,Internal Medicine,2026-10-02,2026-10-08,C50.9,Malignant neoplasm of breast,Dr. Hoffmann
+SYN-E0000439,SYN-P000168,Oncology,2026-04-23,2026-04-25,E11.9,Type 2 diabetes mellitus,Dr. Mueller
+SYN-E0000440,SYN-P000169,Maternity,2025-10-01,2025-10-03,K35.8,Acute appendicitis,Dr. Meyer
+SYN-E0000441,SYN-P000169,Internal Medicine,2026-10-17,2026-10-20,I21.9,Acute myocardial infarction,Dr. Novak
+SYN-E0000442,SYN-P000170,Neurology,2025-12-16,2025-12-24,O80,Single spontaneous delivery,Dr. Ivanova
+SYN-E0000443,SYN-P000170,Maternity,2025-05-17,2025-05-24,E11.9,Type 2 diabetes mellitus,Dr. Schmidt
+SYN-E0000444,SYN-P000170,Internal Medicine,2026-09-22,2026-09-30,G40.9,"Epilepsy, unspecified",Dr. Ivanova
+SYN-E0000445,SYN-P000170,Maternity,2026-04-21,2026-04-27,I21.9,Acute myocardial infarction,Dr. Hoffmann
+SYN-E0000446,SYN-P000171,Maternity,2025-09-04,2025-09-04,C50.9,Malignant neoplasm of breast,Dr. Meyer
+SYN-E0000447,SYN-P000171,Cardiology,2024-11-23,2024-11-24,J18.9,"Pneumonia, unspecified",Dr. Fischer
+SYN-E0000448,SYN-P000171,Oncology,2025-05-27,2025-06-02,N39.0,Urinary tract infection,Dr. Kowalski
+SYN-E0000449,SYN-P000171,Oncology,2026-05-19,2026-05-31,J18.9,"Pneumonia, unspecified",Dr. Wang
+SYN-E0000450,SYN-P000172,Maternity,2026-10-20,2026-11-02,K35.8,Acute appendicitis,Dr. Schwarz
+SYN-E0000451,SYN-P000172,Surgery,2025-02-17,2025-02-20,K35.8,Acute appendicitis,Dr. Nowak
+SYN-E0000452,SYN-P000172,Neurology,2025-04-20,2025-05-03,I21.9,Acute myocardial infarction,Dr. Wagner
+SYN-E0000453,SYN-P000173,Cardiology,2026-08-04,2026-08-10,I10,Essential hypertension,Dr. Meyer
+SYN-E0000454,SYN-P000173,Neurology,2024-12-25,2024-12-27,N39.0,Urinary tract infection,Dr. Neumann
+SYN-E0000455,SYN-P000173,Internal Medicine,2025-10-09,2025-10-22,E11.9,Type 2 diabetes mellitus,Dr. Kowalski
+SYN-E0000456,SYN-P000174,Neurology,2026-07-13,2026-07-14,N39.0,Urinary tract infection,Dr. Schwarz
+SYN-E0000457,SYN-P000175,Cardiology,2026-04-17,2026-04-17,I10,Essential hypertension,Dr. Neumann
+SYN-E0000458,SYN-P000175,Internal Medicine,2026-04-03,2026-04-09,N39.0,Urinary tract infection,Dr. Schmidt
+SYN-E0000459,SYN-P000175,Paediatrics,2025-01-15,2025-01-19,S72.0,Fracture of neck of femur,Dr. Schneider
+SYN-E0000460,SYN-P000176,Oncology,2025-07-04,2025-07-11,I10,Essential hypertension,Dr. Weber
+SYN-E0000461,SYN-P000176,Paediatrics,2026-09-05,2026-09-14,G40.9,"Epilepsy, unspecified",Dr. Novak
+SYN-E0000462,SYN-P000176,Cardiology,2025-11-27,2025-11-29,C50.9,Malignant neoplasm of breast,Dr. Schulz
+SYN-E0000463,SYN-P000176,Neurology,2025-11-19,2025-12-02,O80,Single spontaneous delivery,Dr. Meyer
+SYN-E0000464,SYN-P000177,Surgery,2025-10-14,2025-10-28,I10,Essential hypertension,Dr. Schneider
+SYN-E0000465,SYN-P000178,Cardiology,2025-10-01,2025-10-01,G40.9,"Epilepsy, unspecified",Dr. Hoffmann
+SYN-E0000466,SYN-P000178,Cardiology,2024-11-28,2024-12-03,N39.0,Urinary tract infection,Dr. Neumann
+SYN-E0000467,SYN-P000178,Paediatrics,2026-07-19,2026-07-19,G40.9,"Epilepsy, unspecified",Dr. Nowak
+SYN-E0000468,SYN-P000178,Neurology,2026-01-12,2026-01-17,I21.9,Acute myocardial infarction,Dr. Neumann
+SYN-E0000469,SYN-P000179,Paediatrics,2026-01-28,2026-02-06,J18.9,"Pneumonia, unspecified",Dr. Becker
+SYN-E0000470,SYN-P000179,Maternity,2025-11-20,2025-11-20,G40.9,"Epilepsy, unspecified",Dr. Weber
+SYN-E0000471,SYN-P000179,Cardiology,2025-07-07,2025-07-13,I10,Essential hypertension,Dr. Schmidt
+SYN-E0000472,SYN-P000180,Oncology,2025-07-13,2025-07-14,N39.0,Urinary tract infection,Dr. Wang
+SYN-E0000473,SYN-P000181,Radiology,2025-07-03,2025-07-10,E11.9,Type 2 diabetes mellitus,Dr. Neumann
+SYN-E0000474,SYN-P000182,Surgery,2026-03-02,2026-03-10,N39.0,Urinary tract infection,Dr. Meyer
+SYN-E0000475,SYN-P000182,Radiology,2025-08-13,2025-08-21,N39.0,Urinary tract infection,Dr. Wang
+SYN-E0000476,SYN-P000182,Maternity,2026-08-14,2026-08-15,N39.0,Urinary tract infection,Dr. Nowak
+SYN-E0000477,SYN-P000182,Internal Medicine,2026-07-13,2026-07-18,N39.0,Urinary tract infection,Dr. Schwarz
+SYN-E0000478,SYN-P000183,Maternity,2025-02-09,2025-02-12,N39.0,Urinary tract infection,Dr. Wagner
+SYN-E0000479,SYN-P000183,Cardiology,2025-08-13,2025-08-22,C50.9,Malignant neoplasm of breast,Dr. Mueller
+SYN-E0000480,SYN-P000183,Radiology,2026-11-01,2026-11-02,G40.9,"Epilepsy, unspecified",Dr. Hoffmann
+SYN-E0000481,SYN-P000183,Internal Medicine,2026-03-06,2026-03-16,O80,Single spontaneous delivery,Dr. Koch
+SYN-E0000482,SYN-P000184,Oncology,2025-06-21,2025-06-22,O80,Single spontaneous delivery,Dr. Weber
+SYN-E0000483,SYN-P000184,Internal Medicine,2025-07-24,2025-08-01,G40.9,"Epilepsy, unspecified",Dr. Neumann
+SYN-E0000484,SYN-P000185,Maternity,2026-07-09,2026-07-20,N39.0,Urinary tract infection,Dr. Schneider
+SYN-E0000485,SYN-P000185,Neurology,2026-01-19,2026-01-20,K35.8,Acute appendicitis,Dr. Yilmaz
+SYN-E0000486,SYN-P000185,Cardiology,2026-02-23,2026-03-05,K35.8,Acute appendicitis,Dr. Ivanova
+SYN-E0000487,SYN-P000186,Emergency,2025-04-03,2025-04-13,I21.9,Acute myocardial infarction,Dr. Schwarz
+SYN-E0000488,SYN-P000186,Emergency,2026-01-07,2026-01-11,N39.0,Urinary tract infection,Dr. Schwarz
+SYN-E0000489,SYN-P000186,Cardiology,2026-06-25,2026-07-08,G40.9,"Epilepsy, unspecified",Dr. Schulz
+SYN-E0000490,SYN-P000187,Emergency,2026-04-30,2026-05-05,G40.9,"Epilepsy, unspecified",Dr. Schneider
+SYN-E0000491,SYN-P000187,Internal Medicine,2026-05-28,2026-06-09,K35.8,Acute appendicitis,Dr. Klein
+SYN-E0000492,SYN-P000187,Surgery,2025-01-18,2025-01-27,J18.9,"Pneumonia, unspecified",Dr. Novak
+SYN-E0000493,SYN-P000187,Maternity,2025-07-14,2025-07-18,O80,Single spontaneous delivery,Dr. Schwarz
+SYN-E0000494,SYN-P000188,Radiology,2026-07-25,2026-08-07,G40.9,"Epilepsy, unspecified",Dr. Wolf
+SYN-E0000495,SYN-P000189,Internal Medicine,2026-08-24,2026-08-25,I10,Essential hypertension,Dr. Yilmaz
+SYN-E0000496,SYN-P000190,Cardiology,2024-11-06,2024-11-19,E11.9,Type 2 diabetes mellitus,Dr. Sharma
+SYN-E0000497,SYN-P000191,Paediatrics,2025-08-21,2025-08-23,C50.9,Malignant neoplasm of breast,Dr. Schneider
+SYN-E0000498,SYN-P000191,Oncology,2026-02-10,2026-02-17,I21.9,Acute myocardial infarction,Dr. Schneider
+SYN-E0000499,SYN-P000191,Cardiology,2025-08-17,2025-08-31,S72.0,Fracture of neck of femur,Dr. Neumann
+SYN-E0000500,SYN-P000192,Emergency,2025-09-27,2025-10-05,N39.0,Urinary tract infection,Dr. Wang
+SYN-E0000501,SYN-P000192,Maternity,2026-10-29,2026-10-30,O80,Single spontaneous delivery,Dr. Nowak
+SYN-E0000502,SYN-P000192,Radiology,2025-01-08,2025-01-16,E11.9,Type 2 diabetes mellitus,Dr. Koch
+SYN-E0000503,SYN-P000193,Maternity,2025-01-25,2025-01-26,C50.9,Malignant neoplasm of breast,Dr. Ivanova
+SYN-E0000504,SYN-P000194,Internal Medicine,2025-11-21,2025-11-22,I10,Essential hypertension,Dr. Wagner
+SYN-E0000505,SYN-P000195,Maternity,2025-12-22,2025-12-31,E11.9,Type 2 diabetes mellitus,Dr. Meyer
+SYN-E0000506,SYN-P000196,Neurology,2026-07-01,2026-07-03,N39.0,Urinary tract infection,Dr. Koch
+SYN-E0000507,SYN-P000196,Cardiology,2025-11-23,2025-11-27,E11.9,Type 2 diabetes mellitus,Dr. Weber
+SYN-E0000508,SYN-P000196,Cardiology,2026-09-21,2026-10-03,J18.9,"Pneumonia, unspecified",Dr. Ivanova
+SYN-E0000509,SYN-P000197,Internal Medicine,2025-05-15,2025-05-18,K35.8,Acute appendicitis,Dr. Meyer
+SYN-E0000510,SYN-P000197,Maternity,2025-03-01,2025-03-10,J18.9,"Pneumonia, unspecified",Dr. Schneider
+SYN-E0000511,SYN-P000197,Cardiology,2026-07-04,2026-07-13,G40.9,"Epilepsy, unspecified",Dr. Richter
+SYN-E0000512,SYN-P000198,Paediatrics,2025-01-10,2025-01-13,C50.9,Malignant neoplasm of breast,Dr. Wolf
+SYN-E0000513,SYN-P000199,Radiology,2025-08-29,2025-09-01,S72.0,Fracture of neck of femur,Dr. Fischer
+SYN-E0000514,SYN-P000199,Surgery,2026-04-11,2026-04-12,O80,Single spontaneous delivery,Dr. Schwarz
+SYN-E0000515,SYN-P000199,Oncology,2025-10-01,2025-10-08,C50.9,Malignant neoplasm of breast,Dr. Novak
+SYN-E0000516,SYN-P000200,Paediatrics,2025-11-15,2025-11-24,S72.0,Fracture of neck of femur,Dr. Meyer
+SYN-E0000517,SYN-P000200,Internal Medicine,2026-03-11,2026-03-24,E11.9,Type 2 diabetes mellitus,Dr. Yilmaz
+SYN-E0000518,SYN-P000201,Emergency,2025-07-08,2025-07-14,G40.9,"Epilepsy, unspecified",Dr. Yilmaz
+SYN-E0000519,SYN-P000202,Paediatrics,2026-10-16,2026-10-18,K35.8,Acute appendicitis,Dr. Wang
+SYN-E0000520,SYN-P000203,Neurology,2025-08-22,2025-08-31,I21.9,Acute myocardial infarction,Dr. Wagner
+SYN-E0000521,SYN-P000203,Emergency,2025-02-04,2025-02-12,C50.9,Malignant neoplasm of breast,Dr. Haddad
+SYN-E0000522,SYN-P000203,Radiology,2026-09-21,2026-09-23,C50.9,Malignant neoplasm of breast,Dr. Ivanova
+SYN-E0000523,SYN-P000204,Paediatrics,2025-12-08,2025-12-16,C50.9,Malignant neoplasm of breast,Dr. Haddad
+SYN-E0000524,SYN-P000204,Neurology,2026-06-29,2026-07-09,K35.8,Acute appendicitis,Dr. Kowalski
+SYN-E0000525,SYN-P000205,Maternity,2026-07-10,2026-07-12,J18.9,"Pneumonia, unspecified",Dr. Wagner
+SYN-E0000526,SYN-P000205,Neurology,2026-01-05,2026-01-19,O80,Single spontaneous delivery,Dr. Weber
+SYN-E0000527,SYN-P000205,Neurology,2026-10-10,2026-10-20,S72.0,Fracture of neck of femur,Dr. Koch
+SYN-E0000528,SYN-P000206,Paediatrics,2026-06-03,2026-06-10,C50.9,Malignant neoplasm of breast,Dr. Meyer
+SYN-E0000529,SYN-P000207,Oncology,2026-02-08,2026-02-11,C50.9,Malignant neoplasm of breast,Dr. Kowalski
+SYN-E0000530,SYN-P000207,Radiology,2024-12-20,2024-12-22,C50.9,Malignant neoplasm of breast,Dr. Richter
+SYN-E0000531,SYN-P000207,Maternity,2025-06-08,2025-06-22,J18.9,"Pneumonia, unspecified",Dr. Koch
+SYN-E0000532,SYN-P000207,Radiology,2025-04-21,2025-05-01,G40.9,"Epilepsy, unspecified",Dr. Wang
+SYN-E0000533,SYN-P000208,Surgery,2025-09-16,2025-09-23,N39.0,Urinary tract infection,Dr. Richter
+SYN-E0000534,SYN-P000209,Surgery,2025-05-26,2025-06-02,O80,Single spontaneous delivery,Dr. Koch
+SYN-E0000535,SYN-P000210,Cardiology,2025-08-02,2025-08-05,G40.9,"Epilepsy, unspecified",Dr. Novak
+SYN-E0000536,SYN-P000210,Oncology,2025-08-24,2025-09-06,O80,Single spontaneous delivery,Dr. Nowak
+SYN-E0000537,SYN-P000210,Paediatrics,2026-06-07,2026-06-14,S72.0,Fracture of neck of femur,Dr. Yilmaz
+SYN-E0000538,SYN-P000211,Paediatrics,2026-04-25,2026-05-03,O80,Single spontaneous delivery,Dr. Schwarz
+SYN-E0000539,SYN-P000211,Paediatrics,2025-12-27,2026-01-03,N39.0,Urinary tract infection,Dr. Kowalski
+SYN-E0000540,SYN-P000212,Radiology,2025-06-15,2025-06-24,E11.9,Type 2 diabetes mellitus,Dr. Schwarz
+SYN-E0000541,SYN-P000212,Paediatrics,2025-03-22,2025-03-24,I10,Essential hypertension,Dr. Nowak
+SYN-E0000542,SYN-P000212,Maternity,2026-06-05,2026-06-19,C50.9,Malignant neoplasm of breast,Dr. Wang
+SYN-E0000543,SYN-P000213,Oncology,2026-07-28,2026-08-05,N39.0,Urinary tract infection,Dr. Koch
+SYN-E0000544,SYN-P000213,Cardiology,2024-11-27,2024-12-05,C50.9,Malignant neoplasm of breast,Dr. Nowak
+SYN-E0000545,SYN-P000214,Cardiology,2025-07-18,2025-07-31,E11.9,Type 2 diabetes mellitus,Dr. Weber
+SYN-E0000546,SYN-P000214,Paediatrics,2025-06-28,2025-07-09,C50.9,Malignant neoplasm of breast,Dr. Richter
+SYN-E0000547,SYN-P000214,Radiology,2025-02-28,2025-03-02,G40.9,"Epilepsy, unspecified",Dr. Wang
+SYN-E0000548,SYN-P000214,Surgery,2024-11-21,2024-11-25,J18.9,"Pneumonia, unspecified",Dr. Weber
+SYN-E0000549,SYN-P000215,Paediatrics,2025-07-09,2025-07-09,E11.9,Type 2 diabetes mellitus,Dr. Schneider
+SYN-E0000550,SYN-P000216,Surgery,2026-05-21,2026-05-29,G40.9,"Epilepsy, unspecified",Dr. Nowak
+SYN-E0000551,SYN-P000216,Emergency,2026-07-23,2026-07-31,N39.0,Urinary tract infection,Dr. Wagner
+SYN-E0000552,SYN-P000216,Cardiology,2025-04-30,2025-05-14,I10,Essential hypertension,Dr. Wagner
+SYN-E0000553,SYN-P000217,Paediatrics,2025-06-12,2025-06-20,C50.9,Malignant neoplasm of breast,Dr. Novak
+SYN-E0000554,SYN-P000217,Maternity,2026-08-09,2026-08-10,C50.9,Malignant neoplasm of breast,Dr. Klein
+SYN-E0000555,SYN-P000218,Internal Medicine,2024-12-13,2024-12-20,E11.9,Type 2 diabetes mellitus,Dr. Yilmaz
+SYN-E0000556,SYN-P000218,Internal Medicine,2026-07-02,2026-07-08,J18.9,"Pneumonia, unspecified",Dr. Wang
+SYN-E0000557,SYN-P000218,Radiology,2026-05-13,2026-05-16,E11.9,Type 2 diabetes mellitus,Dr. Koch
+SYN-E0000558,SYN-P000218,Surgery,2025-09-14,2025-09-27,E11.9,Type 2 diabetes mellitus,Dr. Wolf
+SYN-E0000559,SYN-P000219,Surgery,2025-06-18,2025-06-28,K35.8,Acute appendicitis,Dr. Weber
+SYN-E0000560,SYN-P000219,Cardiology,2026-07-23,2026-07-30,I10,Essential hypertension,Dr. Haddad
+SYN-E0000561,SYN-P000219,Radiology,2026-05-02,2026-05-04,O80,Single spontaneous delivery,Dr. Hoffmann
+SYN-E0000562,SYN-P000220,Cardiology,2026-09-30,2026-10-06,O80,Single spontaneous delivery,Dr. Neumann
+SYN-E0000563,SYN-P000221,Neurology,2024-12-26,2025-01-04,G40.9,"Epilepsy, unspecified",Dr. Schwarz
+SYN-E0000564,SYN-P000221,Radiology,2025-10-11,2025-10-23,N39.0,Urinary tract infection,Dr. Hoffmann
+SYN-E0000565,SYN-P000221,Emergency,2025-10-22,2025-11-03,C50.9,Malignant neoplasm of breast,Dr. Ivanova
+SYN-E0000566,SYN-P000221,Emergency,2025-09-06,2025-09-16,C50.9,Malignant neoplasm of breast,Dr. Becker
+SYN-E0000567,SYN-P000222,Neurology,2024-12-28,2025-01-11,O80,Single spontaneous delivery,Dr. Wolf
+SYN-E0000568,SYN-P000222,Internal Medicine,2025-12-12,2025-12-17,O80,Single spontaneous delivery,Dr. Nowak
+SYN-E0000569,SYN-P000222,Surgery,2025-06-19,2025-06-24,E11.9,Type 2 diabetes mellitus,Dr. Schwarz
+SYN-E0000570,SYN-P000222,Cardiology,2026-04-09,2026-04-22,K35.8,Acute appendicitis,Dr. Kowalski
+SYN-E0000571,SYN-P000223,Radiology,2025-08-21,2025-09-02,S72.0,Fracture of neck of femur,Dr. Schneider
+SYN-E0000572,SYN-P000223,Internal Medicine,2025-12-16,2025-12-22,S72.0,Fracture of neck of femur,Dr. Schulz
+SYN-E0000573,SYN-P000223,Maternity,2026-04-24,2026-04-27,N39.0,Urinary tract infection,Dr. Haddad
+SYN-E0000574,SYN-P000223,Neurology,2025-01-29,2025-02-01,I10,Essential hypertension,Dr. Richter
+SYN-E0000575,SYN-P000224,Oncology,2026-03-02,2026-03-05,E11.9,Type 2 diabetes mellitus,Dr. Mueller
+SYN-E0000576,SYN-P000224,Internal Medicine,2025-04-07,2025-04-17,O80,Single spontaneous delivery,Dr. Schmidt
+SYN-E0000577,SYN-P000224,Paediatrics,2026-10-03,2026-10-13,I21.9,Acute myocardial infarction,Dr. Kowalski
+SYN-E0000578,SYN-P000224,Emergency,2025-06-22,2025-07-05,I10,Essential hypertension,Dr. Schneider
+SYN-E0000579,SYN-P000225,Surgery,2025-06-11,2025-06-20,E11.9,Type 2 diabetes mellitus,Dr. Fischer
+SYN-E0000580,SYN-P000225,Surgery,2026-03-05,2026-03-07,O80,Single spontaneous delivery,Dr. Fischer
+SYN-E0000581,SYN-P000225,Paediatrics,2025-08-08,2025-08-21,O80,Single spontaneous delivery,Dr. Nowak
+SYN-E0000582,SYN-P000226,Paediatrics,2025-07-03,2025-07-03,C50.9,Malignant neoplasm of breast,Dr. Ivanova
+SYN-E0000583,SYN-P000226,Surgery,2024-12-23,2024-12-27,I10,Essential hypertension,Dr. Kowalski
+SYN-E0000584,SYN-P000226,Internal Medicine,2026-03-04,2026-03-04,K35.8,Acute appendicitis,Dr. Klein
+SYN-E0000585,SYN-P000227,Internal Medicine,2025-09-05,2025-09-19,C50.9,Malignant neoplasm of breast,Dr. Fischer
+SYN-E0000586,SYN-P000227,Internal Medicine,2026-08-26,2026-09-04,C50.9,Malignant neoplasm of breast,Dr. Novak
+SYN-E0000587,SYN-P000227,Oncology,2026-04-27,2026-04-27,K35.8,Acute appendicitis,Dr. Klein
+SYN-E0000588,SYN-P000227,Cardiology,2025-03-22,2025-03-24,E11.9,Type 2 diabetes mellitus,Dr. Becker
+SYN-E0000589,SYN-P000228,Internal Medicine,2026-04-29,2026-05-12,O80,Single spontaneous delivery,Dr. Nowak
+SYN-E0000590,SYN-P000228,Surgery,2025-04-09,2025-04-23,N39.0,Urinary tract infection,Dr. Schneider
+SYN-E0000591,SYN-P000228,Cardiology,2026-02-08,2026-02-13,J18.9,"Pneumonia, unspecified",Dr. Meyer
+SYN-E0000592,SYN-P000229,Oncology,2025-06-13,2025-06-19,O80,Single spontaneous delivery,Dr. Wagner
+SYN-E0000593,SYN-P000229,Oncology,2026-04-22,2026-04-28,O80,Single spontaneous delivery,Dr. Weber
+SYN-E0000594,SYN-P000229,Surgery,2026-01-08,2026-01-17,I21.9,Acute myocardial infarction,Dr. Neumann
+SYN-E0000595,SYN-P000230,Cardiology,2025-02-28,2025-03-01,I21.9,Acute myocardial infarction,Dr. Kowalski
+SYN-E0000596,SYN-P000230,Surgery,2026-09-09,2026-09-16,C50.9,Malignant neoplasm of breast,Dr. Richter
+SYN-E0000597,SYN-P000230,Neurology,2026-10-27,2026-11-05,I21.9,Acute myocardial infarction,Dr. Klein
+SYN-E0000598,SYN-P000230,Oncology,2025-04-08,2025-04-12,I10,Essential hypertension,Dr. Meyer
+SYN-E0000599,SYN-P000231,Neurology,2025-02-12,2025-02-17,I21.9,Acute myocardial infarction,Dr. Wolf
+SYN-E0000600,SYN-P000231,Neurology,2025-06-16,2025-06-29,J18.9,"Pneumonia, unspecified",Dr. Haddad
+SYN-E0000601,SYN-P000231,Internal Medicine,2026-05-18,2026-05-19,K35.8,Acute appendicitis,Dr. Schwarz
+SYN-E0000602,SYN-P000232,Oncology,2026-04-07,2026-04-20,I21.9,Acute myocardial infarction,Dr. Meyer
+SYN-E0000603,SYN-P000233,Internal Medicine,2024-12-04,2024-12-09,E11.9,Type 2 diabetes mellitus,Dr. Nowak
+SYN-E0000604,SYN-P000233,Emergency,2025-12-05,2025-12-06,J18.9,"Pneumonia, unspecified",Dr. Neumann
+SYN-E0000605,SYN-P000233,Maternity,2026-09-18,2026-09-23,N39.0,Urinary tract infection,Dr. Novak
+SYN-E0000606,SYN-P000234,Oncology,2026-10-11,2026-10-17,S72.0,Fracture of neck of femur,Dr. Klein
+SYN-E0000607,SYN-P000235,Paediatrics,2025-09-30,2025-10-09,K35.8,Acute appendicitis,Dr. Sharma
+SYN-E0000608,SYN-P000235,Neurology,2026-07-29,2026-08-03,I10,Essential hypertension,Dr. Neumann
+SYN-E0000609,SYN-P000235,Neurology,2026-05-27,2026-06-06,K35.8,Acute appendicitis,Dr. Ivanova
+SYN-E0000610,SYN-P000235,Internal Medicine,2026-01-08,2026-01-09,K35.8,Acute appendicitis,Dr. Schwarz
+SYN-E0000611,SYN-P000236,Paediatrics,2026-07-28,2026-08-02,K35.8,Acute appendicitis,Dr. Schulz
+SYN-E0000612,SYN-P000236,Cardiology,2025-06-04,2025-06-15,I10,Essential hypertension,Dr. Haddad
+SYN-E0000613,SYN-P000236,Maternity,2026-01-01,2026-01-13,C50.9,Malignant neoplasm of breast,Dr. Haddad
+SYN-E0000614,SYN-P000236,Paediatrics,2026-08-13,2026-08-26,N39.0,Urinary tract infection,Dr. Haddad
+SYN-E0000615,SYN-P000237,Radiology,2025-12-26,2026-01-06,N39.0,Urinary tract infection,Dr. Haddad
+SYN-E0000616,SYN-P000237,Emergency,2024-11-19,2024-11-22,S72.0,Fracture of neck of femur,Dr. Schwarz
+SYN-E0000617,SYN-P000237,Surgery,2025-01-29,2025-01-30,G40.9,"Epilepsy, unspecified",Dr. Hoffmann
+SYN-E0000618,SYN-P000237,Maternity,2025-08-03,2025-08-03,K35.8,Acute appendicitis,Dr. Neumann
+SYN-E0000619,SYN-P000238,Maternity,2025-06-20,2025-06-28,O80,Single spontaneous delivery,Dr. Nowak
+SYN-E0000620,SYN-P000239,Radiology,2026-04-19,2026-04-26,K35.8,Acute appendicitis,Dr. Becker
+SYN-E0000621,SYN-P000239,Maternity,2025-11-19,2025-11-21,N39.0,Urinary tract infection,Dr. Hoffmann
+SYN-E0000622,SYN-P000239,Surgery,2026-05-20,2026-05-24,N39.0,Urinary tract infection,Dr. Wang
+SYN-E0000623,SYN-P000240,Paediatrics,2026-10-14,2026-10-19,C50.9,Malignant neoplasm of breast,Dr. Haddad
+SYN-E0000624,SYN-P000241,Emergency,2025-11-18,2025-11-30,C50.9,Malignant neoplasm of breast,Dr. Kowalski
+SYN-E0000625,SYN-P000241,Maternity,2026-07-18,2026-07-30,I10,Essential hypertension,Dr. Neumann
+SYN-E0000626,SYN-P000241,Cardiology,2026-07-16,2026-07-29,N39.0,Urinary tract infection,Dr. Kowalski
+SYN-E0000627,SYN-P000242,Radiology,2026-07-23,2026-07-28,J18.9,"Pneumonia, unspecified",Dr. Weber
+SYN-E0000628,SYN-P000242,Internal Medicine,2026-04-09,2026-04-21,K35.8,Acute appendicitis,Dr. Mueller
+SYN-E0000629,SYN-P000242,Cardiology,2025-06-02,2025-06-06,J18.9,"Pneumonia, unspecified",Dr. Richter
+SYN-E0000630,SYN-P000242,Internal Medicine,2026-03-13,2026-03-19,J18.9,"Pneumonia, unspecified",Dr. Wolf
+SYN-E0000631,SYN-P000243,Emergency,2024-12-25,2025-01-04,J18.9,"Pneumonia, unspecified",Dr. Wang
+SYN-E0000632,SYN-P000244,Neurology,2025-01-11,2025-01-20,S72.0,Fracture of neck of femur,Dr. Sharma
+SYN-E0000633,SYN-P000244,Neurology,2026-08-07,2026-08-12,I10,Essential hypertension,Dr. Klein
+SYN-E0000634,SYN-P000244,Cardiology,2026-01-15,2026-01-23,S72.0,Fracture of neck of femur,Dr. Kowalski
+SYN-E0000635,SYN-P000244,Paediatrics,2026-10-04,2026-10-07,G40.9,"Epilepsy, unspecified",Dr. Hoffmann
+SYN-E0000636,SYN-P000245,Oncology,2025-12-30,2026-01-10,I21.9,Acute myocardial infarction,Dr. Klein
+SYN-E0000637,SYN-P000245,Radiology,2025-03-15,2025-03-22,S72.0,Fracture of neck of femur,Dr. Fischer
+SYN-E0000638,SYN-P000245,Cardiology,2025-09-06,2025-09-06,E11.9,Type 2 diabetes mellitus,Dr. Wolf
+SYN-E0000639,SYN-P000246,Internal Medicine,2024-11-26,2024-12-09,K35.8,Acute appendicitis,Dr. Meyer
+SYN-E0000640,SYN-P000246,Oncology,2024-11-03,2024-11-14,K35.8,Acute appendicitis,Dr. Yilmaz
+SYN-E0000641,SYN-P000246,Maternity,2024-11-20,2024-11-27,S72.0,Fracture of neck of femur,Dr. Schmidt
+SYN-E0000642,SYN-P000246,Internal Medicine,2026-07-03,2026-07-04,N39.0,Urinary tract infection,Dr. Fischer
+SYN-E0000643,SYN-P000247,Oncology,2026-01-15,2026-01-28,S72.0,Fracture of neck of femur,Dr. Novak
+SYN-E0000644,SYN-P000247,Maternity,2025-03-25,2025-04-08,I21.9,Acute myocardial infarction,Dr. Koch
+SYN-E0000645,SYN-P000247,Maternity,2025-07-18,2025-07-20,K35.8,Acute appendicitis,Dr. Novak
+SYN-E0000646,SYN-P000248,Paediatrics,2024-11-07,2024-11-15,I10,Essential hypertension,Dr. Ivanova
+SYN-E0000647,SYN-P000248,Cardiology,2025-01-11,2025-01-14,G40.9,"Epilepsy, unspecified",Dr. Sharma
+SYN-E0000648,SYN-P000249,Maternity,2024-11-09,2024-11-10,N39.0,Urinary tract infection,Dr. Kowalski
+SYN-E0000649,SYN-P000249,Internal Medicine,2026-10-09,2026-10-11,C50.9,Malignant neoplasm of breast,Dr. Wolf
+SYN-E0000650,SYN-P000250,Oncology,2026-02-13,2026-02-17,E11.9,Type 2 diabetes mellitus,Dr. Wolf
+SYN-E0000651,SYN-P000250,Emergency,2025-12-03,2025-12-14,J18.9,"Pneumonia, unspecified",Dr. Schmidt
+SYN-E0000652,SYN-P000251,Radiology,2026-01-30,2026-02-06,I10,Essential hypertension,Dr. Kowalski
+SYN-E0000653,SYN-P000252,Oncology,2025-10-15,2025-10-27,G40.9,"Epilepsy, unspecified",Dr. Becker
+SYN-E0000654,SYN-P000252,Emergency,2026-05-14,2026-05-28,I10,Essential hypertension,Dr. Schwarz
+SYN-E0000655,SYN-P000253,Cardiology,2026-08-02,2026-08-15,O80,Single spontaneous delivery,Dr. Weber
+SYN-E0000656,SYN-P000253,Paediatrics,2025-12-11,2025-12-23,C50.9,Malignant neoplasm of breast,Dr. Wang
+SYN-E0000657,SYN-P000253,Oncology,2025-11-30,2025-12-10,I10,Essential hypertension,Dr. Mueller
+SYN-E0000658,SYN-P000254,Radiology,2025-10-12,2025-10-18,N39.0,Urinary tract infection,Dr. Meyer
+SYN-E0000659,SYN-P000254,Radiology,2026-06-27,2026-07-11,K35.8,Acute appendicitis,Dr. Wagner
+SYN-E0000660,SYN-P000254,Cardiology,2025-10-31,2025-11-13,S72.0,Fracture of neck of femur,Dr. Sharma
+SYN-E0000661,SYN-P000255,Surgery,2026-05-11,2026-05-21,G40.9,"Epilepsy, unspecified",Dr. Novak
+SYN-E0000662,SYN-P000255,Paediatrics,2026-08-27,2026-09-10,J18.9,"Pneumonia, unspecified",Dr. Nowak
+SYN-E0000663,SYN-P000255,Emergency,2026-01-25,2026-02-05,S72.0,Fracture of neck of femur,Dr. Haddad
+SYN-E0000664,SYN-P000255,Radiology,2025-08-21,2025-08-27,I10,Essential hypertension,Dr. Wolf
+SYN-E0000665,SYN-P000256,Cardiology,2026-04-16,2026-04-30,C50.9,Malignant neoplasm of breast,Dr. Nowak
+SYN-E0000666,SYN-P000256,Cardiology,2026-03-15,2026-03-29,O80,Single spontaneous delivery,Dr. Becker
+SYN-E0000667,SYN-P000256,Emergency,2026-08-29,2026-09-05,E11.9,Type 2 diabetes mellitus,Dr. Wolf
+SYN-E0000668,SYN-P000256,Paediatrics,2025-03-05,2025-03-08,C50.9,Malignant neoplasm of breast,Dr. Fischer
+SYN-E0000669,SYN-P000257,Cardiology,2025-10-11,2025-10-23,C50.9,Malignant neoplasm of breast,Dr. Weber
+SYN-E0000670,SYN-P000258,Cardiology,2025-10-07,2025-10-16,O80,Single spontaneous delivery,Dr. Wolf
+SYN-E0000671,SYN-P000258,Maternity,2025-02-01,2025-02-07,I10,Essential hypertension,Dr. Neumann
+SYN-E0000672,SYN-P000258,Radiology,2025-07-25,2025-08-03,G40.9,"Epilepsy, unspecified",Dr. Wagner
+SYN-E0000673,SYN-P000259,Maternity,2025-06-27,2025-06-29,N39.0,Urinary tract infection,Dr. Becker
+SYN-E0000674,SYN-P000259,Internal Medicine,2025-12-17,2025-12-25,N39.0,Urinary tract infection,Dr. Ivanova
+SYN-E0000675,SYN-P000259,Paediatrics,2026-06-04,2026-06-13,K35.8,Acute appendicitis,Dr. Koch
+SYN-E0000676,SYN-P000259,Emergency,2024-12-07,2024-12-10,J18.9,"Pneumonia, unspecified",Dr. Yilmaz
+SYN-E0000677,SYN-P000260,Radiology,2025-02-25,2025-03-06,C50.9,Malignant neoplasm of breast,Dr. Hoffmann
+SYN-E0000678,SYN-P000260,Surgery,2026-10-29,2026-11-05,S72.0,Fracture of neck of femur,Dr. Sharma
+SYN-E0000679,SYN-P000260,Surgery,2025-11-27,2025-12-03,O80,Single spontaneous delivery,Dr. Meyer
+SYN-E0000680,SYN-P000260,Cardiology,2025-10-26,2025-10-31,I10,Essential hypertension,Dr. Mueller
+SYN-E0000681,SYN-P000261,Radiology,2026-02-06,2026-02-19,J18.9,"Pneumonia, unspecified",Dr. Kowalski
+SYN-E0000682,SYN-P000261,Cardiology,2026-05-05,2026-05-05,I21.9,Acute myocardial infarction,Dr. Haddad
+SYN-E0000683,SYN-P000262,Oncology,2026-07-03,2026-07-15,J18.9,"Pneumonia, unspecified",Dr. Wagner
+SYN-E0000684,SYN-P000263,Emergency,2025-12-01,2025-12-11,S72.0,Fracture of neck of femur,Dr. Schulz
+SYN-E0000685,SYN-P000263,Cardiology,2025-06-19,2025-07-01,S72.0,Fracture of neck of femur,Dr. Schwarz
+SYN-E0000686,SYN-P000264,Paediatrics,2025-06-13,2025-06-22,K35.8,Acute appendicitis,Dr. Klein
+SYN-E0000687,SYN-P000264,Surgery,2026-04-03,2026-04-10,S72.0,Fracture of neck of femur,Dr. Becker
+SYN-E0000688,SYN-P000264,Cardiology,2026-08-07,2026-08-11,J18.9,"Pneumonia, unspecified",Dr. Neumann
+SYN-E0000689,SYN-P000264,Maternity,2025-11-22,2025-11-29,O80,Single spontaneous delivery,Dr. Wolf
+SYN-E0000690,SYN-P000265,Cardiology,2026-03-13,2026-03-14,E11.9,Type 2 diabetes mellitus,Dr. Richter
+SYN-E0000691,SYN-P000265,Radiology,2025-04-21,2025-04-24,S72.0,Fracture of neck of femur,Dr. Haddad
+SYN-E0000692,SYN-P000265,Oncology,2026-04-20,2026-05-03,N39.0,Urinary tract infection,Dr. Wang
+SYN-E0000693,SYN-P000266,Neurology,2025-07-04,2025-07-13,S72.0,Fracture of neck of femur,Dr. Kowalski
+SYN-E0000694,SYN-P000266,Surgery,2025-08-19,2025-08-26,O80,Single spontaneous delivery,Dr. Neumann
+SYN-E0000695,SYN-P000267,Paediatrics,2024-11-24,2024-11-29,G40.9,"Epilepsy, unspecified",Dr. Nowak
+SYN-E0000696,SYN-P000267,Oncology,2025-03-30,2025-04-01,I10,Essential hypertension,Dr. Koch
+SYN-E0000697,SYN-P000267,Maternity,2026-07-13,2026-07-23,C50.9,Malignant neoplasm of breast,Dr. Hoffmann
+SYN-E0000698,SYN-P000267,Neurology,2026-05-10,2026-05-12,E11.9,Type 2 diabetes mellitus,Dr. Schmidt
+SYN-E0000699,SYN-P000268,Cardiology,2025-09-27,2025-09-29,J18.9,"Pneumonia, unspecified",Dr. Kowalski
+SYN-E0000700,SYN-P000268,Internal Medicine,2026-04-05,2026-04-18,I21.9,Acute myocardial infarction,Dr. Wang
+SYN-E0000701,SYN-P000268,Surgery,2025-07-20,2025-07-20,I21.9,Acute myocardial infarction,Dr. Weber
+SYN-E0000702,SYN-P000268,Maternity,2025-03-29,2025-04-05,K35.8,Acute appendicitis,Dr. Nowak
+SYN-E0000703,SYN-P000269,Cardiology,2025-10-04,2025-10-10,J18.9,"Pneumonia, unspecified",Dr. Wang
+SYN-E0000704,SYN-P000269,Paediatrics,2026-03-01,2026-03-15,J18.9,"Pneumonia, unspecified",Dr. Ivanova
+SYN-E0000705,SYN-P000269,Internal Medicine,2026-03-24,2026-04-05,K35.8,Acute appendicitis,Dr. Kowalski
+SYN-E0000706,SYN-P000269,Cardiology,2025-10-20,2025-10-28,E11.9,Type 2 diabetes mellitus,Dr. Koch
+SYN-E0000707,SYN-P000270,Maternity,2024-12-15,2024-12-22,K35.8,Acute appendicitis,Dr. Schneider
+SYN-E0000708,SYN-P000270,Maternity,2025-04-19,2025-04-21,S72.0,Fracture of neck of femur,Dr. Schwarz
+SYN-E0000709,SYN-P000270,Cardiology,2026-05-04,2026-05-12,I21.9,Acute myocardial infarction,Dr. Novak
+SYN-E0000710,SYN-P000271,Maternity,2024-11-25,2024-11-25,I21.9,Acute myocardial infarction,Dr. Sharma
+SYN-E0000711,SYN-P000271,Surgery,2026-09-13,2026-09-27,O80,Single spontaneous delivery,Dr. Becker
+SYN-E0000712,SYN-P000271,Surgery,2026-10-18,2026-10-28,C50.9,Malignant neoplasm of breast,Dr. Haddad
+SYN-E0000713,SYN-P000271,Oncology,2026-03-21,2026-04-01,E11.9,Type 2 diabetes mellitus,Dr. Meyer
+SYN-E0000714,SYN-P000272,Radiology,2026-03-28,2026-04-02,E11.9,Type 2 diabetes mellitus,Dr. Meyer
+SYN-E0000715,SYN-P000272,Emergency,2025-09-16,2025-09-22,C50.9,Malignant neoplasm of breast,Dr. Wagner
+SYN-E0000716,SYN-P000273,Oncology,2025-01-24,2025-01-29,O80,Single spontaneous delivery,Dr. Meyer
+SYN-E0000717,SYN-P000273,Internal Medicine,2025-03-12,2025-03-20,K35.8,Acute appendicitis,Dr. Ivanova
+SYN-E0000718,SYN-P000273,Emergency,2026-10-19,2026-10-28,S72.0,Fracture of neck of femur,Dr. Fischer
+SYN-E0000719,SYN-P000274,Radiology,2026-06-17,2026-06-27,I21.9,Acute myocardial infarction,Dr. Schmidt
+SYN-E0000720,SYN-P000274,Neurology,2026-02-26,2026-02-26,S72.0,Fracture of neck of femur,Dr. Haddad
+SYN-E0000721,SYN-P000274,Internal Medicine,2026-03-19,2026-03-27,N39.0,Urinary tract infection,Dr. Koch
+SYN-E0000722,SYN-P000275,Cardiology,2026-03-05,2026-03-11,G40.9,"Epilepsy, unspecified",Dr. Novak
+SYN-E0000723,SYN-P000275,Maternity,2025-12-26,2026-01-05,I21.9,Acute myocardial infarction,Dr. Wagner
+SYN-E0000724,SYN-P000276,Neurology,2026-08-08,2026-08-10,I21.9,Acute myocardial infarction,Dr. Kowalski
+SYN-E0000725,SYN-P000276,Paediatrics,2025-12-23,2025-12-29,K35.8,Acute appendicitis,Dr. Kowalski
+SYN-E0000726,SYN-P000276,Neurology,2026-10-28,2026-11-08,I10,Essential hypertension,Dr. Novak
+SYN-E0000727,SYN-P000276,Maternity,2025-10-15,2025-10-19,O80,Single spontaneous delivery,Dr. Ivanova
+SYN-E0000728,SYN-P000277,Internal Medicine,2024-11-18,2024-12-02,I10,Essential hypertension,Dr. Wolf
+SYN-E0000729,SYN-P000277,Oncology,2025-10-27,2025-10-31,I10,Essential hypertension,Dr. Sharma
+SYN-E0000730,SYN-P000277,Cardiology,2026-10-20,2026-10-30,E11.9,Type 2 diabetes mellitus,Dr. Wang
+SYN-E0000731,SYN-P000278,Radiology,2026-08-02,2026-08-15,E11.9,Type 2 diabetes mellitus,Dr. Weber
+SYN-E0000732,SYN-P000278,Oncology,2025-12-21,2026-01-03,I10,Essential hypertension,Dr. Schwarz
+SYN-E0000733,SYN-P000278,Internal Medicine,2026-07-25,2026-08-02,E11.9,Type 2 diabetes mellitus,Dr. Wolf
+SYN-E0000734,SYN-P000278,Surgery,2024-11-11,2024-11-18,J18.9,"Pneumonia, unspecified",Dr. Meyer
+SYN-E0000735,SYN-P000279,Cardiology,2025-01-19,2025-01-23,J18.9,"Pneumonia, unspecified",Dr. Schneider
+SYN-E0000736,SYN-P000280,Internal Medicine,2025-07-05,2025-07-10,C50.9,Malignant neoplasm of breast,Dr. Richter
+SYN-E0000737,SYN-P000280,Emergency,2025-10-10,2025-10-15,N39.0,Urinary tract infection,Dr. Koch
+SYN-E0000738,SYN-P000280,Internal Medicine,2026-10-29,2026-11-09,K35.8,Acute appendicitis,Dr. Weber
+SYN-E0000739,SYN-P000280,Neurology,2025-02-23,2025-02-27,E11.9,Type 2 diabetes mellitus,Dr. Wang
+SYN-E0000740,SYN-P000281,Maternity,2026-03-07,2026-03-13,N39.0,Urinary tract infection,Dr. Novak
+SYN-E0000741,SYN-P000281,Maternity,2025-11-10,2025-11-20,O80,Single spontaneous delivery,Dr. Wang
+SYN-E0000742,SYN-P000281,Surgery,2025-10-03,2025-10-14,I21.9,Acute myocardial infarction,Dr. Weber
+SYN-E0000743,SYN-P000281,Cardiology,2026-06-24,2026-06-28,K35.8,Acute appendicitis,Dr. Haddad
+SYN-E0000744,SYN-P000282,Cardiology,2026-02-11,2026-02-21,K35.8,Acute appendicitis,Dr. Weber
+SYN-E0000745,SYN-P000282,Radiology,2025-02-24,2025-03-02,E11.9,Type 2 diabetes mellitus,Dr. Wang
+SYN-E0000746,SYN-P000283,Internal Medicine,2026-06-24,2026-07-03,C50.9,Malignant neoplasm of breast,Dr. Novak
+SYN-E0000747,SYN-P000283,Neurology,2025-12-18,2025-12-21,I10,Essential hypertension,Dr. Klein
+SYN-E0000748,SYN-P000283,Surgery,2025-02-23,2025-02-24,N39.0,Urinary tract infection,Dr. Klein
+SYN-E0000749,SYN-P000284,Cardiology,2025-12-20,2025-12-24,G40.9,"Epilepsy, unspecified",Dr. Wang
+SYN-E0000750,SYN-P000284,Surgery,2025-11-25,2025-12-08,J18.9,"Pneumonia, unspecified",Dr. Novak
+SYN-E0000751,SYN-P000284,Internal Medicine,2026-05-02,2026-05-06,K35.8,Acute appendicitis,Dr. Haddad
+SYN-E0000752,SYN-P000285,Radiology,2026-07-25,2026-08-06,J18.9,"Pneumonia, unspecified",Dr. Nowak
+SYN-E0000753,SYN-P000285,Maternity,2024-11-05,2024-11-15,I21.9,Acute myocardial infarction,Dr. Meyer
+SYN-E0000754,SYN-P000285,Surgery,2026-01-07,2026-01-10,J18.9,"Pneumonia, unspecified",Dr. Novak
+SYN-E0000755,SYN-P000285,Cardiology,2025-10-27,2025-11-06,N39.0,Urinary tract infection,Dr. Weber
+SYN-E0000756,SYN-P000286,Maternity,2026-02-28,2026-03-04,O80,Single spontaneous delivery,Dr. Wang
+SYN-E0000757,SYN-P000287,Neurology,2026-06-30,2026-07-03,K35.8,Acute appendicitis,Dr. Mueller
+SYN-E0000758,SYN-P000288,Neurology,2025-04-11,2025-04-18,G40.9,"Epilepsy, unspecified",Dr. Schneider
+SYN-E0000759,SYN-P000288,Oncology,2026-04-03,2026-04-16,E11.9,Type 2 diabetes mellitus,Dr. Sharma
+SYN-E0000760,SYN-P000288,Emergency,2025-12-15,2025-12-17,E11.9,Type 2 diabetes mellitus,Dr. Nowak
+SYN-E0000761,SYN-P000288,Emergency,2025-04-05,2025-04-06,I21.9,Acute myocardial infarction,Dr. Fischer
+SYN-E0000762,SYN-P000289,Neurology,2025-05-15,2025-05-23,C50.9,Malignant neoplasm of breast,Dr. Wagner
+SYN-E0000763,SYN-P000289,Surgery,2024-12-23,2024-12-23,I10,Essential hypertension,Dr. Wagner
+SYN-E0000764,SYN-P000289,Neurology,2026-03-26,2026-03-29,J18.9,"Pneumonia, unspecified",Dr. Nowak
+SYN-E0000765,SYN-P000290,Surgery,2026-08-21,2026-09-01,I21.9,Acute myocardial infarction,Dr. Richter
+SYN-E0000766,SYN-P000290,Internal Medicine,2025-12-13,2025-12-13,O80,Single spontaneous delivery,Dr. Sharma
+SYN-E0000767,SYN-P000291,Emergency,2026-03-15,2026-03-16,I21.9,Acute myocardial infarction,Dr. Klein
+SYN-E0000768,SYN-P000291,Neurology,2026-06-28,2026-07-09,J18.9,"Pneumonia, unspecified",Dr. Hoffmann
+SYN-E0000769,SYN-P000292,Paediatrics,2025-03-05,2025-03-05,J18.9,"Pneumonia, unspecified",Dr. Haddad
+SYN-E0000770,SYN-P000292,Paediatrics,2025-10-10,2025-10-10,N39.0,Urinary tract infection,Dr. Novak
+SYN-E0000771,SYN-P000292,Oncology,2024-11-08,2024-11-15,K35.8,Acute appendicitis,Dr. Richter
+SYN-E0000772,SYN-P000292,Cardiology,2026-03-12,2026-03-16,I21.9,Acute myocardial infarction,Dr. Wolf
+SYN-E0000773,SYN-P000293,Neurology,2025-06-10,2025-06-21,G40.9,"Epilepsy, unspecified",Dr. Fischer
+SYN-E0000774,SYN-P000293,Neurology,2025-11-13,2025-11-23,S72.0,Fracture of neck of femur,Dr. Sharma
+SYN-E0000775,SYN-P000293,Oncology,2025-02-18,2025-02-28,K35.8,Acute appendicitis,Dr. Yilmaz
+SYN-E0000776,SYN-P000293,Radiology,2026-06-18,2026-06-18,G40.9,"Epilepsy, unspecified",Dr. Wolf
+SYN-E0000777,SYN-P000294,Emergency,2025-01-12,2025-01-26,G40.9,"Epilepsy, unspecified",Dr. Neumann
+SYN-E0000778,SYN-P000294,Oncology,2026-10-27,2026-11-02,C50.9,Malignant neoplasm of breast,Dr. Richter
+SYN-E0000779,SYN-P000294,Maternity,2026-07-21,2026-07-24,O80,Single spontaneous delivery,Dr. Schneider
+SYN-E0000780,SYN-P000295,Cardiology,2025-05-01,2025-05-08,I21.9,Acute myocardial infarction,Dr. Haddad
+SYN-E0000781,SYN-P000295,Cardiology,2024-11-05,2024-11-08,S72.0,Fracture of neck of femur,Dr. Hoffmann
+SYN-E0000782,SYN-P000296,Oncology,2025-04-17,2025-04-22,K35.8,Acute appendicitis,Dr. Klein
+SYN-E0000783,SYN-P000296,Surgery,2025-06-07,2025-06-07,I10,Essential hypertension,Dr. Haddad
+SYN-E0000784,SYN-P000296,Paediatrics,2025-06-28,2025-07-05,I21.9,Acute myocardial infarction,Dr. Schneider
+SYN-E0000785,SYN-P000296,Surgery,2026-07-07,2026-07-17,I21.9,Acute myocardial infarction,Dr. Wolf
+SYN-E0000786,SYN-P000297,Oncology,2026-01-25,2026-01-31,S72.0,Fracture of neck of femur,Dr. Mueller
+SYN-E0000787,SYN-P000298,Paediatrics,2025-12-25,2025-12-30,E11.9,Type 2 diabetes mellitus,Dr. Schulz
+SYN-E0000788,SYN-P000299,Maternity,2026-04-26,2026-05-01,I21.9,Acute myocardial infarction,Dr. Koch
+SYN-E0000789,SYN-P000299,Radiology,2026-06-21,2026-07-02,C50.9,Malignant neoplasm of breast,Dr. Richter
+SYN-E0000790,SYN-P000299,Oncology,2026-08-04,2026-08-14,E11.9,Type 2 diabetes mellitus,Dr. Novak
+SYN-E0000791,SYN-P000299,Surgery,2026-09-20,2026-09-23,N39.0,Urinary tract infection,Dr. Wang
+SYN-E0000792,SYN-P000300,Internal Medicine,2025-07-30,2025-07-31,E11.9,Type 2 diabetes mellitus,Dr. Schwarz
+SYN-E0000793,SYN-P000300,Paediatrics,2024-11-18,2024-11-18,J18.9,"Pneumonia, unspecified",Dr. Nowak
+SYN-E0000794,SYN-P000300,Internal Medicine,2024-11-21,2024-11-28,S72.0,Fracture of neck of femur,Dr. Haddad
+SYN-E0000795,SYN-P000301,Neurology,2025-03-05,2025-03-12,I10,Essential hypertension,Dr. Yilmaz
+SYN-E0000796,SYN-P000301,Oncology,2025-04-15,2025-04-18,E11.9,Type 2 diabetes mellitus,Dr. Schmidt
+SYN-E0000797,SYN-P000302,Radiology,2025-01-23,2025-01-28,N39.0,Urinary tract infection,Dr. Schneider
+SYN-E0000798,SYN-P000302,Radiology,2026-09-04,2026-09-07,I10,Essential hypertension,Dr. Novak
+SYN-E0000799,SYN-P000302,Internal Medicine,2025-03-14,2025-03-24,E11.9,Type 2 diabetes mellitus,Dr. Schulz
+SYN-E0000800,SYN-P000303,Oncology,2026-07-29,2026-08-05,K35.8,Acute appendicitis,Dr. Meyer
+SYN-E0000801,SYN-P000303,Emergency,2026-05-01,2026-05-05,I21.9,Acute myocardial infarction,Dr. Meyer
+SYN-E0000802,SYN-P000303,Oncology,2026-04-23,2026-04-24,E11.9,Type 2 diabetes mellitus,Dr. Wolf
+SYN-E0000803,SYN-P000303,Neurology,2025-09-15,2025-09-17,E11.9,Type 2 diabetes mellitus,Dr. Novak
+SYN-E0000804,SYN-P000304,Emergency,2026-06-08,2026-06-20,N39.0,Urinary tract infection,Dr. Mueller
+SYN-E0000805,SYN-P000304,Cardiology,2025-04-25,2025-04-28,C50.9,Malignant neoplasm of breast,Dr. Weber
+SYN-E0000806,SYN-P000304,Paediatrics,2026-09-05,2026-09-15,G40.9,"Epilepsy, unspecified",Dr. Kowalski
+SYN-E0000807,SYN-P000305,Internal Medicine,2026-03-14,2026-03-16,O80,Single spontaneous delivery,Dr. Richter
+SYN-E0000808,SYN-P000306,Emergency,2025-10-28,2025-11-06,E11.9,Type 2 diabetes mellitus,Dr. Weber
+SYN-E0000809,SYN-P000307,Emergency,2026-02-03,2026-02-16,E11.9,Type 2 diabetes mellitus,Dr. Weber
+SYN-E0000810,SYN-P000307,Cardiology,2025-08-01,2025-08-02,K35.8,Acute appendicitis,Dr. Nowak
+SYN-E0000811,SYN-P000307,Radiology,2025-10-03,2025-10-10,C50.9,Malignant neoplasm of breast,Dr. Wolf
+SYN-E0000812,SYN-P000308,Internal Medicine,2026-08-08,2026-08-16,N39.0,Urinary tract infection,Dr. Nowak
+SYN-E0000813,SYN-P000308,Surgery,2025-10-27,2025-11-09,I10,Essential hypertension,Dr. Mueller
+SYN-E0000814,SYN-P000308,Radiology,2026-09-01,2026-09-14,C50.9,Malignant neoplasm of breast,Dr. Weber
+SYN-E0000815,SYN-P000308,Surgery,2025-08-27,2025-09-09,S72.0,Fracture of neck of femur,Dr. Becker
+SYN-E0000816,SYN-P000309,Cardiology,2024-12-23,2024-12-30,N39.0,Urinary tract infection,Dr. Sharma
+SYN-E0000817,SYN-P000310,Maternity,2025-09-06,2025-09-18,C50.9,Malignant neoplasm of breast,Dr. Ivanova
+SYN-E0000818,SYN-P000310,Oncology,2026-01-12,2026-01-12,E11.9,Type 2 diabetes mellitus,Dr. Ivanova
+SYN-E0000819,SYN-P000310,Neurology,2025-02-21,2025-02-23,J18.9,"Pneumonia, unspecified",Dr. Mueller
+SYN-E0000820,SYN-P000310,Surgery,2025-06-06,2025-06-12,I21.9,Acute myocardial infarction,Dr. Meyer
+SYN-E0000821,SYN-P000311,Emergency,2025-10-08,2025-10-20,J18.9,"Pneumonia, unspecified",Dr. Richter
+SYN-E0000822,SYN-P000311,Surgery,2025-11-23,2025-11-27,I10,Essential hypertension,Dr. Meyer
+SYN-E0000823,SYN-P000311,Emergency,2026-08-27,2026-09-08,S72.0,Fracture of neck of femur,Dr. Hoffmann
+SYN-E0000824,SYN-P000311,Paediatrics,2026-09-29,2026-09-30,S72.0,Fracture of neck of femur,Dr. Nowak
+SYN-E0000825,SYN-P000312,Oncology,2025-09-27,2025-10-08,C50.9,Malignant neoplasm of breast,Dr. Haddad
+SYN-E0000826,SYN-P000312,Neurology,2025-11-27,2025-11-28,O80,Single spontaneous delivery,Dr. Yilmaz
+SYN-E0000827,SYN-P000312,Emergency,2025-10-06,2025-10-10,K35.8,Acute appendicitis,Dr. Meyer
+SYN-E0000828,SYN-P000313,Paediatrics,2026-06-20,2026-06-25,C50.9,Malignant neoplasm of breast,Dr. Sharma
+SYN-E0000829,SYN-P000313,Oncology,2025-02-18,2025-02-27,E11.9,Type 2 diabetes mellitus,Dr. Ivanova
+SYN-E0000830,SYN-P000313,Cardiology,2026-08-04,2026-08-11,K35.8,Acute appendicitis,Dr. Koch
+SYN-E0000831,SYN-P000313,Radiology,2026-01-19,2026-01-24,N39.0,Urinary tract infection,Dr. Schneider
+SYN-E0000832,SYN-P000314,Internal Medicine,2025-10-25,2025-10-31,I21.9,Acute myocardial infarction,Dr. Sharma
+SYN-E0000833,SYN-P000315,Emergency,2024-11-15,2024-11-17,G40.9,"Epilepsy, unspecified",Dr. Fischer
+SYN-E0000834,SYN-P000315,Maternity,2026-03-18,2026-03-28,O80,Single spontaneous delivery,Dr. Schneider
+SYN-E0000835,SYN-P000316,Maternity,2025-12-12,2025-12-15,C50.9,Malignant neoplasm of breast,Dr. Wang
+SYN-E0000836,SYN-P000317,Paediatrics,2026-10-09,2026-10-13,O80,Single spontaneous delivery,Dr. Ivanova
+SYN-E0000837,SYN-P000317,Cardiology,2026-01-25,2026-01-29,O80,Single spontaneous delivery,Dr. Wang
+SYN-E0000838,SYN-P000318,Internal Medicine,2025-11-03,2025-11-16,N39.0,Urinary tract infection,Dr. Mueller
+SYN-E0000839,SYN-P000318,Oncology,2025-03-19,2025-03-24,N39.0,Urinary tract infection,Dr. Haddad
+SYN-E0000840,SYN-P000318,Cardiology,2025-06-08,2025-06-20,C50.9,Malignant neoplasm of breast,Dr. Haddad
+SYN-E0000841,SYN-P000318,Cardiology,2025-01-16,2025-01-16,N39.0,Urinary tract infection,Dr. Wagner
+SYN-E0000842,SYN-P000319,Paediatrics,2026-10-16,2026-10-24,I21.9,Acute myocardial infarction,Dr. Fischer
+SYN-E0000843,SYN-P000319,Radiology,2025-08-22,2025-08-23,G40.9,"Epilepsy, unspecified",Dr. Meyer
+SYN-E0000844,SYN-P000319,Paediatrics,2026-01-14,2026-01-25,O80,Single spontaneous delivery,Dr. Sharma
+SYN-E0000845,SYN-P000320,Emergency,2025-06-04,2025-06-14,N39.0,Urinary tract infection,Dr. Hoffmann
+SYN-E0000846,SYN-P000320,Radiology,2025-07-09,2025-07-21,E11.9,Type 2 diabetes mellitus,Dr. Neumann
+SYN-E0000847,SYN-P000320,Paediatrics,2025-05-31,2025-06-14,I21.9,Acute myocardial infarction,Dr. Haddad
+SYN-E0000848,SYN-P000320,Emergency,2026-10-28,2026-10-28,O80,Single spontaneous delivery,Dr. Mueller
+SYN-E0000849,SYN-P000321,Internal Medicine,2026-09-10,2026-09-12,N39.0,Urinary tract infection,Dr. Ivanova
+SYN-E0000850,SYN-P000321,Neurology,2024-11-04,2024-11-05,J18.9,"Pneumonia, unspecified",Dr. Ivanova
+SYN-E0000851,SYN-P000321,Internal Medicine,2026-07-29,2026-07-29,I10,Essential hypertension,Dr. Ivanova
+SYN-E0000852,SYN-P000321,Internal Medicine,2025-04-24,2025-04-24,E11.9,Type 2 diabetes mellitus,Dr. Novak
+SYN-E0000853,SYN-P000322,Oncology,2026-01-24,2026-02-03,E11.9,Type 2 diabetes mellitus,Dr. Mueller
+SYN-E0000854,SYN-P000323,Cardiology,2026-04-03,2026-04-10,O80,Single spontaneous delivery,Dr. Mueller
+SYN-E0000855,SYN-P000323,Oncology,2025-12-15,2025-12-17,K35.8,Acute appendicitis,Dr. Hoffmann
+SYN-E0000856,SYN-P000323,Emergency,2026-05-03,2026-05-04,N39.0,Urinary tract infection,Dr. Koch
+SYN-E0000857,SYN-P000324,Surgery,2025-10-24,2025-10-24,E11.9,Type 2 diabetes mellitus,Dr. Koch
+SYN-E0000858,SYN-P000324,Paediatrics,2024-11-23,2024-11-27,J18.9,"Pneumonia, unspecified",Dr. Schwarz
+SYN-E0000859,SYN-P000325,Paediatrics,2025-09-25,2025-09-27,E11.9,Type 2 diabetes mellitus,Dr. Wagner
+SYN-E0000860,SYN-P000325,Internal Medicine,2025-02-02,2025-02-08,E11.9,Type 2 diabetes mellitus,Dr. Wagner
+SYN-E0000861,SYN-P000325,Paediatrics,2026-09-28,2026-10-07,G40.9,"Epilepsy, unspecified",Dr. Wolf
+SYN-E0000862,SYN-P000326,Radiology,2025-10-17,2025-10-18,J18.9,"Pneumonia, unspecified",Dr. Mueller
+SYN-E0000863,SYN-P000326,Surgery,2025-03-30,2025-04-07,C50.9,Malignant neoplasm of breast,Dr. Schneider
+SYN-E0000864,SYN-P000326,Internal Medicine,2025-02-17,2025-02-27,E11.9,Type 2 diabetes mellitus,Dr. Wolf
+SYN-E0000865,SYN-P000327,Paediatrics,2025-03-21,2025-03-21,I10,Essential hypertension,Dr. Ivanova
+SYN-E0000866,SYN-P000327,Oncology,2025-07-17,2025-07-30,I21.9,Acute myocardial infarction,Dr. Klein
+SYN-E0000867,SYN-P000328,Neurology,2025-09-18,2025-09-30,E11.9,Type 2 diabetes mellitus,Dr. Koch
+SYN-E0000868,SYN-P000328,Radiology,2025-01-14,2025-01-23,E11.9,Type 2 diabetes mellitus,Dr. Fischer
+SYN-E0000869,SYN-P000328,Emergency,2026-03-17,2026-03-19,I10,Essential hypertension,Dr. Fischer
+SYN-E0000870,SYN-P000329,Internal Medicine,2025-11-29,2025-12-03,N39.0,Urinary tract infection,Dr. Wang
+SYN-E0000871,SYN-P000329,Radiology,2026-07-02,2026-07-15,J18.9,"Pneumonia, unspecified",Dr. Weber
+SYN-E0000872,SYN-P000329,Paediatrics,2024-12-24,2024-12-29,K35.8,Acute appendicitis,Dr. Novak
+SYN-E0000873,SYN-P000330,Maternity,2025-10-03,2025-10-04,S72.0,Fracture of neck of femur,Dr. Koch
+SYN-E0000874,SYN-P000330,Paediatrics,2025-05-24,2025-06-04,C50.9,Malignant neoplasm of breast,Dr. Neumann
+SYN-E0000875,SYN-P000330,Radiology,2026-06-21,2026-06-27,S72.0,Fracture of neck of femur,Dr. Neumann
+SYN-E0000876,SYN-P000330,Oncology,2026-01-21,2026-01-31,O80,Single spontaneous delivery,Dr. Hoffmann
+SYN-E0000877,SYN-P000331,Cardiology,2025-11-06,2025-11-20,I21.9,Acute myocardial infarction,Dr. Kowalski
+SYN-E0000878,SYN-P000331,Surgery,2025-11-04,2025-11-06,O80,Single spontaneous delivery,Dr. Klein
+SYN-E0000879,SYN-P000331,Surgery,2025-10-06,2025-10-10,O80,Single spontaneous delivery,Dr. Wagner
+SYN-E0000880,SYN-P000331,Surgery,2024-12-04,2024-12-05,I10,Essential hypertension,Dr. Becker
+SYN-E0000881,SYN-P000332,Surgery,2025-09-25,2025-10-06,E11.9,Type 2 diabetes mellitus,Dr. Wang
+SYN-E0000882,SYN-P000332,Paediatrics,2026-01-11,2026-01-22,N39.0,Urinary tract infection,Dr. Mueller
+SYN-E0000883,SYN-P000332,Maternity,2026-04-26,2026-05-07,G40.9,"Epilepsy, unspecified",Dr. Hoffmann
+SYN-E0000884,SYN-P000332,Oncology,2026-08-22,2026-08-27,J18.9,"Pneumonia, unspecified",Dr. Neumann
+SYN-E0000885,SYN-P000333,Cardiology,2026-02-21,2026-02-21,K35.8,Acute appendicitis,Dr. Mueller
+SYN-E0000886,SYN-P000333,Paediatrics,2026-07-28,2026-08-09,E11.9,Type 2 diabetes mellitus,Dr. Novak
+SYN-E0000887,SYN-P000333,Paediatrics,2026-02-11,2026-02-16,K35.8,Acute appendicitis,Dr. Neumann
+SYN-E0000888,SYN-P000333,Radiology,2025-11-05,2025-11-19,I21.9,Acute myocardial infarction,Dr. Yilmaz
+SYN-E0000889,SYN-P000334,Surgery,2026-04-04,2026-04-18,E11.9,Type 2 diabetes mellitus,Dr. Klein
+SYN-E0000890,SYN-P000334,Maternity,2026-01-25,2026-02-08,G40.9,"Epilepsy, unspecified",Dr. Yilmaz
+SYN-E0000891,SYN-P000334,Internal Medicine,2025-11-09,2025-11-18,C50.9,Malignant neoplasm of breast,Dr. Wolf
+SYN-E0000892,SYN-P000335,Neurology,2025-07-12,2025-07-16,J18.9,"Pneumonia, unspecified",Dr. Sharma
+SYN-E0000893,SYN-P000335,Emergency,2026-08-27,2026-09-03,I21.9,Acute myocardial infarction,Dr. Schmidt
+SYN-E0000894,SYN-P000336,Oncology,2025-06-05,2025-06-06,G40.9,"Epilepsy, unspecified",Dr. Wang
+SYN-E0000895,SYN-P000336,Surgery,2026-08-11,2026-08-11,I21.9,Acute myocardial infarction,Dr. Schwarz
+SYN-E0000896,SYN-P000336,Paediatrics,2025-09-19,2025-10-03,E11.9,Type 2 diabetes mellitus,Dr. Hoffmann
+SYN-E0000897,SYN-P000337,Internal Medicine,2025-04-22,2025-05-04,J18.9,"Pneumonia, unspecified",Dr. Wolf
+SYN-E0000898,SYN-P000337,Maternity,2026-06-13,2026-06-24,G40.9,"Epilepsy, unspecified",Dr. Koch
+SYN-E0000899,SYN-P000337,Emergency,2025-09-07,2025-09-21,K35.8,Acute appendicitis,Dr. Kowalski
+SYN-E0000900,SYN-P000337,Oncology,2025-08-27,2025-09-05,E11.9,Type 2 diabetes mellitus,Dr. Hoffmann
+SYN-E0000901,SYN-P000338,Emergency,2025-05-20,2025-05-21,K35.8,Acute appendicitis,Dr. Schmidt
+SYN-E0000902,SYN-P000338,Maternity,2026-01-08,2026-01-19,N39.0,Urinary tract infection,Dr. Koch
+SYN-E0000903,SYN-P000338,Neurology,2026-06-30,2026-07-11,N39.0,Urinary tract infection,Dr. Wang
+SYN-E0000904,SYN-P000338,Neurology,2024-11-13,2024-11-15,S72.0,Fracture of neck of femur,Dr. Kowalski
+SYN-E0000905,SYN-P000339,Cardiology,2026-02-21,2026-02-28,S72.0,Fracture of neck of femur,Dr. Mueller
+SYN-E0000906,SYN-P000340,Oncology,2026-06-09,2026-06-17,S72.0,Fracture of neck of femur,Dr. Novak
+SYN-E0000907,SYN-P000340,Maternity,2026-01-09,2026-01-14,E11.9,Type 2 diabetes mellitus,Dr. Haddad
+SYN-E0000908,SYN-P000341,Oncology,2026-09-19,2026-09-26,C50.9,Malignant neoplasm of breast,Dr. Novak
+SYN-E0000909,SYN-P000341,Internal Medicine,2024-11-08,2024-11-16,G40.9,"Epilepsy, unspecified",Dr. Schneider
+SYN-E0000910,SYN-P000341,Radiology,2024-12-30,2025-01-06,N39.0,Urinary tract infection,Dr. Wang
+SYN-E0000911,SYN-P000341,Internal Medicine,2024-12-27,2024-12-28,I21.9,Acute myocardial infarction,Dr. Ivanova
+SYN-E0000912,SYN-P000342,Oncology,2026-09-16,2026-09-19,I10,Essential hypertension,Dr. Fischer
+SYN-E0000913,SYN-P000343,Paediatrics,2026-08-28,2026-08-29,I10,Essential hypertension,Dr. Schmidt
+SYN-E0000914,SYN-P000343,Emergency,2025-08-06,2025-08-20,C50.9,Malignant neoplasm of breast,Dr. Meyer
+SYN-E0000915,SYN-P000343,Neurology,2025-01-18,2025-01-21,N39.0,Urinary tract infection,Dr. Wagner
+SYN-E0000916,SYN-P000343,Neurology,2026-05-20,2026-06-01,O80,Single spontaneous delivery,Dr. Wagner
+SYN-E0000917,SYN-P000344,Neurology,2025-11-18,2025-11-25,J18.9,"Pneumonia, unspecified",Dr. Wagner
+SYN-E0000918,SYN-P000345,Oncology,2025-03-29,2025-04-10,E11.9,Type 2 diabetes mellitus,Dr. Yilmaz
+SYN-E0000919,SYN-P000346,Neurology,2025-05-20,2025-05-24,N39.0,Urinary tract infection,Dr. Klein
+SYN-E0000920,SYN-P000346,Maternity,2025-04-21,2025-05-05,E11.9,Type 2 diabetes mellitus,Dr. Schulz
+SYN-E0000921,SYN-P000347,Cardiology,2026-03-05,2026-03-17,K35.8,Acute appendicitis,Dr. Nowak
+SYN-E0000922,SYN-P000348,Neurology,2026-09-26,2026-09-29,K35.8,Acute appendicitis,Dr. Ivanova
+SYN-E0000923,SYN-P000349,Internal Medicine,2024-11-19,2024-11-30,J18.9,"Pneumonia, unspecified",Dr. Wolf
+SYN-E0000924,SYN-P000349,Radiology,2025-02-09,2025-02-12,C50.9,Malignant neoplasm of breast,Dr. Koch
+SYN-E0000925,SYN-P000349,Emergency,2025-05-01,2025-05-13,N39.0,Urinary tract infection,Dr. Mueller
+SYN-E0000926,SYN-P000349,Oncology,2026-06-25,2026-06-29,K35.8,Acute appendicitis,Dr. Schmidt
+SYN-E0000927,SYN-P000350,Surgery,2024-11-09,2024-11-16,C50.9,Malignant neoplasm of breast,Dr. Wang
+SYN-E0000928,SYN-P000350,Paediatrics,2026-02-24,2026-03-01,G40.9,"Epilepsy, unspecified",Dr. Wang
+SYN-E0000929,SYN-P000350,Internal Medicine,2026-09-07,2026-09-18,C50.9,Malignant neoplasm of breast,Dr. Sharma
+SYN-E0000930,SYN-P000350,Cardiology,2025-04-14,2025-04-19,S72.0,Fracture of neck of femur,Dr. Novak
+SYN-E0000931,SYN-P000351,Paediatrics,2026-08-07,2026-08-20,I10,Essential hypertension,Dr. Sharma
+SYN-E0000932,SYN-P000351,Internal Medicine,2025-10-09,2025-10-17,J18.9,"Pneumonia, unspecified",Dr. Schmidt
+SYN-E0000933,SYN-P000351,Paediatrics,2025-02-16,2025-02-28,C50.9,Malignant neoplasm of breast,Dr. Nowak
+SYN-E0000934,SYN-P000352,Neurology,2025-08-24,2025-08-28,N39.0,Urinary tract infection,Dr. Meyer
+SYN-E0000935,SYN-P000352,Cardiology,2024-12-03,2024-12-06,I21.9,Acute myocardial infarction,Dr. Kowalski
+SYN-E0000936,SYN-P000352,Paediatrics,2025-10-27,2025-11-08,I21.9,Acute myocardial infarction,Dr. Ivanova
+SYN-E0000937,SYN-P000352,Radiology,2026-06-27,2026-07-10,I21.9,Acute myocardial infarction,Dr. Schulz
+SYN-E0000938,SYN-P000353,Radiology,2025-02-15,2025-02-16,G40.9,"Epilepsy, unspecified",Dr. Neumann
+SYN-E0000939,SYN-P000353,Maternity,2026-01-23,2026-01-25,I21.9,Acute myocardial infarction,Dr. Becker
+SYN-E0000940,SYN-P000353,Surgery,2024-12-30,2024-12-31,I10,Essential hypertension,Dr. Ivanova
+SYN-E0000941,SYN-P000354,Surgery,2025-04-27,2025-05-02,I10,Essential hypertension,Dr. Fischer
+SYN-E0000942,SYN-P000354,Cardiology,2025-05-31,2025-06-08,K35.8,Acute appendicitis,Dr. Schneider
+SYN-E0000943,SYN-P000354,Cardiology,2025-10-17,2025-10-27,O80,Single spontaneous delivery,Dr. Wolf
+SYN-E0000944,SYN-P000355,Cardiology,2025-03-06,2025-03-15,I10,Essential hypertension,Dr. Wagner
+SYN-E0000945,SYN-P000355,Surgery,2025-03-16,2025-03-22,C50.9,Malignant neoplasm of breast,Dr. Nowak
+SYN-E0000946,SYN-P000356,Maternity,2025-05-10,2025-05-20,I10,Essential hypertension,Dr. Yilmaz
+SYN-E0000947,SYN-P000357,Cardiology,2025-04-07,2025-04-21,G40.9,"Epilepsy, unspecified",Dr. Richter
+SYN-E0000948,SYN-P000357,Oncology,2026-02-24,2026-03-05,O80,Single spontaneous delivery,Dr. Schulz
+SYN-E0000949,SYN-P000357,Maternity,2025-06-02,2025-06-12,J18.9,"Pneumonia, unspecified",Dr. Wagner
+SYN-E0000950,SYN-P000358,Cardiology,2024-11-25,2024-11-27,J18.9,"Pneumonia, unspecified",Dr. Yilmaz
+SYN-E0000951,SYN-P000359,Maternity,2025-08-12,2025-08-23,I21.9,Acute myocardial infarction,Dr. Weber
+SYN-E0000952,SYN-P000359,Oncology,2025-05-29,2025-06-12,E11.9,Type 2 diabetes mellitus,Dr. Mueller
+SYN-E0000953,SYN-P000359,Paediatrics,2026-05-05,2026-05-17,G40.9,"Epilepsy, unspecified",Dr. Fischer
+SYN-E0000954,SYN-P000359,Neurology,2026-09-13,2026-09-27,N39.0,Urinary tract infection,Dr. Yilmaz
+SYN-E0000955,SYN-P000360,Surgery,2025-06-21,2025-07-05,K35.8,Acute appendicitis,Dr. Meyer
+SYN-E0000956,SYN-P000360,Oncology,2024-12-19,2024-12-20,I21.9,Acute myocardial infarction,Dr. Wagner
+SYN-E0000957,SYN-P000360,Neurology,2026-09-22,2026-10-04,G40.9,"Epilepsy, unspecified",Dr. Wagner
+SYN-E0000958,SYN-P000361,Cardiology,2026-01-03,2026-01-10,E11.9,Type 2 diabetes mellitus,Dr. Wolf
+SYN-E0000959,SYN-P000361,Surgery,2025-11-04,2025-11-15,E11.9,Type 2 diabetes mellitus,Dr. Schneider
+SYN-E0000960,SYN-P000361,Radiology,2025-05-25,2025-06-08,E11.9,Type 2 diabetes mellitus,Dr. Schmidt
+SYN-E0000961,SYN-P000361,Emergency,2025-01-29,2025-02-01,I10,Essential hypertension,Dr. Weber
+SYN-E0000962,SYN-P000362,Surgery,2025-06-17,2025-06-28,G40.9,"Epilepsy, unspecified",Dr. Meyer
+SYN-E0000963,SYN-P000363,Maternity,2026-03-09,2026-03-16,I21.9,Acute myocardial infarction,Dr. Ivanova
+SYN-E0000964,SYN-P000363,Maternity,2026-01-11,2026-01-16,O80,Single spontaneous delivery,Dr. Becker
+SYN-E0000965,SYN-P000363,Maternity,2024-11-10,2024-11-23,J18.9,"Pneumonia, unspecified",Dr. Schwarz
+SYN-E0000966,SYN-P000364,Surgery,2026-01-31,2026-02-05,K35.8,Acute appendicitis,Dr. Ivanova
+SYN-E0000967,SYN-P000365,Emergency,2025-02-20,2025-03-03,G40.9,"Epilepsy, unspecified",Dr. Mueller
+SYN-E0000968,SYN-P000365,Surgery,2026-09-12,2026-09-17,G40.9,"Epilepsy, unspecified",Dr. Kowalski
+SYN-E0000969,SYN-P000366,Neurology,2026-09-26,2026-09-27,I10,Essential hypertension,Dr. Yilmaz
+SYN-E0000970,SYN-P000367,Emergency,2025-06-03,2025-06-03,O80,Single spontaneous delivery,Dr. Novak
+SYN-E0000971,SYN-P000368,Maternity,2026-02-04,2026-02-10,N39.0,Urinary tract infection,Dr. Hoffmann
+SYN-E0000972,SYN-P000369,Maternity,2025-09-21,2025-09-26,S72.0,Fracture of neck of femur,Dr. Schwarz
+SYN-E0000973,SYN-P000370,Maternity,2026-06-10,2026-06-18,O80,Single spontaneous delivery,Dr. Novak
+SYN-E0000974,SYN-P000371,Neurology,2026-01-31,2026-02-12,S72.0,Fracture of neck of femur,Dr. Schwarz
+SYN-E0000975,SYN-P000372,Cardiology,2026-04-13,2026-04-13,K35.8,Acute appendicitis,Dr. Wolf
+SYN-E0000976,SYN-P000372,Emergency,2025-08-30,2025-09-03,O80,Single spontaneous delivery,Dr. Fischer
+SYN-E0000977,SYN-P000373,Radiology,2025-07-16,2025-07-30,S72.0,Fracture of neck of femur,Dr. Novak
+SYN-E0000978,SYN-P000373,Radiology,2025-07-04,2025-07-10,I10,Essential hypertension,Dr. Meyer
+SYN-E0000979,SYN-P000373,Surgery,2026-10-27,2026-10-30,I21.9,Acute myocardial infarction,Dr. Wang
+SYN-E0000980,SYN-P000373,Radiology,2025-04-30,2025-05-01,K35.8,Acute appendicitis,Dr. Schmidt
+SYN-E0000981,SYN-P000374,Cardiology,2025-03-05,2025-03-16,J18.9,"Pneumonia, unspecified",Dr. Wagner
+SYN-E0000982,SYN-P000375,Oncology,2026-07-31,2026-08-02,N39.0,Urinary tract infection,Dr. Meyer
+SYN-E0000983,SYN-P000375,Paediatrics,2025-07-06,2025-07-14,C50.9,Malignant neoplasm of breast,Dr. Fischer
+SYN-E0000984,SYN-P000376,Maternity,2025-08-11,2025-08-18,G40.9,"Epilepsy, unspecified",Dr. Wang
+SYN-E0000985,SYN-P000376,Radiology,2026-05-03,2026-05-16,I10,Essential hypertension,Dr. Neumann
+SYN-E0000986,SYN-P000377,Radiology,2025-11-30,2025-12-14,E11.9,Type 2 diabetes mellitus,Dr. Schulz
+SYN-E0000987,SYN-P000377,Emergency,2025-02-18,2025-02-28,I21.9,Acute myocardial infarction,Dr. Schulz
+SYN-E0000988,SYN-P000377,Maternity,2025-03-26,2025-04-04,I10,Essential hypertension,Dr. Ivanova
+SYN-E0000989,SYN-P000378,Radiology,2025-08-04,2025-08-05,I10,Essential hypertension,Dr. Kowalski
+SYN-E0000990,SYN-P000379,Oncology,2026-04-18,2026-04-29,G40.9,"Epilepsy, unspecified",Dr. Schulz
+SYN-E0000991,SYN-P000380,Radiology,2026-01-25,2026-01-26,G40.9,"Epilepsy, unspecified",Dr. Koch
+SYN-E0000992,SYN-P000380,Cardiology,2026-08-01,2026-08-03,J18.9,"Pneumonia, unspecified",Dr. Koch
+SYN-E0000993,SYN-P000380,Surgery,2026-05-12,2026-05-22,I10,Essential hypertension,Dr. Richter
+SYN-E0000994,SYN-P000381,Paediatrics,2026-03-15,2026-03-29,S72.0,Fracture of neck of femur,Dr. Wagner
+SYN-E0000995,SYN-P000381,Cardiology,2025-08-08,2025-08-15,I21.9,Acute myocardial infarction,Dr. Richter
+SYN-E0000996,SYN-P000381,Emergency,2025-01-24,2025-02-06,J18.9,"Pneumonia, unspecified",Dr. Nowak
+SYN-E0000997,SYN-P000381,Surgery,2024-12-03,2024-12-08,I21.9,Acute myocardial infarction,Dr. Wang
+SYN-E0000998,SYN-P000382,Emergency,2024-12-27,2025-01-01,N39.0,Urinary tract infection,Dr. Wang
+SYN-E0000999,SYN-P000382,Emergency,2025-01-26,2025-01-28,C50.9,Malignant neoplasm of breast,Dr. Wolf
+SYN-E0001000,SYN-P000382,Oncology,2025-07-11,2025-07-23,G40.9,"Epilepsy, unspecified",Dr. Mueller
+SYN-E0001001,SYN-P000382,Radiology,2026-02-25,2026-03-06,I21.9,Acute myocardial infarction,Dr. Koch
+SYN-E0001002,SYN-P000383,Oncology,2025-03-30,2025-04-09,J18.9,"Pneumonia, unspecified",Dr. Koch
+SYN-E0001003,SYN-P000383,Oncology,2026-08-01,2026-08-13,I21.9,Acute myocardial infarction,Dr. Richter
+SYN-E0001004,SYN-P000384,Radiology,2025-07-01,2025-07-02,J18.9,"Pneumonia, unspecified",Dr. Schwarz
+SYN-E0001005,SYN-P000385,Emergency,2025-11-11,2025-11-14,K35.8,Acute appendicitis,Dr. Sharma
+SYN-E0001006,SYN-P000386,Paediatrics,2026-09-17,2026-09-23,S72.0,Fracture of neck of femur,Dr. Schneider
+SYN-E0001007,SYN-P000386,Maternity,2025-12-18,2025-12-18,O80,Single spontaneous delivery,Dr. Schulz
+SYN-E0001008,SYN-P000387,Internal Medicine,2026-10-21,2026-10-27,K35.8,Acute appendicitis,Dr. Schmidt
+SYN-E0001009,SYN-P000387,Radiology,2025-07-28,2025-08-09,G40.9,"Epilepsy, unspecified",Dr. Schwarz
+SYN-E0001010,SYN-P000387,Internal Medicine,2025-08-24,2025-09-06,G40.9,"Epilepsy, unspecified",Dr. Haddad
+SYN-E0001011,SYN-P000387,Radiology,2026-06-01,2026-06-15,I10,Essential hypertension,Dr. Wang
+SYN-E0001012,SYN-P000388,Paediatrics,2025-08-23,2025-09-04,C50.9,Malignant neoplasm of breast,Dr. Mueller
+SYN-E0001013,SYN-P000388,Emergency,2025-12-04,2025-12-13,I21.9,Acute myocardial infarction,Dr. Fischer
+SYN-E0001014,SYN-P000388,Neurology,2026-05-06,2026-05-07,E11.9,Type 2 diabetes mellitus,Dr. Weber
+SYN-E0001015,SYN-P000389,Oncology,2025-10-16,2025-10-25,I10,Essential hypertension,Dr. Novak
+SYN-E0001016,SYN-P000389,Cardiology,2025-10-06,2025-10-11,G40.9,"Epilepsy, unspecified",Dr. Ivanova
+SYN-E0001017,SYN-P000389,Internal Medicine,2026-02-11,2026-02-12,E11.9,Type 2 diabetes mellitus,Dr. Wagner
+SYN-E0001018,SYN-P000390,Paediatrics,2026-04-30,2026-04-30,I21.9,Acute myocardial infarction,Dr. Wolf
+SYN-E0001019,SYN-P000390,Paediatrics,2024-12-29,2025-01-02,J18.9,"Pneumonia, unspecified",Dr. Neumann
+SYN-E0001020,SYN-P000390,Paediatrics,2026-03-20,2026-03-31,E11.9,Type 2 diabetes mellitus,Dr. Wang
+SYN-E0001021,SYN-P000390,Radiology,2025-04-09,2025-04-14,I10,Essential hypertension,Dr. Koch
+SYN-E0001022,SYN-P000391,Radiology,2026-04-03,2026-04-07,G40.9,"Epilepsy, unspecified",Dr. Hoffmann
+SYN-E0001023,SYN-P000392,Oncology,2025-10-13,2025-10-19,G40.9,"Epilepsy, unspecified",Dr. Sharma
+SYN-E0001024,SYN-P000392,Surgery,2026-07-25,2026-07-28,O80,Single spontaneous delivery,Dr. Fischer
+SYN-E0001025,SYN-P000393,Maternity,2026-03-16,2026-03-28,O80,Single spontaneous delivery,Dr. Neumann
+SYN-E0001026,SYN-P000393,Radiology,2026-10-29,2026-11-10,G40.9,"Epilepsy, unspecified",Dr. Neumann
+SYN-E0001027,SYN-P000393,Internal Medicine,2025-10-05,2025-10-11,N39.0,Urinary tract infection,Dr. Wolf
+SYN-E0001028,SYN-P000393,Neurology,2026-03-17,2026-03-18,J18.9,"Pneumonia, unspecified",Dr. Sharma
+SYN-E0001029,SYN-P000394,Surgery,2026-05-06,2026-05-11,K35.8,Acute appendicitis,Dr. Weber
+SYN-E0001030,SYN-P000394,Maternity,2025-07-19,2025-07-22,S72.0,Fracture of neck of femur,Dr. Meyer
+SYN-E0001031,SYN-P000395,Neurology,2025-04-30,2025-05-11,E11.9,Type 2 diabetes mellitus,Dr. Mueller
+SYN-E0001032,SYN-P000395,Internal Medicine,2026-09-22,2026-10-03,C50.9,Malignant neoplasm of breast,Dr. Yilmaz
+SYN-E0001033,SYN-P000395,Oncology,2025-03-18,2025-03-23,E11.9,Type 2 diabetes mellitus,Dr. Wolf
+SYN-E0001034,SYN-P000396,Paediatrics,2025-11-28,2025-12-07,K35.8,Acute appendicitis,Dr. Schulz
+SYN-E0001035,SYN-P000396,Neurology,2026-06-11,2026-06-15,J18.9,"Pneumonia, unspecified",Dr. Mueller
+SYN-E0001036,SYN-P000396,Paediatrics,2024-11-01,2024-11-12,I21.9,Acute myocardial infarction,Dr. Meyer
+SYN-E0001037,SYN-P000396,Oncology,2024-11-20,2024-11-29,J18.9,"Pneumonia, unspecified",Dr. Hoffmann
+SYN-E0001038,SYN-P000397,Internal Medicine,2025-05-15,2025-05-28,C50.9,Malignant neoplasm of breast,Dr. Schwarz
+SYN-E0001039,SYN-P000397,Emergency,2025-06-24,2025-07-04,O80,Single spontaneous delivery,Dr. Schneider
+SYN-E0001040,SYN-P000397,Surgery,2025-02-16,2025-02-21,E11.9,Type 2 diabetes mellitus,Dr. Schwarz
+SYN-E0001041,SYN-P000398,Neurology,2025-08-01,2025-08-04,N39.0,Urinary tract infection,Dr. Becker
+SYN-E0001042,SYN-P000399,Paediatrics,2026-06-19,2026-06-19,G40.9,"Epilepsy, unspecified",Dr. Wagner
+SYN-E0001043,SYN-P000400,Cardiology,2025-07-02,2025-07-10,S72.0,Fracture of neck of femur,Dr. Nowak
+SYN-E0001044,SYN-P000401,Maternity,2025-02-24,2025-03-06,I21.9,Acute myocardial infarction,Dr. Meyer
+SYN-E0001045,SYN-P000401,Neurology,2025-12-30,2026-01-02,I21.9,Acute myocardial infarction,Dr. Koch
+SYN-E0001046,SYN-P000401,Maternity,2026-07-10,2026-07-10,J18.9,"Pneumonia, unspecified",Dr. Koch
+SYN-E0001047,SYN-P000401,Neurology,2025-08-05,2025-08-18,C50.9,Malignant neoplasm of breast,Dr. Meyer
+SYN-E0001048,SYN-P000402,Surgery,2025-12-05,2025-12-17,J18.9,"Pneumonia, unspecified",Dr. Klein
+SYN-E0001049,SYN-P000402,Neurology,2026-05-25,2026-06-01,C50.9,Malignant neoplasm of breast,Dr. Ivanova
+SYN-E0001050,SYN-P000403,Internal Medicine,2025-09-14,2025-09-19,I10,Essential hypertension,Dr. Ivanova
+SYN-E0001051,SYN-P000404,Surgery,2025-04-09,2025-04-21,G40.9,"Epilepsy, unspecified",Dr. Wagner
+SYN-E0001052,SYN-P000404,Emergency,2025-03-04,2025-03-16,K35.8,Acute appendicitis,Dr. Haddad
+SYN-E0001053,SYN-P000404,Emergency,2025-03-11,2025-03-12,O80,Single spontaneous delivery,Dr. Schmidt
+SYN-E0001054,SYN-P000405,Maternity,2025-04-05,2025-04-08,E11.9,Type 2 diabetes mellitus,Dr. Koch
+SYN-E0001055,SYN-P000405,Radiology,2026-06-11,2026-06-24,E11.9,Type 2 diabetes mellitus,Dr. Richter
+SYN-E0001056,SYN-P000406,Emergency,2025-09-22,2025-10-05,K35.8,Acute appendicitis,Dr. Yilmaz
+SYN-E0001057,SYN-P000406,Emergency,2025-05-26,2025-06-04,C50.9,Malignant neoplasm of breast,Dr. Wolf
+SYN-E0001058,SYN-P000406,Neurology,2025-06-03,2025-06-10,C50.9,Malignant neoplasm of breast,Dr. Hoffmann
+SYN-E0001059,SYN-P000406,Neurology,2025-04-09,2025-04-11,E11.9,Type 2 diabetes mellitus,Dr. Yilmaz
+SYN-E0001060,SYN-P000407,Radiology,2026-08-19,2026-08-26,J18.9,"Pneumonia, unspecified",Dr. Yilmaz
+SYN-E0001061,SYN-P000407,Internal Medicine,2026-03-16,2026-03-18,C50.9,Malignant neoplasm of breast,Dr. Schulz
+SYN-E0001062,SYN-P000407,Maternity,2025-12-02,2025-12-12,G40.9,"Epilepsy, unspecified",Dr. Haddad
+SYN-E0001063,SYN-P000408,Radiology,2026-08-23,2026-09-06,C50.9,Malignant neoplasm of breast,Dr. Becker
+SYN-E0001064,SYN-P000408,Surgery,2025-08-24,2025-09-07,I21.9,Acute myocardial infarction,Dr. Wagner
+SYN-E0001065,SYN-P000408,Maternity,2025-10-13,2025-10-26,I10,Essential hypertension,Dr. Novak
+SYN-E0001066,SYN-P000409,Maternity,2026-04-01,2026-04-12,E11.9,Type 2 diabetes mellitus,Dr. Sharma
+SYN-E0001067,SYN-P000409,Radiology,2026-08-01,2026-08-08,G40.9,"Epilepsy, unspecified",Dr. Schulz
+SYN-E0001068,SYN-P000410,Surgery,2025-01-03,2025-01-14,I21.9,Acute myocardial infarction,Dr. Schneider
+SYN-E0001069,SYN-P000410,Emergency,2026-02-20,2026-02-22,J18.9,"Pneumonia, unspecified",Dr. Yilmaz
+SYN-E0001070,SYN-P000410,Surgery,2026-09-23,2026-10-06,I10,Essential hypertension,Dr. Novak
+SYN-E0001071,SYN-P000410,Oncology,2026-05-07,2026-05-18,G40.9,"Epilepsy, unspecified",Dr. Haddad
+SYN-E0001072,SYN-P000411,Emergency,2026-10-06,2026-10-20,C50.9,Malignant neoplasm of breast,Dr. Schwarz
+SYN-E0001073,SYN-P000412,Internal Medicine,2026-03-18,2026-03-19,E11.9,Type 2 diabetes mellitus,Dr. Fischer
+SYN-E0001074,SYN-P000412,Maternity,2026-11-01,2026-11-08,I21.9,Acute myocardial infarction,Dr. Schulz
+SYN-E0001075,SYN-P000412,Cardiology,2025-10-23,2025-10-30,N39.0,Urinary tract infection,Dr. Schwarz
+SYN-E0001076,SYN-P000413,Oncology,2026-03-15,2026-03-26,I21.9,Acute myocardial infarction,Dr. Haddad
+SYN-E0001077,SYN-P000413,Paediatrics,2025-05-18,2025-05-30,G40.9,"Epilepsy, unspecified",Dr. Weber
+SYN-E0001078,SYN-P000414,Radiology,2026-05-20,2026-05-20,O80,Single spontaneous delivery,Dr. Nowak
+SYN-E0001079,SYN-P000414,Paediatrics,2026-03-27,2026-04-04,K35.8,Acute appendicitis,Dr. Neumann
+SYN-E0001080,SYN-P000415,Cardiology,2025-05-19,2025-05-31,I21.9,Acute myocardial infarction,Dr. Richter
+SYN-E0001081,SYN-P000415,Neurology,2026-07-11,2026-07-22,E11.9,Type 2 diabetes mellitus,Dr. Hoffmann
+SYN-E0001082,SYN-P000415,Cardiology,2025-08-12,2025-08-25,G40.9,"Epilepsy, unspecified",Dr. Yilmaz
+SYN-E0001083,SYN-P000416,Neurology,2025-04-28,2025-04-30,S72.0,Fracture of neck of femur,Dr. Richter
+SYN-E0001084,SYN-P000416,Surgery,2025-01-20,2025-02-02,N39.0,Urinary tract infection,Dr. Wang
+SYN-E0001085,SYN-P000416,Surgery,2025-02-15,2025-02-19,O80,Single spontaneous delivery,Dr. Schmidt
+SYN-E0001086,SYN-P000417,Oncology,2026-06-07,2026-06-19,K35.8,Acute appendicitis,Dr. Becker
+SYN-E0001087,SYN-P000417,Paediatrics,2026-08-21,2026-08-23,S72.0,Fracture of neck of femur,Dr. Klein
+SYN-E0001088,SYN-P000418,Maternity,2025-01-27,2025-01-30,N39.0,Urinary tract infection,Dr. Haddad
+SYN-E0001089,SYN-P000419,Cardiology,2026-03-16,2026-03-17,G40.9,"Epilepsy, unspecified",Dr. Novak
+SYN-E0001090,SYN-P000419,Internal Medicine,2024-11-13,2024-11-13,O80,Single spontaneous delivery,Dr. Ivanova
+SYN-E0001091,SYN-P000419,Paediatrics,2026-01-19,2026-01-29,I21.9,Acute myocardial infarction,Dr. Yilmaz
+SYN-E0001092,SYN-P000420,Neurology,2024-11-06,2024-11-15,K35.8,Acute appendicitis,Dr. Nowak
+SYN-E0001093,SYN-P000421,Emergency,2025-03-24,2025-03-30,G40.9,"Epilepsy, unspecified",Dr. Ivanova
+SYN-E0001094,SYN-P000421,Paediatrics,2025-11-30,2025-12-14,E11.9,Type 2 diabetes mellitus,Dr. Wolf
+SYN-E0001095,SYN-P000421,Radiology,2025-07-22,2025-08-04,I21.9,Acute myocardial infarction,Dr. Haddad
+SYN-E0001096,SYN-P000421,Maternity,2026-09-14,2026-09-25,C50.9,Malignant neoplasm of breast,Dr. Ivanova
+SYN-E0001097,SYN-P000422,Cardiology,2025-12-23,2026-01-02,E11.9,Type 2 diabetes mellitus,Dr. Klein
+SYN-E0001098,SYN-P000422,Maternity,2026-04-08,2026-04-13,I21.9,Acute myocardial infarction,Dr. Koch
+SYN-E0001099,SYN-P000422,Neurology,2025-12-19,2025-12-23,G40.9,"Epilepsy, unspecified",Dr. Kowalski
+SYN-E0001100,SYN-P000423,Cardiology,2026-06-18,2026-07-01,O80,Single spontaneous delivery,Dr. Novak
+SYN-E0001101,SYN-P000423,Emergency,2026-03-16,2026-03-19,K35.8,Acute appendicitis,Dr. Kowalski
+SYN-E0001102,SYN-P000423,Surgery,2026-10-06,2026-10-19,K35.8,Acute appendicitis,Dr. Wang
+SYN-E0001103,SYN-P000423,Oncology,2025-08-08,2025-08-08,S72.0,Fracture of neck of femur,Dr. Hoffmann
+SYN-E0001104,SYN-P000424,Paediatrics,2024-11-08,2024-11-14,C50.9,Malignant neoplasm of breast,Dr. Richter
+SYN-E0001105,SYN-P000424,Radiology,2024-11-22,2024-12-05,J18.9,"Pneumonia, unspecified",Dr. Wang
+SYN-E0001106,SYN-P000424,Maternity,2026-07-26,2026-08-03,G40.9,"Epilepsy, unspecified",Dr. Koch
+SYN-E0001107,SYN-P000425,Cardiology,2025-03-06,2025-03-08,O80,Single spontaneous delivery,Dr. Mueller
+SYN-E0001108,SYN-P000425,Cardiology,2024-12-03,2024-12-14,C50.9,Malignant neoplasm of breast,Dr. Schulz
+SYN-E0001109,SYN-P000425,Internal Medicine,2024-11-10,2024-11-13,J18.9,"Pneumonia, unspecified",Dr. Haddad
+SYN-E0001110,SYN-P000425,Oncology,2025-05-30,2025-06-11,O80,Single spontaneous delivery,Dr. Kowalski
+SYN-E0001111,SYN-P000426,Oncology,2025-02-24,2025-02-24,J18.9,"Pneumonia, unspecified",Dr. Ivanova
+SYN-E0001112,SYN-P000426,Internal Medicine,2024-11-30,2024-12-06,O80,Single spontaneous delivery,Dr. Wang
+SYN-E0001113,SYN-P000427,Neurology,2025-07-27,2025-07-31,E11.9,Type 2 diabetes mellitus,Dr. Mueller
+SYN-E0001114,SYN-P000427,Radiology,2025-04-10,2025-04-11,I10,Essential hypertension,Dr. Meyer
+SYN-E0001115,SYN-P000427,Emergency,2025-05-09,2025-05-14,I10,Essential hypertension,Dr. Klein
+SYN-E0001116,SYN-P000428,Maternity,2025-03-24,2025-04-04,J18.9,"Pneumonia, unspecified",Dr. Meyer
+SYN-E0001117,SYN-P000428,Cardiology,2026-09-23,2026-10-05,G40.9,"Epilepsy, unspecified",Dr. Hoffmann
+SYN-E0001118,SYN-P000428,Maternity,2026-05-14,2026-05-17,E11.9,Type 2 diabetes mellitus,Dr. Sharma
+SYN-E0001119,SYN-P000429,Surgery,2025-10-23,2025-11-05,J18.9,"Pneumonia, unspecified",Dr. Schwarz
+SYN-E0001120,SYN-P000429,Cardiology,2026-09-02,2026-09-15,K35.8,Acute appendicitis,Dr. Yilmaz
+SYN-E0001121,SYN-P000430,Paediatrics,2025-07-31,2025-08-10,S72.0,Fracture of neck of femur,Dr. Wolf
+SYN-E0001122,SYN-P000430,Internal Medicine,2025-06-24,2025-06-28,N39.0,Urinary tract infection,Dr. Schwarz
+SYN-E0001123,SYN-P000431,Surgery,2025-12-26,2025-12-31,O80,Single spontaneous delivery,Dr. Kowalski
+SYN-E0001124,SYN-P000432,Cardiology,2024-11-02,2024-11-13,C50.9,Malignant neoplasm of breast,Dr. Wagner
+SYN-E0001125,SYN-P000432,Paediatrics,2024-11-26,2024-11-26,E11.9,Type 2 diabetes mellitus,Dr. Becker
+SYN-E0001126,SYN-P000433,Internal Medicine,2025-01-01,2025-01-12,I21.9,Acute myocardial infarction,Dr. Mueller
+SYN-E0001127,SYN-P000433,Emergency,2026-10-22,2026-11-02,O80,Single spontaneous delivery,Dr. Neumann
+SYN-E0001128,SYN-P000434,Paediatrics,2026-01-14,2026-01-18,G40.9,"Epilepsy, unspecified",Dr. Nowak
+SYN-E0001129,SYN-P000434,Neurology,2026-04-09,2026-04-22,E11.9,Type 2 diabetes mellitus,Dr. Schwarz
+SYN-E0001130,SYN-P000434,Maternity,2026-09-26,2026-09-27,K35.8,Acute appendicitis,Dr. Fischer
+SYN-E0001131,SYN-P000434,Cardiology,2026-04-27,2026-04-30,E11.9,Type 2 diabetes mellitus,Dr. Wolf
+SYN-E0001132,SYN-P000435,Emergency,2025-07-16,2025-07-22,S72.0,Fracture of neck of femur,Dr. Klein
+SYN-E0001133,SYN-P000435,Surgery,2026-03-16,2026-03-21,J18.9,"Pneumonia, unspecified",Dr. Haddad
+SYN-E0001134,SYN-P000435,Oncology,2025-04-10,2025-04-18,J18.9,"Pneumonia, unspecified",Dr. Koch
+SYN-E0001135,SYN-P000436,Emergency,2026-07-18,2026-07-24,S72.0,Fracture of neck of femur,Dr. Mueller
+SYN-E0001136,SYN-P000436,Cardiology,2025-10-01,2025-10-14,N39.0,Urinary tract infection,Dr. Becker
+SYN-E0001137,SYN-P000437,Maternity,2025-11-13,2025-11-27,K35.8,Acute appendicitis,Dr. Weber
+SYN-E0001138,SYN-P000437,Oncology,2025-09-30,2025-10-05,I21.9,Acute myocardial infarction,Dr. Novak
+SYN-E0001139,SYN-P000437,Oncology,2025-08-16,2025-08-16,I21.9,Acute myocardial infarction,Dr. Neumann
+SYN-E0001140,SYN-P000438,Oncology,2025-12-03,2025-12-14,O80,Single spontaneous delivery,Dr. Yilmaz
+SYN-E0001141,SYN-P000438,Surgery,2026-04-20,2026-05-03,N39.0,Urinary tract infection,Dr. Novak
+SYN-E0001142,SYN-P000438,Internal Medicine,2025-12-22,2025-12-24,S72.0,Fracture of neck of femur,Dr. Schwarz
+SYN-E0001143,SYN-P000439,Emergency,2026-05-01,2026-05-12,K35.8,Acute appendicitis,Dr. Wagner
+SYN-E0001144,SYN-P000439,Surgery,2026-05-26,2026-05-28,O80,Single spontaneous delivery,Dr. Wolf
+SYN-E0001145,SYN-P000439,Neurology,2025-06-21,2025-07-02,C50.9,Malignant neoplasm of breast,Dr. Ivanova
+SYN-E0001146,SYN-P000439,Cardiology,2024-12-09,2024-12-10,E11.9,Type 2 diabetes mellitus,Dr. Mueller
+SYN-E0001147,SYN-P000440,Maternity,2025-03-14,2025-03-19,K35.8,Acute appendicitis,Dr. Wang
+SYN-E0001148,SYN-P000440,Oncology,2025-04-05,2025-04-07,J18.9,"Pneumonia, unspecified",Dr. Wolf
+SYN-E0001149,SYN-P000440,Internal Medicine,2025-05-05,2025-05-07,N39.0,Urinary tract infection,Dr. Kowalski
+SYN-E0001150,SYN-P000441,Maternity,2025-03-11,2025-03-20,C50.9,Malignant neoplasm of breast,Dr. Nowak
+SYN-E0001151,SYN-P000442,Surgery,2026-06-01,2026-06-11,E11.9,Type 2 diabetes mellitus,Dr. Koch
+SYN-E0001152,SYN-P000442,Internal Medicine,2025-06-13,2025-06-15,I10,Essential hypertension,Dr. Richter
+SYN-E0001153,SYN-P000442,Radiology,2026-10-08,2026-10-22,K35.8,Acute appendicitis,Dr. Meyer
+SYN-E0001154,SYN-P000442,Paediatrics,2025-01-06,2025-01-10,S72.0,Fracture of neck of femur,Dr. Neumann
+SYN-E0001155,SYN-P000443,Paediatrics,2025-09-30,2025-10-11,I10,Essential hypertension,Dr. Klein
+SYN-E0001156,SYN-P000443,Radiology,2025-11-16,2025-11-27,J18.9,"Pneumonia, unspecified",Dr. Schulz
+SYN-E0001157,SYN-P000443,Cardiology,2026-08-08,2026-08-20,K35.8,Acute appendicitis,Dr. Haddad
+SYN-E0001158,SYN-P000443,Cardiology,2026-07-15,2026-07-17,S72.0,Fracture of neck of femur,Dr. Richter
+SYN-E0001159,SYN-P000444,Radiology,2025-03-15,2025-03-27,K35.8,Acute appendicitis,Dr. Haddad
+SYN-E0001160,SYN-P000444,Emergency,2025-02-12,2025-02-23,E11.9,Type 2 diabetes mellitus,Dr. Weber
+SYN-E0001161,SYN-P000445,Surgery,2025-12-08,2025-12-15,G40.9,"Epilepsy, unspecified",Dr. Wagner
+SYN-E0001162,SYN-P000445,Oncology,2026-08-31,2026-09-08,K35.8,Acute appendicitis,Dr. Mueller
+SYN-E0001163,SYN-P000445,Paediatrics,2026-05-05,2026-05-07,S72.0,Fracture of neck of femur,Dr. Kowalski
+SYN-E0001164,SYN-P000445,Oncology,2026-08-16,2026-08-29,S72.0,Fracture of neck of femur,Dr. Koch
+SYN-E0001165,SYN-P000446,Paediatrics,2024-12-31,2025-01-12,I21.9,Acute myocardial infarction,Dr. Meyer
+SYN-E0001166,SYN-P000447,Cardiology,2025-03-09,2025-03-18,C50.9,Malignant neoplasm of breast,Dr. Schulz
+SYN-E0001167,SYN-P000447,Radiology,2025-12-29,2026-01-06,K35.8,Acute appendicitis,Dr. Novak
+SYN-E0001168,SYN-P000447,Internal Medicine,2026-09-19,2026-09-26,C50.9,Malignant neoplasm of breast,Dr. Neumann
+SYN-E0001169,SYN-P000448,Oncology,2025-08-14,2025-08-23,J18.9,"Pneumonia, unspecified",Dr. Meyer
+SYN-E0001170,SYN-P000449,Maternity,2026-04-21,2026-04-27,K35.8,Acute appendicitis,Dr. Wolf
+SYN-E0001171,SYN-P000449,Cardiology,2026-09-01,2026-09-02,C50.9,Malignant neoplasm of breast,Dr. Koch
+SYN-E0001172,SYN-P000450,Radiology,2025-05-08,2025-05-19,I21.9,Acute myocardial infarction,Dr. Richter
+SYN-E0001173,SYN-P000450,Emergency,2025-07-05,2025-07-12,E11.9,Type 2 diabetes mellitus,Dr. Richter
+SYN-E0001174,SYN-P000451,Maternity,2026-02-19,2026-03-05,K35.8,Acute appendicitis,Dr. Mueller
+SYN-E0001175,SYN-P000451,Cardiology,2025-02-01,2025-02-09,C50.9,Malignant neoplasm of breast,Dr. Schwarz
+SYN-E0001176,SYN-P000452,Maternity,2025-11-02,2025-11-10,N39.0,Urinary tract infection,Dr. Weber
+SYN-E0001177,SYN-P000452,Surgery,2025-05-01,2025-05-15,S72.0,Fracture of neck of femur,Dr. Sharma
+SYN-E0001178,SYN-P000452,Surgery,2026-01-03,2026-01-11,I10,Essential hypertension,Dr. Yilmaz
+SYN-E0001179,SYN-P000453,Internal Medicine,2026-06-03,2026-06-11,K35.8,Acute appendicitis,Dr. Meyer
+SYN-E0001180,SYN-P000453,Oncology,2025-07-25,2025-08-03,I21.9,Acute myocardial infarction,Dr. Weber
+SYN-E0001181,SYN-P000453,Radiology,2025-10-20,2025-11-02,J18.9,"Pneumonia, unspecified",Dr. Novak
+SYN-E0001182,SYN-P000453,Paediatrics,2025-02-12,2025-02-17,I10,Essential hypertension,Dr. Nowak
+SYN-E0001183,SYN-P000454,Cardiology,2024-11-01,2024-11-13,S72.0,Fracture of neck of femur,Dr. Richter
+SYN-E0001184,SYN-P000454,Neurology,2025-06-15,2025-06-15,O80,Single spontaneous delivery,Dr. Yilmaz
+SYN-E0001185,SYN-P000455,Oncology,2026-03-22,2026-04-04,S72.0,Fracture of neck of femur,Dr. Weber
+SYN-E0001186,SYN-P000456,Maternity,2026-03-11,2026-03-11,N39.0,Urinary tract infection,Dr. Richter
+SYN-E0001187,SYN-P000456,Neurology,2025-03-16,2025-03-30,C50.9,Malignant neoplasm of breast,Dr. Meyer
+SYN-E0001188,SYN-P000457,Cardiology,2026-02-08,2026-02-18,O80,Single spontaneous delivery,Dr. Hoffmann
+SYN-E0001189,SYN-P000457,Internal Medicine,2026-07-09,2026-07-21,I10,Essential hypertension,Dr. Fischer
+SYN-E0001190,SYN-P000457,Paediatrics,2025-12-31,2026-01-05,S72.0,Fracture of neck of femur,Dr. Neumann
+SYN-E0001191,SYN-P000458,Maternity,2025-09-30,2025-10-06,C50.9,Malignant neoplasm of breast,Dr. Sharma
+SYN-E0001192,SYN-P000458,Surgery,2025-02-28,2025-03-01,I21.9,Acute myocardial infarction,Dr. Sharma
+SYN-E0001193,SYN-P000458,Emergency,2026-11-01,2026-11-14,I10,Essential hypertension,Dr. Mueller
+SYN-E0001194,SYN-P000458,Emergency,2026-05-22,2026-05-27,E11.9,Type 2 diabetes mellitus,Dr. Wagner
+SYN-E0001195,SYN-P000459,Emergency,2026-04-06,2026-04-20,E11.9,Type 2 diabetes mellitus,Dr. Schwarz
+SYN-E0001196,SYN-P000459,Neurology,2026-03-06,2026-03-10,K35.8,Acute appendicitis,Dr. Schulz
+SYN-E0001197,SYN-P000459,Maternity,2024-11-12,2024-11-13,N39.0,Urinary tract infection,Dr. Novak
+SYN-E0001198,SYN-P000459,Emergency,2024-12-07,2024-12-07,O80,Single spontaneous delivery,Dr. Schwarz
+SYN-E0001199,SYN-P000460,Internal Medicine,2026-10-31,2026-11-08,I10,Essential hypertension,Dr. Wang
+SYN-E0001200,SYN-P000460,Maternity,2025-10-21,2025-10-29,K35.8,Acute appendicitis,Dr. Meyer
+SYN-E0001201,SYN-P000460,Radiology,2026-06-05,2026-06-11,C50.9,Malignant neoplasm of breast,Dr. Meyer
+SYN-E0001202,SYN-P000460,Internal Medicine,2025-06-13,2025-06-18,G40.9,"Epilepsy, unspecified",Dr. Wolf
+SYN-E0001203,SYN-P000461,Neurology,2025-02-26,2025-03-08,C50.9,Malignant neoplasm of breast,Dr. Novak
+SYN-E0001204,SYN-P000461,Cardiology,2026-04-05,2026-04-18,O80,Single spontaneous delivery,Dr. Wolf
+SYN-E0001205,SYN-P000462,Radiology,2026-07-05,2026-07-13,C50.9,Malignant neoplasm of breast,Dr. Klein
+SYN-E0001206,SYN-P000462,Oncology,2025-01-11,2025-01-24,K35.8,Acute appendicitis,Dr. Wang
+SYN-E0001207,SYN-P000462,Maternity,2025-06-03,2025-06-05,E11.9,Type 2 diabetes mellitus,Dr. Schneider
+SYN-E0001208,SYN-P000462,Surgery,2025-04-26,2025-04-26,E11.9,Type 2 diabetes mellitus,Dr. Mueller
+SYN-E0001209,SYN-P000463,Paediatrics,2026-10-22,2026-10-27,N39.0,Urinary tract infection,Dr. Klein
+SYN-E0001210,SYN-P000463,Emergency,2025-06-30,2025-07-10,N39.0,Urinary tract infection,Dr. Schwarz
+SYN-E0001211,SYN-P000463,Radiology,2025-06-08,2025-06-08,C50.9,Malignant neoplasm of breast,Dr. Schulz
+SYN-E0001212,SYN-P000463,Emergency,2025-11-07,2025-11-13,K35.8,Acute appendicitis,Dr. Schmidt
+SYN-E0001213,SYN-P000464,Cardiology,2025-02-11,2025-02-11,O80,Single spontaneous delivery,Dr. Haddad
+SYN-E0001214,SYN-P000464,Maternity,2026-10-04,2026-10-05,G40.9,"Epilepsy, unspecified",Dr. Yilmaz
+SYN-E0001215,SYN-P000465,Emergency,2026-01-05,2026-01-09,J18.9,"Pneumonia, unspecified",Dr. Sharma
+SYN-E0001216,SYN-P000465,Maternity,2026-08-15,2026-08-22,S72.0,Fracture of neck of femur,Dr. Becker
+SYN-E0001217,SYN-P000465,Internal Medicine,2025-10-01,2025-10-01,J18.9,"Pneumonia, unspecified",Dr. Hoffmann
+SYN-E0001218,SYN-P000465,Maternity,2024-12-02,2024-12-05,N39.0,Urinary tract infection,Dr. Wang
+SYN-E0001219,SYN-P000466,Paediatrics,2025-07-04,2025-07-10,I10,Essential hypertension,Dr. Kowalski
+SYN-E0001220,SYN-P000466,Surgery,2025-09-17,2025-10-01,G40.9,"Epilepsy, unspecified",Dr. Weber
+SYN-E0001221,SYN-P000466,Cardiology,2026-10-08,2026-10-17,J18.9,"Pneumonia, unspecified",Dr. Meyer
+SYN-E0001222,SYN-P000466,Neurology,2025-04-21,2025-04-25,C50.9,Malignant neoplasm of breast,Dr. Schwarz
+SYN-E0001223,SYN-P000467,Neurology,2025-10-17,2025-10-29,I10,Essential hypertension,Dr. Mueller
+SYN-E0001224,SYN-P000468,Maternity,2024-12-22,2024-12-29,K35.8,Acute appendicitis,Dr. Wagner
+SYN-E0001225,SYN-P000468,Neurology,2026-05-09,2026-05-19,O80,Single spontaneous delivery,Dr. Ivanova
+SYN-E0001226,SYN-P000469,Surgery,2025-01-30,2025-02-12,C50.9,Malignant neoplasm of breast,Dr. Schulz
+SYN-E0001227,SYN-P000469,Internal Medicine,2024-12-14,2024-12-21,C50.9,Malignant neoplasm of breast,Dr. Sharma
+SYN-E0001228,SYN-P000469,Neurology,2025-06-29,2025-07-13,N39.0,Urinary tract infection,Dr. Wolf
+SYN-E0001229,SYN-P000469,Cardiology,2026-01-11,2026-01-17,K35.8,Acute appendicitis,Dr. Sharma
+SYN-E0001230,SYN-P000470,Paediatrics,2025-01-05,2025-01-18,C50.9,Malignant neoplasm of breast,Dr. Kowalski
+SYN-E0001231,SYN-P000470,Neurology,2025-10-02,2025-10-16,N39.0,Urinary tract infection,Dr. Haddad
+SYN-E0001232,SYN-P000470,Radiology,2024-11-23,2024-12-01,K35.8,Acute appendicitis,Dr. Yilmaz
+SYN-E0001233,SYN-P000470,Paediatrics,2026-02-17,2026-03-02,I21.9,Acute myocardial infarction,Dr. Hoffmann
+SYN-E0001234,SYN-P000471,Internal Medicine,2026-02-04,2026-02-14,N39.0,Urinary tract infection,Dr. Haddad
+SYN-E0001235,SYN-P000471,Surgery,2026-06-12,2026-06-22,I21.9,Acute myocardial infarction,Dr. Haddad
+SYN-E0001236,SYN-P000471,Neurology,2025-07-16,2025-07-18,N39.0,Urinary tract infection,Dr. Fischer
+SYN-E0001237,SYN-P000472,Cardiology,2026-06-05,2026-06-09,I21.9,Acute myocardial infarction,Dr. Fischer
+SYN-E0001238,SYN-P000472,Paediatrics,2025-07-24,2025-08-01,G40.9,"Epilepsy, unspecified",Dr. Nowak
+SYN-E0001239,SYN-P000472,Internal Medicine,2025-07-02,2025-07-07,O80,Single spontaneous delivery,Dr. Fischer
+SYN-E0001240,SYN-P000473,Radiology,2026-10-22,2026-10-31,E11.9,Type 2 diabetes mellitus,Dr. Novak
+SYN-E0001241,SYN-P000474,Emergency,2025-04-26,2025-04-28,N39.0,Urinary tract infection,Dr. Schneider
+SYN-E0001242,SYN-P000474,Maternity,2026-03-20,2026-03-29,S72.0,Fracture of neck of femur,Dr. Meyer
+SYN-E0001243,SYN-P000475,Internal Medicine,2025-08-05,2025-08-18,J18.9,"Pneumonia, unspecified",Dr. Sharma
+SYN-E0001244,SYN-P000475,Radiology,2025-05-14,2025-05-14,C50.9,Malignant neoplasm of breast,Dr. Schwarz
+SYN-E0001245,SYN-P000475,Oncology,2024-11-16,2024-11-28,O80,Single spontaneous delivery,Dr. Klein
+SYN-E0001246,SYN-P000475,Surgery,2025-09-13,2025-09-24,I21.9,Acute myocardial infarction,Dr. Hoffmann
+SYN-E0001247,SYN-P000476,Internal Medicine,2026-10-12,2026-10-23,K35.8,Acute appendicitis,Dr. Neumann
+SYN-E0001248,SYN-P000476,Oncology,2026-02-08,2026-02-10,K35.8,Acute appendicitis,Dr. Becker
+SYN-E0001249,SYN-P000476,Surgery,2025-10-24,2025-10-25,I10,Essential hypertension,Dr. Wang
+SYN-E0001250,SYN-P000476,Paediatrics,2025-04-14,2025-04-15,I10,Essential hypertension,Dr. Yilmaz
+SYN-E0001251,SYN-P000477,Maternity,2026-01-10,2026-01-16,G40.9,"Epilepsy, unspecified",Dr. Meyer
+SYN-E0001252,SYN-P000477,Cardiology,2026-04-15,2026-04-16,N39.0,Urinary tract infection,Dr. Fischer
+SYN-E0001253,SYN-P000478,Emergency,2025-06-07,2025-06-13,G40.9,"Epilepsy, unspecified",Dr. Weber
+SYN-E0001254,SYN-P000479,Emergency,2026-05-20,2026-05-21,N39.0,Urinary tract infection,Dr. Klein
+SYN-E0001255,SYN-P000479,Internal Medicine,2025-05-09,2025-05-17,K35.8,Acute appendicitis,Dr. Kowalski
+SYN-E0001256,SYN-P000480,Internal Medicine,2025-12-31,2026-01-06,E11.9,Type 2 diabetes mellitus,Dr. Klein
+SYN-E0001257,SYN-P000480,Internal Medicine,2026-10-16,2026-10-28,S72.0,Fracture of neck of femur,Dr. Ivanova
+SYN-E0001258,SYN-P000480,Internal Medicine,2026-06-11,2026-06-14,I21.9,Acute myocardial infarction,Dr. Weber
+SYN-E0001259,SYN-P000481,Oncology,2026-09-10,2026-09-24,S72.0,Fracture of neck of femur,Dr. Ivanova
+SYN-E0001260,SYN-P000481,Emergency,2026-01-03,2026-01-08,C50.9,Malignant neoplasm of breast,Dr. Neumann
+SYN-E0001261,SYN-P000481,Emergency,2025-04-16,2025-04-30,K35.8,Acute appendicitis,Dr. Schwarz
+SYN-E0001262,SYN-P000481,Surgery,2025-11-06,2025-11-10,C50.9,Malignant neoplasm of breast,Dr. Yilmaz
+SYN-E0001263,SYN-P000482,Maternity,2025-09-14,2025-09-19,C50.9,Malignant neoplasm of breast,Dr. Sharma
+SYN-E0001264,SYN-P000482,Internal Medicine,2025-08-10,2025-08-22,K35.8,Acute appendicitis,Dr. Yilmaz
+SYN-E0001265,SYN-P000482,Neurology,2024-12-19,2024-12-20,G40.9,"Epilepsy, unspecified",Dr. Weber
+SYN-E0001266,SYN-P000482,Cardiology,2026-06-09,2026-06-18,S72.0,Fracture of neck of femur,Dr. Klein
+SYN-E0001267,SYN-P000483,Oncology,2026-11-01,2026-11-14,E11.9,Type 2 diabetes mellitus,Dr. Schmidt
+SYN-E0001268,SYN-P000483,Cardiology,2026-05-16,2026-05-17,K35.8,Acute appendicitis,Dr. Haddad
+SYN-E0001269,SYN-P000484,Maternity,2026-10-10,2026-10-14,O80,Single spontaneous delivery,Dr. Koch
+SYN-E0001270,SYN-P000484,Paediatrics,2025-03-06,2025-03-07,I21.9,Acute myocardial infarction,Dr. Weber
+SYN-E0001271,SYN-P000485,Oncology,2026-08-10,2026-08-19,S72.0,Fracture of neck of femur,Dr. Schwarz
+SYN-E0001272,SYN-P000485,Internal Medicine,2025-12-15,2025-12-21,I10,Essential hypertension,Dr. Wolf
+SYN-E0001273,SYN-P000485,Radiology,2026-10-01,2026-10-02,C50.9,Malignant neoplasm of breast,Dr. Hoffmann
+SYN-E0001274,SYN-P000486,Radiology,2026-05-22,2026-05-31,N39.0,Urinary tract infection,Dr. Klein
+SYN-E0001275,SYN-P000486,Cardiology,2026-07-21,2026-08-02,E11.9,Type 2 diabetes mellitus,Dr. Novak
+SYN-E0001276,SYN-P000486,Internal Medicine,2026-06-01,2026-06-08,G40.9,"Epilepsy, unspecified",Dr. Schneider
+SYN-E0001277,SYN-P000487,Cardiology,2026-09-23,2026-09-23,N39.0,Urinary tract infection,Dr. Sharma
+SYN-E0001278,SYN-P000488,Paediatrics,2026-08-27,2026-08-29,K35.8,Acute appendicitis,Dr. Ivanova
+SYN-E0001279,SYN-P000488,Surgery,2025-06-11,2025-06-22,N39.0,Urinary tract infection,Dr. Hoffmann
+SYN-E0001280,SYN-P000489,Paediatrics,2025-08-30,2025-09-09,S72.0,Fracture of neck of femur,Dr. Koch
+SYN-E0001281,SYN-P000489,Emergency,2024-11-11,2024-11-12,J18.9,"Pneumonia, unspecified",Dr. Schmidt
+SYN-E0001282,SYN-P000489,Maternity,2026-06-03,2026-06-05,E11.9,Type 2 diabetes mellitus,Dr. Weber
+SYN-E0001283,SYN-P000489,Radiology,2026-01-16,2026-01-25,C50.9,Malignant neoplasm of breast,Dr. Becker
+SYN-E0001284,SYN-P000490,Internal Medicine,2026-09-30,2026-10-02,I21.9,Acute myocardial infarction,Dr. Schwarz
+SYN-E0001285,SYN-P000491,Oncology,2025-06-21,2025-06-21,C50.9,Malignant neoplasm of breast,Dr. Weber
+SYN-E0001286,SYN-P000492,Cardiology,2025-11-21,2025-11-28,I10,Essential hypertension,Dr. Yilmaz
+SYN-E0001287,SYN-P000492,Paediatrics,2024-12-05,2024-12-13,G40.9,"Epilepsy, unspecified",Dr. Klein
+SYN-E0001288,SYN-P000492,Neurology,2026-09-22,2026-09-26,K35.8,Acute appendicitis,Dr. Kowalski
+SYN-E0001289,SYN-P000493,Surgery,2025-01-03,2025-01-13,I10,Essential hypertension,Dr. Nowak
+SYN-E0001290,SYN-P000493,Surgery,2026-03-19,2026-03-25,K35.8,Acute appendicitis,Dr. Mueller
+SYN-E0001291,SYN-P000493,Paediatrics,2026-10-16,2026-10-28,G40.9,"Epilepsy, unspecified",Dr. Sharma
+SYN-E0001292,SYN-P000494,Emergency,2025-04-22,2025-05-02,S72.0,Fracture of neck of femur,Dr. Wolf
+SYN-E0001293,SYN-P000494,Maternity,2025-11-30,2025-11-30,S72.0,Fracture of neck of femur,Dr. Fischer
+SYN-E0001294,SYN-P000495,Neurology,2025-12-20,2025-12-30,G40.9,"Epilepsy, unspecified",Dr. Schneider
+SYN-E0001295,SYN-P000495,Emergency,2026-05-26,2026-05-29,E11.9,Type 2 diabetes mellitus,Dr. Schneider
+SYN-E0001296,SYN-P000495,Maternity,2025-06-07,2025-06-15,G40.9,"Epilepsy, unspecified",Dr. Fischer
+SYN-E0001297,SYN-P000496,Surgery,2025-05-16,2025-05-23,G40.9,"Epilepsy, unspecified",Dr. Ivanova
+SYN-E0001298,SYN-P000496,Neurology,2025-08-16,2025-08-28,E11.9,Type 2 diabetes mellitus,Dr. Klein
+SYN-E0001299,SYN-P000497,Surgery,2025-12-07,2025-12-21,C50.9,Malignant neoplasm of breast,Dr. Schmidt
+SYN-E0001300,SYN-P000497,Emergency,2025-07-26,2025-08-04,S72.0,Fracture of neck of femur,Dr. Richter
+SYN-E0001301,SYN-P000497,Radiology,2024-12-21,2024-12-27,C50.9,Malignant neoplasm of breast,Dr. Novak
+SYN-E0001302,SYN-P000497,Cardiology,2025-12-14,2025-12-16,K35.8,Acute appendicitis,Dr. Fischer
+SYN-E0001303,SYN-P000498,Cardiology,2026-01-05,2026-01-05,I10,Essential hypertension,Dr. Hoffmann
+SYN-E0001304,SYN-P000498,Paediatrics,2025-10-09,2025-10-14,J18.9,"Pneumonia, unspecified",Dr. Wolf
+SYN-E0001305,SYN-P000498,Cardiology,2025-05-07,2025-05-14,C50.9,Malignant neoplasm of breast,Dr. Hoffmann
+SYN-E0001306,SYN-P000498,Oncology,2024-11-03,2024-11-17,E11.9,Type 2 diabetes mellitus,Dr. Yilmaz
+SYN-E0001307,SYN-P000499,Paediatrics,2026-09-12,2026-09-25,I21.9,Acute myocardial infarction,Dr. Kowalski
+SYN-E0001308,SYN-P000499,Neurology,2024-11-02,2024-11-06,G40.9,"Epilepsy, unspecified",Dr. Kowalski
+SYN-E0001309,SYN-P000500,Radiology,2026-09-19,2026-09-25,K35.8,Acute appendicitis,Dr. Kowalski
+SYN-E0001310,SYN-P000500,Neurology,2026-02-04,2026-02-18,J18.9,"Pneumonia, unspecified",Dr. Becker
+SYN-E0001311,SYN-P000500,Oncology,2025-11-24,2025-12-04,J18.9,"Pneumonia, unspecified",Dr. Nowak
+SYN-E0001312,SYN-P000500,Maternity,2025-01-25,2025-01-28,I10,Essential hypertension,Dr. Novak

@@ -1,0 +1,5 @@
+type,value,description,source,first_seen_utc,confidence,tlp
+ipv4-addr,10.10.50.21,LAB ONLY - workstation used as attacker foothold during emulation,emulation run log,,high,TLP:CLEAR
+url,http://10.10.50.30:8080/export,LAB ONLY - EHR endpoint abused for bulk export,EHR audit log,,high,TLP:CLEAR
+file-name,IPScanner.ps1,Credential harvesting script name reported by Sophos (2024),Sophos X-Ops,,medium,TLP:CLEAR
+file-name,logon.bat,GPO logon script that launched IPScanner.ps1 (Sophos 2024),Sophos X-Ops,,medium,TLP:CLEAR

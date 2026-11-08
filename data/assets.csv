@@ -1,0 +1,12 @@
+asset_id,name,type,network_zone,owner,data_classification,criticality_1to5,lab_standin,notes
+A01,EHR server,Application server,Clinical VLAN 30,Head of Clinical IT,Special category (GDPR Art. 9),5,ehr-srv01,All patient records; crown jewel
+A02,EHR database,Database,Clinical VLAN 30,Head of Clinical IT,Special category (GDPR Art. 9),5,/srv/ehr/records,Synthetic CSV in the lab
+A03,Domain controllers,Identity,Admin VLAN 20,IT Operations,Confidential,5,none (tabletop),Control of every account
+A04,PACS,Imaging archive,Clinical VLAN 30,Radiology,Special category (GDPR Art. 9),4,none,
+A05,Lab interface (LIS),Integration,Clinical VLAN 30,Clinical IT,Special category (GDPR Art. 9),4,none,Third-party lab provider
+A06,Admin workstations (x780),Endpoint,Admin VLAN 20,IT Operations,Internal / personal data,3,ws-admin01,Entry point in scenario
+A07,VPN gateway,Network,DMZ,IT Operations,Internal,5,none (tabletop),MFA only for admins
+A08,Backup NAS,Storage,Admin VLAN 20,IT Operations,Special category (copies),5,/srv/ehr/backup + snapshots,Domain-joined (weakness)
+A09,Patient portal,Web application,DMZ,Digital Services,Special category (GDPR Art. 9),3,none,
+A10,IoMT devices (about 900),Medical device,IoMT VLAN 40,Medical Engineering,Operational,4,none,Many unpatchable
+A11,Wazuh SIEM,Security,Security zone,CISO,Confidential,4,wazuh-mgr,Office-hours monitoring only
