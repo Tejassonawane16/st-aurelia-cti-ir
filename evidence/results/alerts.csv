@@ -1,0 +1,27 @@
+time,rule,level,technique,host,description
+2026-11-13T16:30:00+00:00,100302,8,T1053.005,ws-admin01,"Scheduled task created by HOSPITAL\svc_backup: schtasks /create /tn ""NightlyBackup"" /tr ""C:\Backup\run.cmd"" /sc daily /st 03:00"
+2026-11-13T16:52:00+00:00,100101,5,T1110,ehr-srv01,EHR failed login for dr.weber from 10.10.50.21
+2026-11-13T16:52:03+00:00,100101,5,T1110,ehr-srv01,EHR failed login for dr.weber from 10.10.50.21
+2026-11-13T16:52:06+00:00,100101,5,T1110,ehr-srv01,EHR failed login for dr.weber from 10.10.50.21
+2026-11-13T16:52:09+00:00,100101,5,T1110,ehr-srv01,EHR failed login for dr.weber from 10.10.50.21
+2026-11-13T16:52:12+00:00,100101,5,T1110,ehr-srv01,EHR failed login for dr.weber from 10.10.50.21
+2026-11-13T16:52:15+00:00,100101,5,T1110,ehr-srv01,EHR failed login for dr.weber from 10.10.50.21
+2026-11-13T16:52:18+00:00,100101,5,T1110,ehr-srv01,EHR failed login for dr.weber from 10.10.50.21
+2026-11-13T16:52:21+00:00,100101,5,T1110,ehr-srv01,EHR failed login for dr.weber from 10.10.50.21
+2026-11-13T16:52:21+00:00,100102,10,T1110,ehr-srv01,8+ failed EHR logins in 60 s from 10.10.50.21
+2026-11-13T16:52:24+00:00,100101,5,T1110,ehr-srv01,EHR failed login for dr.weber from 10.10.50.21
+2026-11-13T16:52:27+00:00,100101,5,T1110,ehr-srv01,EHR failed login for dr.weber from 10.10.50.21
+2026-11-13T16:54:00+00:00,100101,5,T1110,ehr-srv01,EHR failed login for nurse.koch from 10.10.30.16
+2026-11-13T17:01:00+00:00,100303,10,T1059.001,ws-admin01,Suspicious PowerShell (encoded or download cradle)
+2026-11-13T17:05:00+00:00,100304,12,T1555.003,ws-admin01,Process touching browser saved-password store
+2026-11-13T17:09:00+00:00,100300,12,T1003.001,ws-admin01,C:\Users\Public\svc.exe opened LSASS memory
+2026-11-13T17:15:00+00:00,100302,8,T1053.005,ws-admin01,"Scheduled task created by HOSPITAL\it.admin: schtasks /create /tn ""Updater"" /tr ""C:\Users\Public\svc.exe"" /sc onlogon"
+2026-11-13T17:30:00+00:00,100103,12,T1213,ehr-srv01,FULL patient export (500 records) by it.admin from 10.10.50.21
+2026-11-14T00:58:00+00:00,100305,12,T1070.001,ws-admin01,Security event log cleared
+2026-11-14T01:02:00+00:00,100301,12,T1490,ws-admin01,Backup/shadow-copy deletion: vssadmin delete shadows /all /quiet
+2026-11-14T01:10:00+00:00,100200,7,,ehr-srv01,EHR record file modified /srv/ehr/records/patients.csv
+2026-11-14T01:10:05+00:00,100200,7,,ehr-srv01,EHR record file modified /srv/ehr/records/encounters.csv
+2026-11-14T01:10:10+00:00,100200,7,,ehr-srv01,EHR record file modified /srv/ehr/records/lab_results.csv
+2026-11-14T01:10:10+00:00,100202,13,T1486,ehr-srv01,Several record files changed within 2 min - possible ransomware
+2026-11-14T01:10:20+00:00,100201,7,,ehr-srv01,New file in EHR record store /srv/ehr/records/README_RECOVER.txt
+2026-11-14T01:10:20+00:00,100203,12,T1486,ehr-srv01,Ransom-note style file /srv/ehr/records/README_RECOVER.txt
