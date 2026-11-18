@@ -1,2 +1,7 @@
 utc_time,inject_no,decision_or_action,decided_by,rationale,regulatory_clock_affected,follow_up_owner
-2026-11-18T18:50Z,1,<his decision>,Arjun (incident lead),<why>,<NIS2 24h or GDPR 72h or none>,<who follows up>
+2026-11-18T19:05Z,1,Isolated Billing PC from network; called incident lead,Arjun (incident lead),LSASS access by unknown process means likely credential theft,none yet,IT security
+2026-11-18T19:20Z,2,Declare Sev 1 incident; disable it.admin; revoke VPN sessions; inform CISO and DPO,Arjun (incident lead),Admin on holiday exporting all 500 patients = stolen account and data theft,NIS2 24h early warning and GDPR Art.33 72h start now,CISO and DPO
+2026-11-18T19:25Z,4,Take EHR offline and cut admin-to-clinical network; wards switch to paper downtime forms,Clinical lead with incident lead,Running EHR lets encryption spread; patient care continues on paper,none new,Clinical lead
+2026-11-18T19:30Z,5,Partial ambulance diversion (stroke; trauma; critical cases) to nearby hospitals; inform rescue control centre,Clinical lead,No lab results or patient history for critical cases; walk-ins still treated,none,Clinical lead
+2026-11-18T19:35Z,6,Do not pay; inform police (LKA Berlin); board decides with legal advice; prepare patient notification,Executive board,Payment does not guarantee deletion and funds crime; health data confirmed stolen = high risk,GDPR Art.34 patients without undue delay,DPO
+2026-11-18T19:40Z,8,Send BSI early warning now (suspected attack; impact; no cross-border effect); Art.33 notice ready by Mon 18:30,CISO,24h NIS2 deadline from awareness at Fri 18:30 ends Sat 18:30,NIS2 24h met; GDPR 72h on track,CISO
