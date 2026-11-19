@@ -1,0 +1,15 @@
+time,rule,level,technique,host,description
+2026-11-19T17:13:07+00:00,100104,8,,ehr-srv01,Export attempt by non-admin nurse.koch from 127.0.0.1
+2026-11-19T17:13:07+00:00,100101,5,T1110,ehr-srv01,EHR failed login for dr.weber from 127.0.0.1
+2026-11-19T17:13:08+00:00,100101,5,T1110,ehr-srv01,EHR failed login for dr.weber from 127.0.0.1
+2026-11-19T17:13:08+00:00,100101,5,T1110,ehr-srv01,EHR failed login for dr.weber from 127.0.0.1
+2026-11-19T17:13:08+00:00,100101,5,T1110,ehr-srv01,EHR failed login for dr.weber from 127.0.0.1
+2026-11-19T17:13:08+00:00,100101,5,T1110,ehr-srv01,EHR failed login for dr.weber from 127.0.0.1
+2026-11-19T17:13:08+00:00,100101,5,T1110,ehr-srv01,EHR failed login for dr.weber from 127.0.0.1
+2026-11-19T17:13:08+00:00,100101,5,T1110,ehr-srv01,EHR failed login for dr.weber from 127.0.0.1
+2026-11-19T17:13:08+00:00,100101,5,T1110,ehr-srv01,EHR failed login for dr.weber from 127.0.0.1
+2026-11-19T17:13:08+00:00,100102,10,T1110,ehr-srv01,8+ failed EHR logins in 60 s from 127.0.0.1
+2026-11-19T17:13:08+00:00,100101,5,T1110,ehr-srv01,EHR failed login for dr.weber from 127.0.0.1
+2026-11-19T17:13:08+00:00,100101,5,T1110,ehr-srv01,EHR failed login for dr.weber from 127.0.0.1
+2026-11-19T17:13:08+00:00,100103,12,T1213,ehr-srv01,FULL patient export (500 records) by it.admin from 127.0.0.1
+2026-11-19T17:13:08+00:00,100105,10,T1213,ehr-srv01,30+ EHR requests in 60 s by dr.weber
